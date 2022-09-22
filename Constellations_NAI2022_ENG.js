@@ -2787,7 +2787,7 @@ function trialRoutineEachFrame() {
     if ((button_clear.contains(mouse) && (mouse.getPressed()[0] === 1))) {
         mouseIsDown = true;
         //buttons, times = mouse.getPressed({"getTime": true});
-        times = mouse.mouseClock.getTime();
+        times = mouse.time;
         location = mouse_track.getPos();
         if ((mouseIsDown && (! oldMouseIsDown))) {
             clear.push(location);
