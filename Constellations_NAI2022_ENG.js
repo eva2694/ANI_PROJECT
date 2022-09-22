@@ -1,4 +1,4 @@
-﻿/*********************************** 
+/*********************************** 
  * Constellations_Nai2022_Eng Test *
  ***********************************/
 
@@ -2229,28 +2229,13 @@ function practice_trialRoutineEnd() {
       }
     }
     // store data for psychoJS.experiment (ExperimentHandler)
-    psychoJS.experiment.addData('mouse_track_2.x', mouse_track_2.x);
-    psychoJS.experiment.addData('mouse_track_2.y', mouse_track_2.y);
-    psychoJS.experiment.addData('mouse_track_2.leftButton', mouse_track_2.leftButton);
-    psychoJS.experiment.addData('mouse_track_2.midButton', mouse_track_2.midButton);
-    psychoJS.experiment.addData('mouse_track_2.rightButton', mouse_track_2.rightButton);
-    psychoJS.experiment.addData('mouse_track_2.time', mouse_track_2.time);
-    
-    psychoJS.experiment.addData('H1_textbox_2.text',H1_textbox_2.text)
+
     H1_textbox_2.refresh();
     brush_2.reset();
     
     // store data for psychoJS.experiment (ExperimentHandler)
     // store data for psychoJS.experiment (ExperimentHandler)
-    psychoJS.experiment.addData('RSP_ahhaa_2.response', RSP_ahhaa_2.getRating());
-    psychoJS.experiment.addData('RSP_ahhaa_2.rt', RSP_ahhaa_2.getRT());
-    psychoJS.experiment.addData('RSP_ahhaa_2.history', RSP_ahhaa_2.getHistory());
-    psychoJS.experiment.addData('RSP_sudden_2.response', RSP_sudden_2.getRating());
-    psychoJS.experiment.addData('RSP_sudden_2.rt', RSP_sudden_2.getRT());
-    psychoJS.experiment.addData('RSP_sudden_2.history', RSP_sudden_2.getHistory());
-    psychoJS.experiment.addData('RSP_pleasant_2.response', RSP_pleasant_2.getRating());
-    psychoJS.experiment.addData('RSP_pleasant_2.rt', RSP_pleasant_2.getRT());
-    psychoJS.experiment.addData('RSP_pleasant_2.history', RSP_pleasant_2.getHistory());
+
     // the Routine "practice_trial" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
@@ -2618,7 +2603,7 @@ function trialRoutineBegin(snapshot) {
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
     // update component parameters for each repeat
-    image.setImage('stimuli/anchor_02s_9.jpg');
+    
     if ((vrs === "1")) {
         stim = stim1;
     } else {
@@ -2627,6 +2612,7 @@ function trialRoutineBegin(snapshot) {
         }
     }
     
+    image.setImage(stim);
     // setup some python lists for storing info about the mouse_track
     // current position of the mouse:
     mouse_track.x = [];
@@ -3085,8 +3071,8 @@ function trialRoutineEnd() {
     psychoJS.experiment.addData('mouse_track.x', mouse_track.x);
     psychoJS.experiment.addData('mouse_track.y', mouse_track.y);
     psychoJS.experiment.addData('mouse_track.leftButton', mouse_track.leftButton);
-    psychoJS.experiment.addData('mouse_track.midButton', mouse_track.midButton);
-    psychoJS.experiment.addData('mouse_track.rightButton', mouse_track.rightButton);
+    //psychoJS.experiment.addData('mouse_track.midButton', mouse_track.midButton);
+    //psychoJS.experiment.addData('mouse_track.rightButton', mouse_track.rightButton);
     psychoJS.experiment.addData('mouse_track.time', mouse_track.time);
     
     psychoJS.experiment.addData('H1_textbox.text',H1_textbox.text)
@@ -3103,15 +3089,15 @@ function trialRoutineEnd() {
     H1_textbox.refresh();
     // store data for psychoJS.experiment (ExperimentHandler)
     // store data for psychoJS.experiment (ExperimentHandler)
-    psychoJS.experiment.addData('RSP_ahhaa.response', RSP_ahhaa.getRating());
-    psychoJS.experiment.addData('RSP_ahhaa.rt', RSP_ahhaa.getRT());
-    psychoJS.experiment.addData('RSP_ahhaa.history', RSP_ahhaa.getHistory());
+    psychoJS.experiment.addData('RSP_certain.response', RSP_ahhaa.getRating());
+    psychoJS.experiment.addData('RSP_certain.rt', RSP_ahhaa.getRT());
+    psychoJS.experiment.addData('RSP_certain.history', RSP_ahhaa.getHistory());
     psychoJS.experiment.addData('RSP_sudden.response', RSP_sudden.getRating());
     psychoJS.experiment.addData('RSP_sudden.rt', RSP_sudden.getRT());
     psychoJS.experiment.addData('RSP_sudden.history', RSP_sudden.getHistory());
-    psychoJS.experiment.addData('RSP_pleasant.response', RSP_pleasant.getRating());
-    psychoJS.experiment.addData('RSP_pleasant.rt', RSP_pleasant.getRT());
-    psychoJS.experiment.addData('RSP_pleasant.history', RSP_pleasant.getHistory());
+    psychoJS.experiment.addData('RSP_difficult.response', RSP_pleasant.getRating());
+    psychoJS.experiment.addData('RSP_difficult.rt', RSP_pleasant.getRT());
+    psychoJS.experiment.addData('RSP_difficult.history', RSP_pleasant.getHistory());
     // the Routine "trial" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
