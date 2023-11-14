@@ -13,7 +13,7 @@ const { round } = util;
 
 // store info about the experiment session:
 let expName = 'Constellations_NAI2022_ENG';  // from the Builder filename that created this script
-let expInfo = {'Pseudonym*': '', 'Age': '', 'Gender': ''};
+let expInfo = {'Pseudonym*': '', 'Age': ''};
 
 // Start code blocks for 'Before Experiment'
 // init psychoJS:
@@ -84,91 +84,39 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
-    {'name': 'stimuli/gramophone_01b_9.jpg', 'path': 'stimuli/gramophone_01b_9.jpg'},
-    {'name': 'stimuli/dolphin_14s_11.jpg', 'path': 'stimuli/dolphin_14s_11.jpg'},
-    {'name': 'stimuli/bottle_02n_11.jpg', 'path': 'stimuli/bottle_02n_11.jpg'},
-    {'name': 'stimuli/intro4.PNG', 'path': 'stimuli/intro4.PNG'},
-    {'name': 'stimuli/margarita_17s_11.jpg', 'path': 'stimuli/margarita_17s_11.jpg'},
-    {'name': 'stimuli/bathrobe_02s_11.jpg', 'path': 'stimuli/bathrobe_02s_11.jpg'},
-    {'name': 'stimuli/teapot_06s_9.jpg', 'path': 'stimuli/teapot_06s_9.jpg'},
-    {'name': 'stimuli/bottle_02n_9.jpg', 'path': 'stimuli/bottle_02n_9.jpg'},
-    {'name': 'stimuli/mask_12s_9.jpg', 'path': 'stimuli/mask_12s_9.jpg'},
-    {'name': 'stimuli/hammer_07s_11.jpg', 'path': 'stimuli/hammer_07s_11.jpg'},
-    {'name': 'stimuli/bag_04s_9.jpg', 'path': 'stimuli/bag_04s_9.jpg'},
-    {'name': 'stimuli/hammer_07s_9.jpg', 'path': 'stimuli/hammer_07s_9.jpg'},
-    {'name': 'stimuli/racehorse_07s_11.jpg', 'path': 'stimuli/racehorse_07s_11.jpg'},
-    {'name': 'stimuli/kangaroo_02s_11.jpg', 'path': 'stimuli/kangaroo_02s_11.jpg'},
-    {'name': 'stimuli/beer_05s_11.jpg', 'path': 'stimuli/beer_05s_11.jpg'},
-    {'name': 'stimuli/dragonfly_07s_9.jpg', 'path': 'stimuli/dragonfly_07s_9.jpg'},
-    {'name': 'stimuli/man_09s_11.jpg', 'path': 'stimuli/man_09s_11.jpg'},
-    {'name': 'stimuli/boxing_gloves_06s_9.jpg', 'path': 'stimuli/boxing_gloves_06s_9.jpg'},
-    {'name': 'stimuli/seahorse_02s_9.jpg', 'path': 'stimuli/seahorse_02s_9.jpg'},
-    {'name': 'stimuli/teddy_bear_06s_11.jpg', 'path': 'stimuli/teddy_bear_06s_11.jpg'},
-    {'name': 'stimuli/axe_12n_9.jpg', 'path': 'stimuli/axe_12n_9.jpg'},
-    {'name': 'stimuli/bird_18s_11.jpg', 'path': 'stimuli/bird_18s_11.jpg'},
-    {'name': 'stimuli/bird_18s_9.jpg', 'path': 'stimuli/bird_18s_9.jpg'},
-    {'name': 'stimuli/toilet_paper_02s_9.jpg', 'path': 'stimuli/toilet_paper_02s_9.jpg'},
-    {'name': 'stimuli/dragonfly_07s_11.jpg', 'path': 'stimuli/dragonfly_07s_11.jpg'},
-    {'name': 'stimuli/teddy_bear_06s_9.jpg', 'path': 'stimuli/teddy_bear_06s_9.jpg'},
-    {'name': 'stimuli/hat_07s_9.jpg', 'path': 'stimuli/hat_07s_9.jpg'},
-    {'name': 'stimuli/clipper1_07s_9.jpg', 'path': 'stimuli/clipper1_07s_9.jpg'},
-    {'name': 'stimuli/magnifying_glass_01b_9.jpg', 'path': 'stimuli/magnifying_glass_01b_9.jpg'},
-    {'name': 'stimuli/recliner_10s_11.jpg', 'path': 'stimuli/recliner_10s_11.jpg'},
-    {'name': 'stimuli/swan_11s_9.jpg', 'path': 'stimuli/swan_11s_9.jpg'},
-    {'name': 'trial_online.csv', 'path': 'trial_online.csv'},
-    {'name': 'stimuli/practice_first.jpg', 'path': 'stimuli/practice_first.jpg'},
-    {'name': 'stimuli/man_09s_9.jpg', 'path': 'stimuli/man_09s_9.jpg'},
-    {'name': 'stimuli/gramophone_01b_11.jpg', 'path': 'stimuli/gramophone_01b_11.jpg'},
+    {'name': 'stimuli/binoculars_169_13.png', 'path': 'stimuli/binoculars_169_13.png'},
+    {'name': 'stimuli/pizza_164_11.png', 'path': 'stimuli/pizza_164_11.png'},
     {'name': 'stimuli/intro2.PNG', 'path': 'stimuli/intro2.PNG'},
-    {'name': 'stimuli/horse_08s_11.jpg', 'path': 'stimuli/horse_08s_11.jpg'},
-    {'name': 'stimuli/glasses_13s_11.jpg', 'path': 'stimuli/glasses_13s_11.jpg'},
-    {'name': 'stimuli/margarita_17s_9.jpg', 'path': 'stimuli/margarita_17s_9.jpg'},
-    {'name': 'stimuli/recliner_10s_9.jpg', 'path': 'stimuli/recliner_10s_9.jpg'},
-    {'name': 'stimuli/mask_12s_11.jpg', 'path': 'stimuli/mask_12s_11.jpg'},
-    {'name': 'stimuli/hat_07s_11.jpg', 'path': 'stimuli/hat_07s_11.jpg'},
-    {'name': 'stimuli/clipper1_07s_11.jpg', 'path': 'stimuli/clipper1_07s_11.jpg'},
-    {'name': 'stimuli/puppy_12s_11.jpg', 'path': 'stimuli/puppy_12s_11.jpg'},
-    {'name': 'stimuli/intro3.PNG', 'path': 'stimuli/intro3.PNG'},
-    {'name': 'stimuli/seahorse_02s_11.jpg', 'path': 'stimuli/seahorse_02s_11.jpg'},
-    {'name': 'stimuli/hairdryer_10s_9.jpg', 'path': 'stimuli/hairdryer_10s_9.jpg'},
-    {'name': 'stimuli/headphones_01b_9.jpg', 'path': 'stimuli/headphones_01b_9.jpg'},
-    {'name': 'stimuli/solution1.jpg', 'path': 'stimuli/solution1.jpg'},
-    {'name': 'stimuli/axe_12n_11.jpg', 'path': 'stimuli/axe_12n_11.jpg'},
-    {'name': 'stimuli/gun_01b_11.jpg', 'path': 'stimuli/gun_01b_11.jpg'},
-    {'name': 'stimuli/hairdryer_10s_11.jpg', 'path': 'stimuli/hairdryer_10s_11.jpg'},
-    {'name': 'stimuli/dolphin_14s_9.jpg', 'path': 'stimuli/dolphin_14s_9.jpg'},
+    {'name': 'stimuli/clock_393_11.png', 'path': 'stimuli/clock_393_11.png'},
+    {'name': 'stimuli/saw_584_11.png', 'path': 'stimuli/saw_584_11.png'},
+    {'name': 'stimuli/spoon_15_13.png', 'path': 'stimuli/spoon_15_13.png'},
+    {'name': 'trial_online.csv', 'path': 'trial_online.csv'},
+    {'name': 'stimuli/practice_first.png', 'path': 'stimuli/practice_first.png'},
+    {'name': 'stimuli/underwear_13_11.png', 'path': 'stimuli/underwear_13_11.png'},
+    {'name': 'stimuli/airplane_149_11.png', 'path': 'stimuli/airplane_149_11.png'},
     {'name': 'stimuli/intro0.PNG', 'path': 'stimuli/intro0.PNG'},
-    {'name': 'stimuli/glasses_13s_9.jpg', 'path': 'stimuli/glasses_13s_9.jpg'},
-    {'name': 'stimuli/gun_01b_9.jpg', 'path': 'stimuli/gun_01b_9.jpg'},
-    {'name': 'stimuli/wine_17s_9.jpg', 'path': 'stimuli/wine_17s_9.jpg'},
-    {'name': 'stimuli/penguin_12s_11.jpg', 'path': 'stimuli/penguin_12s_11.jpg'},
-    {'name': 'stimuli/kangaroo_02s_9.jpg', 'path': 'stimuli/kangaroo_02s_9.jpg'},
-    {'name': 'stimuli/stiletto_10s_11.jpg', 'path': 'stimuli/stiletto_10s_11.jpg'},
-    {'name': 'stimuli/headphones_01b_11.jpg', 'path': 'stimuli/headphones_01b_11.jpg'},
-    {'name': 'stimuli/magnifying_glass_01b_11.jpg', 'path': 'stimuli/magnifying_glass_01b_11.jpg'},
-    {'name': 'stimuli/anchor_02s_9.jpg', 'path': 'stimuli/anchor_02s_9.jpg'},
-    {'name': 'stimuli/anchor_02s_11.jpg', 'path': 'stimuli/anchor_02s_11.jpg'},
-    {'name': 'stimuli/bag_04s_11.jpg', 'path': 'stimuli/bag_04s_11.jpg'},
-    {'name': 'stimuli/cello_01s_11.jpg', 'path': 'stimuli/cello_01s_11.jpg'},
-    {'name': 'stimuli/coffee_04s_11.jpg', 'path': 'stimuli/coffee_04s_11.jpg'},
-    {'name': 'stimuli/swan_11s_11.jpg', 'path': 'stimuli/swan_11s_11.jpg'},
-    {'name': 'stimuli/horse_08s_9.jpg', 'path': 'stimuli/horse_08s_9.jpg'},
-    {'name': 'stimuli/beer_05s_9.jpg', 'path': 'stimuli/beer_05s_9.jpg'},
-    {'name': 'stimuli/puppy_12s_9.jpg', 'path': 'stimuli/puppy_12s_9.jpg'},
-    {'name': 'stimuli/penguin_12s_9.jpg', 'path': 'stimuli/penguin_12s_9.jpg'},
-    {'name': 'stimuli/boot_02s_11.jpg', 'path': 'stimuli/boot_02s_11.jpg'},
-    {'name': 'stimuli/racehorse_07s_9.jpg', 'path': 'stimuli/racehorse_07s_9.jpg'},
-    {'name': 'stimuli/intro5.PNG', 'path': 'stimuli/intro5.PNG'},
-    {'name': 'stimuli/toilet_paper_02s_11.jpg', 'path': 'stimuli/toilet_paper_02s_11.jpg'},
-    {'name': 'stimuli/teapot_06s_11.jpg', 'path': 'stimuli/teapot_06s_11.jpg'},
-    {'name': 'stimuli/boot_02s_9.jpg', 'path': 'stimuli/boot_02s_9.jpg'},
-    {'name': 'stimuli/cello_01s_9.jpg', 'path': 'stimuli/cello_01s_9.jpg'},
+    {'name': 'stimuli/ladder_82_11.png', 'path': 'stimuli/ladder_82_11.png'},
+    {'name': 'stimuli/ice cream_84_13.png', 'path': 'stimuli/ice cream_84_13.png'},
+    {'name': 'stimuli/underwear_15_13.png', 'path': 'stimuli/underwear_15_13.png'},
+    {'name': 'stimuli/swan_155_13.png', 'path': 'stimuli/swan_155_13.png'},
+    {'name': 'stimuli/apple_169_13.png', 'path': 'stimuli/apple_169_13.png'},
+    {'name': 'stimuli/leaf_32_13.png', 'path': 'stimuli/leaf_32_13.png'},
+    {'name': 'stimuli/intro4.PNG', 'path': 'stimuli/intro4.PNG'},
+    {'name': 'stimuli/intro3.PNG', 'path': 'stimuli/intro3.PNG'},
+    {'name': 'stimuli/wine glass_103_11.png', 'path': 'stimuli/wine glass_103_11.png'},
+    {'name': 'stimuli/cup_17_13.png', 'path': 'stimuli/cup_17_13.png'},
+    {'name': 'stimuli/chair_67_11.png', 'path': 'stimuli/chair_67_11.png'},
+    {'name': 'stimuli/house_582_13.png', 'path': 'stimuli/house_582_13.png'},
     {'name': 'stimuli/intro1.PNG', 'path': 'stimuli/intro1.PNG'},
-    {'name': 'stimuli/coffee_04s_9.jpg', 'path': 'stimuli/coffee_04s_9.jpg'},
-    {'name': 'stimuli/stiletto_10s_9.jpg', 'path': 'stimuli/stiletto_10s_9.jpg'},
-    {'name': 'stimuli/boxing_gloves_06s_11.jpg', 'path': 'stimuli/boxing_gloves_06s_11.jpg'},
-    {'name': 'stimuli/wine_17s_11.jpg', 'path': 'stimuli/wine_17s_11.jpg'},
-    {'name': 'stimuli/bathrobe_02s_9.jpg', 'path': 'stimuli/bathrobe_02s_9.jpg'}
+    {'name': 'stimuli/umbrella_575_11.png', 'path': 'stimuli/umbrella_575_11.png'},
+    {'name': 'stimuli/windmill_687_11.png', 'path': 'stimuli/windmill_687_11.png'},
+    {'name': 'stimuli/bird_348_13.png', 'path': 'stimuli/bird_348_13.png'},
+    {'name': 'stimuli/mushroom_161_11.png', 'path': 'stimuli/mushroom_161_11.png'},
+    {'name': 'stimuli/teapot_618_13.png', 'path': 'stimuli/teapot_618_13.png'},
+    {'name': 'stimuli/tree_220_11.png', 'path': 'stimuli/tree_220_11.png'},
+    {'name': 'stimuli/solution1.png', 'path': 'stimuli/solution1.png'},
+    {'name': 'stimuli/intro5.PNG', 'path': 'stimuli/intro5.PNG'},
+    {'name': 'stimuli/hourglass_21_13.png', 'path': 'stimuli/hourglass_21_13.png'}
   ]
 });
 
@@ -543,7 +491,7 @@ async function experimentInit() {
   juhis_txt_2 = new visual.TextStim({
     win: psychoJS.window,
     name: 'juhis_txt_2',
-    text: 'Trace the contours to find an object!',
+    text: 'Trace the contours! Remember to take a screenshot of the full screen for your homework',
     font: 'Open Sans',
     units: undefined, 
     pos: [(- 0.45), 0.75], height: 0.07,  wrapWidth: undefined, ori: 0.0,
@@ -718,7 +666,7 @@ async function experimentInit() {
   practice_object = new visual.ImageStim({
     win : psychoJS.window,
     name : 'practice_object', units : 'height', 
-    image : 'stimuli/practice_first.jpg', mask : undefined,
+    image : 'stimuli/practice_first.png', mask : undefined,
     ori : 0.0, pos : [0.0, 0.0], size : [0.65, 0.65],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
@@ -727,7 +675,7 @@ async function experimentInit() {
   practice_outline = new visual.ImageStim({
     win : psychoJS.window,
     name : 'practice_outline', units : 'height', 
-    image : 'stimuli/solution1.jpg', mask : undefined,
+    image : 'stimuli/solution1.png', mask : undefined,
     ori : 0.0, pos : [0.0, 0.0], size : [0.65, 0.65],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
@@ -736,7 +684,7 @@ async function experimentInit() {
   text_2 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_2',
-    text: 'Answer: CAR',
+    text: 'Answer: DOLPHIN',
     font: 'Open Sans',
     units: undefined, 
     pos: [0, 0.7], height: 0.1,  wrapWidth: undefined, ori: 0.0,
@@ -808,13 +756,13 @@ async function experimentInit() {
   image = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image', units : 'height', 
-    image : undefined, mask : undefined,
+    image : stim, mask : undefined,
     ori : 0.0, pos : [(- 0.4), 0.0], size : [0.65, 0.65],
     color : new util.Color([1, 1, 1]), opacity : undefined,
     flipHoriz : false, flipVert : false,
     texRes : 128.0, interpolate : true, depth : 0.0 
   });
-  stim = 0;
+  
   Version = 0;
   vrs = util.randint(1, 3).toString();
   console.log(vrs);
@@ -1799,7 +1747,7 @@ function practice_trialRoutineBegin(snapshot) {
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
     // update component parameters for each repeat
-    image_2.setImage('stimuli/practice_first.jpg');
+    image_2.setImage('stimuli/practice_first.png');
     brush_2Reset();
     // setup some python lists for storing info about the mouse_track_2
     // current position of the mouse:
@@ -2229,13 +2177,28 @@ function practice_trialRoutineEnd() {
       }
     }
     // store data for psychoJS.experiment (ExperimentHandler)
-
+    psychoJS.experiment.addData('mouse_track_2.x', mouse_track_2.x);
+    psychoJS.experiment.addData('mouse_track_2.y', mouse_track_2.y);
+    psychoJS.experiment.addData('mouse_track_2.leftButton', mouse_track_2.leftButton);
+    psychoJS.experiment.addData('mouse_track_2.midButton', mouse_track_2.midButton);
+    psychoJS.experiment.addData('mouse_track_2.rightButton', mouse_track_2.rightButton);
+    psychoJS.experiment.addData('mouse_track_2.time', mouse_track_2.time);
+    
+    psychoJS.experiment.addData('H1_textbox_2.text',H1_textbox_2.text)
     H1_textbox_2.refresh();
     brush_2.reset();
     
     // store data for psychoJS.experiment (ExperimentHandler)
     // store data for psychoJS.experiment (ExperimentHandler)
-
+    psychoJS.experiment.addData('RSP_ahhaa_2.response', RSP_ahhaa_2.getRating());
+    psychoJS.experiment.addData('RSP_ahhaa_2.rt', RSP_ahhaa_2.getRT());
+    psychoJS.experiment.addData('RSP_ahhaa_2.history', RSP_ahhaa_2.getHistory());
+    psychoJS.experiment.addData('RSP_sudden_2.response', RSP_sudden_2.getRating());
+    psychoJS.experiment.addData('RSP_sudden_2.rt', RSP_sudden_2.getRT());
+    psychoJS.experiment.addData('RSP_sudden_2.history', RSP_sudden_2.getHistory());
+    psychoJS.experiment.addData('RSP_pleasant_2.response', RSP_pleasant_2.getRating());
+    psychoJS.experiment.addData('RSP_pleasant_2.rt', RSP_pleasant_2.getRT());
+    psychoJS.experiment.addData('RSP_pleasant_2.history', RSP_pleasant_2.getHistory());
     // the Routine "practice_trial" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
@@ -2603,7 +2566,7 @@ function trialRoutineBegin(snapshot) {
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
     // update component parameters for each repeat
-    
+    image.setImage(stim);
     if ((vrs === "1")) {
         stim = stim1;
     } else {
@@ -2612,7 +2575,6 @@ function trialRoutineBegin(snapshot) {
         }
     }
     
-    image.setImage(stim);
     // setup some python lists for storing info about the mouse_track
     // current position of the mouse:
     mouse_track.x = [];
@@ -2786,13 +2748,11 @@ function trialRoutineEachFrame() {
     // clear brush 
     if ((button_clear.contains(mouse) && (mouse.getPressed()[0] === 1))) {
         mouseIsDown = true;
-        //buttons, times = mouse.getPressed({"getTime": true});
-        times = mouse_track.mouseClock.getTime()
-        
+        buttons, times = mouse.getPressed({"getTime": true});
         location = mouse_track.getPos();
         if ((mouseIsDown && (! oldMouseIsDown))) {
             clear.push(location);
-            clear.push(times);
+            clear.push(times[0]);
             clear.push("clear");
             brush.reset();
         }
@@ -3073,8 +3033,8 @@ function trialRoutineEnd() {
     psychoJS.experiment.addData('mouse_track.x', mouse_track.x);
     psychoJS.experiment.addData('mouse_track.y', mouse_track.y);
     psychoJS.experiment.addData('mouse_track.leftButton', mouse_track.leftButton);
-    //psychoJS.experiment.addData('mouse_track.midButton', mouse_track.midButton);
-    //psychoJS.experiment.addData('mouse_track.rightButton', mouse_track.rightButton);
+    psychoJS.experiment.addData('mouse_track.midButton', mouse_track.midButton);
+    psychoJS.experiment.addData('mouse_track.rightButton', mouse_track.rightButton);
     psychoJS.experiment.addData('mouse_track.time', mouse_track.time);
     
     psychoJS.experiment.addData('H1_textbox.text',H1_textbox.text)
@@ -3091,15 +3051,15 @@ function trialRoutineEnd() {
     H1_textbox.refresh();
     // store data for psychoJS.experiment (ExperimentHandler)
     // store data for psychoJS.experiment (ExperimentHandler)
-    psychoJS.experiment.addData('RSP_certain.response', RSP_ahhaa.getRating());
-    psychoJS.experiment.addData('RSP_certain.rt', RSP_ahhaa.getRT());
-    psychoJS.experiment.addData('RSP_certain.history', RSP_ahhaa.getHistory());
+    psychoJS.experiment.addData('RSP_ahhaa.response', RSP_ahhaa.getRating());
+    psychoJS.experiment.addData('RSP_ahhaa.rt', RSP_ahhaa.getRT());
+    psychoJS.experiment.addData('RSP_ahhaa.history', RSP_ahhaa.getHistory());
     psychoJS.experiment.addData('RSP_sudden.response', RSP_sudden.getRating());
     psychoJS.experiment.addData('RSP_sudden.rt', RSP_sudden.getRT());
     psychoJS.experiment.addData('RSP_sudden.history', RSP_sudden.getHistory());
-    psychoJS.experiment.addData('RSP_difficult.response', RSP_pleasant.getRating());
-    psychoJS.experiment.addData('RSP_difficult.rt', RSP_pleasant.getRT());
-    psychoJS.experiment.addData('RSP_difficult.history', RSP_pleasant.getHistory());
+    psychoJS.experiment.addData('RSP_pleasant.response', RSP_pleasant.getRating());
+    psychoJS.experiment.addData('RSP_pleasant.rt', RSP_pleasant.getRT());
+    psychoJS.experiment.addData('RSP_pleasant.history', RSP_pleasant.getHistory());
     // the Routine "trial" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
