@@ -564,7 +564,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
     text_2 = visual.TextStim(win=win, name='text_2',
-        text='Answer: CAR',
+        text='Answer: DOLPHIN',
         font='Open Sans',
         pos=(0, 0.7), height=0.1, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
