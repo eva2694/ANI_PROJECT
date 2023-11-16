@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2023.2.3),
-    on November 16, 2023, at 10:37
+    on november 16, 2023, at 11:38
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -106,7 +106,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='C:\\Users\\evaur\\Documents\\faks\\Artificial and natural intellingence\\OnlineEXP_NAI2022-20231102T111413Z-001\\OnlineEXP_NAI2022\\Constellations_NAI2022_ENG.py',
+        originPath='C:\\Users\\belin\\OneDrive\\Töölaud\\ANI\\project\\ANI_PROJECT\\Constellations_NAI2022_ENG.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -343,7 +343,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     instruction1 = visual.ImageStim(
         win=win,
         name='instruction1', 
-        image='stimuli/intro1.PNG', mask=None, anchor='center',
+        image='intro1.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(1.3, 1.6),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -364,12 +364,20 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         color='black', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-3.0);
+    brush_2 = visual.Brush(win=win, name='brush_2',
+       lineWidth=1.5,
+       lineColor=[1,1,1],
+       lineColorSpace='rgb',
+       opacity=None,
+       buttonRequired=True,
+       depth=-4
+    )
     
     # --- Initialize components for Routine "intro2" ---
     instruction2 = visual.ImageStim(
         win=win,
         name='instruction2', 
-        image='stimuli/intro2.PNG', mask=None, anchor='center',
+        image='intro2.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(1.3, 1.6),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -395,7 +403,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     instruction3 = visual.ImageStim(
         win=win,
         name='instruction3', 
-        image='stimuli/intro3.PNG', mask=None, anchor='center',
+        image='intro3.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(1.3, 1.6),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -421,7 +429,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     instruction4 = visual.ImageStim(
         win=win,
         name='instruction4', 
-        image='stimuli/intro4.PNG', mask=None, anchor='center',
+        image='intro4.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(1.3, 1.6),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -591,7 +599,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     instruction4_2 = visual.ImageStim(
         win=win,
         name='instruction4_2', 
-        image='stimuli/intro5.PNG', mask=None, anchor='center',
+        image='intro5.png', mask=None, anchor='center',
         ori=0.0, pos=(0, 0), size=(1.3, 1.6),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
@@ -905,8 +913,9 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     # setup some python lists for storing info about the mouse1
     mouse1.clicked_name = []
     gotValidClick = False  # until a click is received
+    brush_2.reset()
     # keep track of which components have finished
-    intro1Components = [instruction1, mouse1, button1, button_txt1]
+    intro1Components = [instruction1, mouse1, button1, button_txt1, brush_2]
     for thisComponent in intro1Components:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -1010,6 +1019,39 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         if button_txt1.status == STARTED:
             # update params
             pass
+        
+        # *brush_2* updates
+        
+        # if brush_2 is starting this frame...
+        if brush_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            brush_2.frameNStart = frameN  # exact frame index
+            brush_2.tStart = t  # local t and not account for scr refresh
+            brush_2.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(brush_2, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'brush_2.started')
+            # update status
+            brush_2.status = STARTED
+            brush_2.setAutoDraw(True)
+        
+        # if brush_2 is active this frame...
+        if brush_2.status == STARTED:
+            # update params
+            pass
+        
+        # if brush_2 is stopping this frame...
+        if brush_2.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > brush_2.tStartRefresh + 5-frameTolerance:
+                # keep track of stop time/frame for later
+                brush_2.tStop = t  # not accounting for scr refresh
+                brush_2.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'brush_2.stopped')
+                # update status
+                brush_2.status = FINISHED
+                brush_2.setAutoDraw(False)
         
         # check for quit (typically the Esc key)
         if defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1559,6 +1601,17 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         if practice_brush.status == STARTED:
             # update params
             pass
+        
+        # if practice_brush is stopping this frame...
+        if practice_brush.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > practice_brush.tStartRefresh + 5.0-frameTolerance:
+                # keep track of stop time/frame for later
+                practice_brush.tStop = t  # not accounting for scr refresh
+                practice_brush.frameNStop = frameN  # exact frame index
+                # update status
+                practice_brush.status = FINISHED
+                practice_brush.setAutoDraw(False)
         # *practice_mouse_track* updates
         
         # if practice_mouse_track is starting this frame...
