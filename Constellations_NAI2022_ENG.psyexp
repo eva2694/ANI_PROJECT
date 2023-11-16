@@ -98,7 +98,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="stimuli\intro1.PNG" valType="file" updates="constant" name="image"/>
+        <Param val="intro1.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="instruction1" valType="code" updates="None" name="name"/>
@@ -214,7 +214,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="stimuli\intro2.PNG" valType="file" updates="constant" name="image"/>
+        <Param val="intro2.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="instruction2" valType="code" updates="None" name="name"/>
@@ -795,7 +795,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="stimuli\intro3.PNG" valType="file" updates="constant" name="image"/>
+        <Param val="intro3.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="instruction3" valType="code" updates="None" name="name"/>
@@ -911,7 +911,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="stimuli\intro4.PNG" valType="file" updates="constant" name="image"/>
+        <Param val="intro4.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="instruction4" valType="code" updates="None" name="name"/>
@@ -2702,7 +2702,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="stimuli\intro5.PNG" valType="file" updates="constant" name="image"/>
+        <Param val="intro5.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="instruction4_2" valType="code" updates="None" name="name"/>
