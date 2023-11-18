@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2023.2.0),
-    on Sat Nov 18 18:02:22 2023
+    on Sat Nov 18 18:29:13 2023
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -625,12 +625,6 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
-    # Run 'Begin Experiment' code from code_6
-    #stim = 0
-    Version = 0
-    vrs = str(randint(1,3)) #expInfo['Version (1 or 2)']
-    
-    print(vrs)
     mouse_track = event.Mouse(win=win)
     x, y = [None, None]
     mouse_track.mouseClock = core.Clock()
@@ -640,7 +634,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
        lineColorSpace='rgb',
        opacity=None,
        buttonRequired=True,
-       depth=-3
+       depth=-2
     )
     # Run 'Begin Experiment' code from trial_control
     # screenshot counter
@@ -654,27 +648,27 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         pos=(-0.45, 0.75), height=0.07, wrapWidth=None, ori=0.0, 
         color='black', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-5.0);
+        depth=-4.0);
     times_up_txt = visual.TextStim(win=win, name='times_up_txt',
         text="Time's up! If you think you found an object write it here, if not click next to move on.",
         font='Open Sans',
         pos=(-0.45, 0.75), height=0.07, wrapWidth=None, ori=0.0, 
         color='black', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-6.0);
+        depth=-5.0);
     button_clear = visual.Rect(
         win=win, name='button_clear',
         width=(0.2, 0.1)[0], height=(0.2, 0.1)[1],
         ori=0.0, pos=(-0.2, -0.75), anchor='center',
         lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
-        opacity=None, depth=-7.0, interpolate=True)
+        opacity=None, depth=-6.0, interpolate=True)
     clear_txt = visual.TextStim(win=win, name='clear_txt',
         text='Erase',
         font='Open Sans',
         pos=(-0.2, -0.75), height=0.06, wrapWidth=None, ori=0.0, 
         color='black', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-8.0);
+        depth=-7.0);
     mouse = event.Mouse(win=win)
     x, y = [None, None]
     mouse.mouseClock = core.Clock()
@@ -683,14 +677,14 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         width=(0.2, 0.1)[0], height=(0.2, 0.1)[1],
         ori=0.0, pos=(0.7, -0.75), anchor='center',
         lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='white',
-        opacity=None, depth=-10.0, interpolate=True)
+        opacity=None, depth=-9.0, interpolate=True)
     next_txt = visual.TextStim(win=win, name='next_txt',
         text='Next',
         font='Open Sans',
         pos=(0.7, -0.75), height=0.06, wrapWidth=None, ori=0.0, 
         color='black', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-11.0);
+        depth=-10.0);
     mouse_end = event.Mouse(win=win)
     x, y = [None, None]
     mouse_end.mouseClock = core.Clock()
@@ -699,21 +693,21 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         width=(0.2, 0.1)[0], height=(0.2, 0.1)[1],
         ori=0.0, pos=(0.3,0.6), anchor='center',
         lineWidth=1.0,     colorSpace='rgb',  lineColor='white', fillColor='green',
-        opacity=None, depth=-13.0, interpolate=True)
+        opacity=None, depth=-12.0, interpolate=True)
     done_txt = visual.TextStim(win=win, name='done_txt',
         text='Done!',
         font='Open Sans',
         pos=(0.3,0.6), height=0.06, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-14.0);
+        depth=-13.0);
     object_txt = visual.TextStim(win=win, name='object_txt',
         text='What object did you find in the image?',
         font='Open Sans',
         pos=(0.4, 0.55), height=0.06, wrapWidth=None, ori=0.0, 
         color='black', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=-15.0);
+        depth=-14.0);
     question_textbox = visual.TextBox2(
          win, text=None, placeholder='Type object here...', font='Open Sans',
          pos=(0.15, 0.5),     letterHeight=0.05,
@@ -728,7 +722,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
          flipHoriz=False, flipVert=False, languageStyle='LTR',
          editable=True,
          name='question_textbox',
-         depth=-16, autoLog=True,
+         depth=-15, autoLog=True,
     )
     
     # --- Initialize components for Routine "pause" ---
@@ -2259,7 +2253,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     # set up handler to look after randomisation of conditions etc
     trials = data.TrialHandler(nReps=1.0, method='random', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('trial_tiny.csv'),
+        trialList=data.importConditions('trial_online_full.csv'),
         seed=None, name='trials')
     thisExp.addLoop(trials)  # add the loop to the experiment
     thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -2289,15 +2283,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         continueRoutine = True
         # update component parameters for each repeat
         thisExp.addData('trial.started', globalClock.getTime())
-        image.setImage(stim)
-        # Run 'Begin Routine' code from code_6
-        #if vrs == '1':
-        #    stim = stim1
-        #elif vrs == '2':
-        #    stim = stim2
-            
-        #print(stim)
-        
+        image.setImage(stim1)
         # setup some python lists for storing info about the mouse_track
         mouse_track.x = []
         mouse_track.y = []
@@ -2310,7 +2296,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
         # Run 'Begin Routine' code from trial_control
         is_first_frame = True
         trial_start_time = 0.0
-        trial_time_limit = 5.0
+        trial_time_limit = 30.0
         
         show_next_btn = False
         show_done_btn = True
@@ -2740,8 +2726,6 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
         thisExp.addData('trial.stopped', globalClock.getTime())
-        # Run 'End Routine' code from code_6
-        thisExp.addData('Version ' + str(vrs), Version)
         # store data for trials (TrialHandler)
         trials.addData('mouse_track.x', mouse_track.x)
         trials.addData('mouse_track.y', mouse_track.y)
