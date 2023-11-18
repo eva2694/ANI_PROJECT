@@ -25,8 +25,8 @@
     <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
     <Param val="False" valType="bool" updates="None" name="Show mouse"/>
     <Param val="norm" valType="str" updates="None" name="Units"/>
-    <Param val="2022.1.0" valType="str" updates="None" name="Use version"/>
-    <Param val="[1536, 864]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="2023.2.0" valType="str" updates="None" name="Use version"/>
+    <Param val="[2560, 1440]" valType="list" updates="None" name="Window size (pixels)"/>
     <Param val="none" valType="str" updates="None" name="backgroundFit"/>
     <Param val="" valType="str" updates="None" name="backgroundImg"/>
     <Param val="avg" valType="str" updates="None" name="blendMode"/>
@@ -74,6 +74,21 @@
   </Settings>
   <Routines>
     <Routine name="intro1">
+      <RoutineSettingsComponent name="intro1" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="intro1" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="instruction1" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -83,7 +98,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="intro1.png" valType="file" updates="constant" name="image"/>
+        <Param val="introimg/intro1.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="instruction1" valType="code" updates="None" name="name"/>
@@ -175,6 +190,21 @@
       </TextComponent>
     </Routine>
     <Routine name="intro2">
+      <RoutineSettingsComponent name="intro2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="intro2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="instruction2" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -184,7 +214,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="intro2.png" valType="file" updates="constant" name="image"/>
+        <Param val="introimg/intro2.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="instruction2" valType="code" updates="None" name="name"/>
@@ -276,6 +306,21 @@
       </TextComponent>
     </Routine>
     <Routine name="pause">
+      <RoutineSettingsComponent name="pause" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="pause" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <TextComponent name="text" plugin="None">
         <Param val="white" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
@@ -320,6 +365,21 @@
       </CodeComponent>
     </Routine>
     <Routine name="end">
+      <RoutineSettingsComponent name="end" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="end" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <TextComponent name="end_txt" plugin="None">
         <Param val="white" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
@@ -347,6 +407,21 @@
       </TextComponent>
     </Routine>
     <Routine name="coords">
+      <RoutineSettingsComponent name="coords" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="coords" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="testimage" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -528,6 +603,21 @@
       </CodeComponent>
     </Routine>
     <Routine name="practice_rsp">
+      <RoutineSettingsComponent name="practice_rsp" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="practice_rsp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="practice_object" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -537,7 +627,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="stimuli/practice_first.jpg" valType="file" updates="constant" name="image"/>
+        <Param val="introimg/practice.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="practice_object" valType="code" updates="None" name="name"/>
@@ -564,7 +654,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="stimuli/solution1.jpg" valType="file" updates="constant" name="image"/>
+        <Param val="introimg/practice_solution.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="practice_outline" valType="code" updates="None" name="name"/>
@@ -603,7 +693,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="num" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="Answer: CAR" valType="str" updates="constant" name="text"/>
+        <Param val="Answer: Dolphin" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
@@ -681,6 +771,21 @@
       </TextComponent>
     </Routine>
     <Routine name="intro3">
+      <RoutineSettingsComponent name="intro3" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="intro3" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="instruction3" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -690,7 +795,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="intro3.png" valType="file" updates="constant" name="image"/>
+        <Param val="introimg/intro3.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="instruction3" valType="code" updates="None" name="name"/>
@@ -782,6 +887,21 @@
       </TextComponent>
     </Routine>
     <Routine name="practice_intro">
+      <RoutineSettingsComponent name="practice_intro" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="practice_intro" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="instruction4" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -791,7 +911,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="intro4.png" valType="file" updates="constant" name="image"/>
+        <Param val="introimg/intro4.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="instruction4" valType="code" updates="None" name="name"/>
@@ -883,6 +1003,21 @@
       </TextComponent>
     </Routine>
     <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="image" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -966,19 +1101,19 @@
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
       </BrushComponent>
       <CodeComponent name="trial_control" plugin="None">
-        <Param val="# screenshot counter&amp;#10;scCounter = 0&amp;#10;user_answers = []" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="# screenshot counter&amp;#10;trial_counter = 0&amp;#10;user_answers = []&amp;#10;&amp;#10;pseudonym = expInfo['Pseudonym*']" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="RSP = 0;&amp;#10;Valmis = 0;&amp;#10;Yes = 0;&amp;#10;Vihje = 0;&amp;#10;Nupp = 0;&amp;#10;frames = 0;&amp;#10;buttons = 0;&amp;#10;times = 0;&amp;#10;location = 0;&amp;#10;mouseIsDown = false;&amp;#10;mouseIsDown1 = false;&amp;#10;mouseIsDown2 = false;&amp;#10;oldMouseIsDown = false;&amp;#10;mouse_track.xdraw = [];&amp;#10;mouse_track.ydraw = [];&amp;#10;clear = [];" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="is_first_frame = True&amp;#10;trial_start_time = 0.0&amp;#10;trial_time_limit = 5.0&amp;#10;&amp;#10;show_next_btn = False&amp;#10;show_done_btn = True&amp;#10;&amp;#10;mouse_track.xdraw = []&amp;#10;mouse_track.ydraw = []&amp;#10;clear = []&amp;#10;&amp;#10;scCounter+=1&amp;#10;screenshot_filename = f&quot;screenshots/trial_screenshot{scCounter}_.png&quot;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="is_first_frame = True&amp;#10;trial_start_time = 0.0&amp;#10;trial_time_limit = 30.0&amp;#10;&amp;#10;show_next_btn = False&amp;#10;show_done_btn = True&amp;#10;&amp;#10;mouse_track.xdraw = []&amp;#10;mouse_track.ydraw = []&amp;#10;clear = []&amp;#10;&amp;#10;trial_counter += 1&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Py" valType="str" updates="None" name="Code Type"/>
-        <Param val="# Mouse position recordnig&amp;#10;if mouse_track.getPressed()[0] == 1:&amp;#10;    mouse_track.xdraw.append(mouse_track.getPos()[0])&amp;#10;    mouse_track.ydraw.append(mouse_track.getPos()[1])&amp;#10;&amp;#10;# Check if trial time limit reached&amp;#10;if is_first_frame:&amp;#10;    trial_start_time = tThisFlipGlobal&amp;#10;    is_first_frame = False&amp;#10;            &amp;#10;if tThisFlipGlobal &gt; trial_start_time + trial_time_limit - frameTolerance:&amp;#10;    show_next_btn = True&amp;#10;    show_done_btn = False&amp;#10;&amp;#10;# Done button click&amp;#10;if show_done_btn and button_done.contains(mouse) and mouse.getPressed()[0]:&amp;#10;    show_next_btn = True&amp;#10;    show_done_btn = False&amp;#10;    &amp;#10;# Clear button click&amp;#10;if show_done_btn and button_clear.contains(mouse) and mouse.getPressed()[0] == 1:&amp;#10;    buttons, times = mouse.getPressed(getTime=True)&amp;#10;    location = mouse_track.getPos()&amp;#10;    clear.append(location)&amp;#10;    clear.append(times[0])&amp;#10;    clear.append(&quot;clear&quot;)&amp;#10;    brush.reset()&amp;#10;# Take a screenshot&amp;#10;if practice_button_next.contains(practice_mouse) and practice_mouse.getPressed()[0]:&amp;#10;    win.getMovieFrame(buffer='front')&amp;#10;    &amp;#10;# Save annswers&amp;#10;if show_done_btn and button_done.contains(mouse) and mouse.getPressed()[0]:&amp;#10;            user_answer = question_textbox.text&amp;#10;            user_answers.append(user_answer)" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="# Mouse position recordnig&amp;#10;if mouse_track.getPressed()[0] == 1:&amp;#10;    mouse_track.xdraw.append(mouse_track.getPos()[0])&amp;#10;    mouse_track.ydraw.append(mouse_track.getPos()[1])&amp;#10;&amp;#10;# Check if trial time limit reached&amp;#10;if is_first_frame:&amp;#10;    trial_start_time = tThisFlipGlobal&amp;#10;    is_first_frame = False&amp;#10;            &amp;#10;if tThisFlipGlobal &gt; trial_start_time + trial_time_limit - frameTolerance:&amp;#10;    show_next_btn = True&amp;#10;    show_done_btn = False&amp;#10;&amp;#10;# Done button click&amp;#10;if show_done_btn and button_done.contains(mouse) and mouse.getPressed()[0]:&amp;#10;    show_next_btn = True&amp;#10;    show_done_btn = False&amp;#10;    &amp;#10;# Clear button click&amp;#10;if show_done_btn and button_clear.contains(mouse) and mouse.getPressed()[0] == 1:&amp;#10;    buttons, times = mouse.getPressed(getTime=True)&amp;#10;    location = mouse_track.getPos()&amp;#10;    clear.append(location)&amp;#10;    clear.append(times[0])&amp;#10;    clear.append(&quot;clear&quot;)&amp;#10;    brush.reset()&amp;#10;    &amp;#10;# Save answers&amp;#10;if show_next_btn and button_next.contains(mouse) and mouse.getPressed()[0]:&amp;#10;    user_answer = question_textbox.text&amp;#10;    user_answers.append(user_answer)" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="// Hiire joonistus&amp;#10;if ((mouse_track.getPressed()[0] == 1)) {&amp;#10;    mouse_track.xdraw.push(mouse_track.getPos()[0]);&amp;#10;    mouse_track.ydraw.push(mouse_track.getPos()[1]);&amp;#10;}&amp;#10;&amp;#10;// Leidsin või vihje nupp tegevus&amp;#10;if ((button_yes.contains(mouse) &amp;&amp; mouse.getPressed()[0])) {&amp;#10;    Yes = 1;&amp;#10;    Nupp = 1;&amp;#10;}&amp;#10;if ((button_hint.contains(mouse) &amp;&amp; mouse.getPressed()[0])) {&amp;#10;    Vihje = 1;&amp;#10;    Nupp = 1;&amp;#10;}&amp;#10;&amp;#10;// check that participant has answered all Qs&amp;#10;if ((Yes == 1)) {&amp;#10;    if (((((RSP_ahhaa.getRating() != null) &amp;&amp; (H1_textbox.text != &quot;&quot;)) &amp;&amp; (RSP_sudden.getRating() != null)) &amp;&amp; (RSP_pleasant.getRating() != null))) {&amp;#10;        Valmis = 1;&amp;#10;    }&amp;#10;} else {&amp;#10;    if ((Vihje === 1)) {&amp;#10;        //if ((((RSP_ahhaa.getRating() != null) &amp;&amp; (RSP_sudden.getRating() != null)) &amp;&amp; (RSP_pleasant.getRating() != null))) {&amp;#10;        Valmis = 1;&amp;#10;    }&amp;#10;} &amp;#10;&amp;#10;// continue &amp;#10;if ((button_next.contains(mouse_end) &amp;&amp; (mouse_end.getPressed()[0] === 1))) {&amp;#10;    mouseIsDown1 = true;&amp;#10;    if ((mouseIsDown1 &amp;&amp; (! oldMouseIsDown))) {&amp;#10;        oldMouseIsDown = true;&amp;#10;    }&amp;#10;} else {&amp;#10;    mouseIsDown1 = false;&amp;#10;}&amp;#10;&amp;#10;// clear brush &amp;#10;if ((button_clear.contains(mouse) &amp;&amp; (mouse.getPressed()[0] === 1))) {&amp;#10;    mouseIsDown = true;&amp;#10;    buttons, times = mouse.getPressed({&quot;getTime&quot;: true});&amp;#10;    location = mouse_track.getPos();&amp;#10;    if ((mouseIsDown &amp;&amp; (! oldMouseIsDown))) {&amp;#10;        clear.push(location);&amp;#10;        clear.push(times[0]);&amp;#10;        clear.push(&quot;clear&quot;);&amp;#10;        brush.reset();&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;// restart&amp;#10;if ((mouseIsDown2 === true)) {&amp;#10;    frames += 1;&amp;#10;    if ((frames &lt; 10)) {&amp;#10;        oldMouseIsDown = true;&amp;#10;    } else {&amp;#10;        mouseIsDown2 = false;&amp;#10;        oldMouseIsDown = false;&amp;#10;        frames = 0;&amp;#10;    }&amp;#10;}&amp;#10;if ((mouseIsDown1 === true)) {&amp;#10;    frames += 1;&amp;#10;    if ((frames &lt; 10)) {&amp;#10;        oldMouseIsDown = true;&amp;#10;    } else {&amp;#10;        mouseIsDown1 = false;&amp;#10;        oldMouseIsDown = false;&amp;#10;        frames = 0;&amp;#10;    }&amp;#10;}&amp;#10;if ((mouseIsDown === true)) {&amp;#10;    frames += 1;&amp;#10;    if ((frames &lt; 10)) {&amp;#10;        oldMouseIsDown = true;&amp;#10;    } else {&amp;#10;        mouseIsDown = false;&amp;#10;        oldMouseIsDown = false;&amp;#10;        frames = 0;&amp;#10;    }&amp;#10;}" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
         <Param val="psychoJS.experiment.addData(&quot;mouse1.x_draw&quot;, mouse_track.xdraw);&amp;#10;psychoJS.experiment.addData(&quot;mouse1.y_draw&quot;, mouse_track.ydraw);&amp;#10;psychoJS.experiment.addData(&quot;Clear pressed&quot;, clear);&amp;#10;&amp;#10;console.log(clear);&amp;#10;&amp;#10;KI = expInfo[&quot;Pseudonym*&quot;];&amp;#10;&amp;#10;kk = (trials.thisN + 1);&amp;#10;&amp;#10;H1_textbox.refresh();" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="## Salvesta joonistus&amp;#10;thisExp.addData('mouse1.x_draw', mouse_track.xdraw)&amp;#10;thisExp.addData('mouse1.y_draw', mouse_track.ydraw)&amp;#10;thisExp.addData('Clear pressed', clear)&amp;#10;&amp;#10;print(clear)&amp;#10;#luup = 1&amp;#10;#print(&quot;luup 1&quot;)&amp;#10;&amp;#10;KI = expInfo['Pseudonym*']&amp;#10;&amp;#10;#file=&quot;KI&quot;+KI+&quot;_&quot;+str(stim[8:11])+&quot;-&quot;+&quot;.png&quot;&amp;#10;#rep = loop_1.thisRepN + 1&amp;#10;&amp;#10;kk = trials.thisN + 1&amp;#10;#file=&quot;ID&quot;+KI+&quot;_&quot;+str(kk)+&quot;_&quot;+str(ID1)+&quot;-&quot;+str(rep)+&quot;.png&quot;&amp;#10;&amp;#10;#print(file)&amp;#10;#win.saveMovieFrames(file,clearFrames=True)&amp;#10;&amp;#10;#SEE LAHTI KOMMENTEERIDA VB&amp;#10;#H1_textbox.refresh()&amp;#10;brush.reset()&amp;#10;&amp;#10;# save screenshot&amp;#10;win.saveMovieFrames(screenshot_filename, clearFrames=True)&amp;#10;&amp;#10;# save answers&amp;#10;with open('user_answers.txt', 'w') as file:&amp;#10;    for answer in user_answers:&amp;#10;        file.write(f'{answer}\n')" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="# Salvesta joonistus&amp;#10;thisExp.addData('mouse1.x_draw', mouse_track.xdraw)&amp;#10;thisExp.addData('mouse1.y_draw', mouse_track.ydraw)&amp;#10;thisExp.addData('Clear pressed', clear)&amp;#10;&amp;#10;brush.reset()&amp;#10;&amp;#10;# save screenshot&amp;#10;screenshot_filename = f&quot;screenshots/{pseudonym}_trial{trial_counter}_screenshot{trial_counter}.png&quot;&amp;#10;win.getMovieFrame()&amp;#10;win.saveMovieFrames(screenshot_filename, clearFrames=True)&amp;#10;&amp;#10;# save answers&amp;#10;answers_file = f&quot;data/{pseudonym}_answers.txt&quot;&amp;#10;with open(answers_file, 'w') as file:&amp;#10;    for answer in user_answers:&amp;#10;        file.write(f'{answer}\n')" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="trial_control" valType="code" updates="None" name="name"/>
       </CodeComponent>
@@ -1169,7 +1304,7 @@
         <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="num" updates="None" name="startEstim"/>
         <Param val="condition" valType="str" updates="None" name="startType"/>
-        <Param val="show_done_btn" valType="num" updates="None" name="startVal"/>
+        <Param val="show_next_btn" valType="num" updates="None" name="startVal"/>
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="num" updates="constant" name="stopVal"/>
         <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
@@ -1295,6 +1430,21 @@
       </TextboxComponent>
     </Routine>
     <Routine name="practice_trial">
+      <RoutineSettingsComponent name="practice_trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="practice_trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="practice_image" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -1304,7 +1454,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="stimuli\practice_first.jpg" valType="file" updates="set every repeat" name="image"/>
+        <Param val="introimg/practice.jpg" valType="file" updates="set every repeat" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="practice_image" valType="code" updates="None" name="name"/>
@@ -1366,14 +1516,14 @@
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="RSP = 0;&amp;#10;Valmis = 0;&amp;#10;Yes = 0;&amp;#10;Vihje = 0;&amp;#10;Nupp = 0;&amp;#10;frames = 0;&amp;#10;mouseIsDown = false;&amp;#10;mouseIsDown1 = false;&amp;#10;mouseIsDown2 = false;&amp;#10;oldMouseIsDown = false;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="practice_show_next_btn = False&amp;#10;practice_show_done_btn = True&amp;#10;screenshot_filename = &quot;screenshots\practice_screenshot.png&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="practice_show_next_btn = False&amp;#10;practice_show_done_btn = True" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Py" valType="str" updates="None" name="Code Type"/>
-        <Param val="# Done button click&amp;#10;if practice_show_done_btn and practice_button_done.contains(practice_mouse) and practice_mouse.getPressed()[0]:&amp;#10;    practice_show_next_btn = True&amp;#10;    practice_show_done_btn = False&amp;#10;    &amp;#10;# Clear button click&amp;#10;if practice_show_done_btn and practice_button_clear.contains(practice_mouse) and practice_mouse.getPressed()[0] == 1:&amp;#10;    brush.reset()&amp;#10;    practice_brush.reset()&amp;#10;    &amp;#10;# Take a screenshot&amp;#10;if practice_button_next.contains(practice_mouse) and practice_mouse.getPressed()[0]:&amp;#10;    win.getMovieFrame(buffer='front')&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="# Done button click&amp;#10;if practice_show_done_btn and practice_button_done.contains(practice_mouse) and practice_mouse.getPressed()[0]:&amp;#10;    practice_show_next_btn = True&amp;#10;    practice_show_done_btn = False&amp;#10;    &amp;#10;# Clear button click&amp;#10;if practice_show_done_btn and practice_button_clear.contains(practice_mouse) and practice_mouse.getPressed()[0] == 1:&amp;#10;    brush.reset()&amp;#10;    practice_brush.reset()" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="if ((button_yes_2.contains(mouse_2) &amp;&amp; mouse_2.getPressed()[0])) {&amp;#10;    Yes = 1;&amp;#10;    Nupp = 1;&amp;#10;}&amp;#10;if ((button_hint_2.contains(mouse_2) &amp;&amp; mouse_2.getPressed()[0])) {&amp;#10;    Vihje = 1;&amp;#10;    Nupp = 1;&amp;#10;}&amp;#10;if ((Yes == 1)) {&amp;#10;    if (((((RSP_ahhaa_2.getRating() != null) &amp;&amp; (H1_textbox_2.text != &quot;&quot;)) &amp;&amp; (RSP_sudden_2.getRating() != null)) &amp;&amp; (RSP_pleasant_2.getRating() != null))) {&amp;#10;        Valmis = 1;&amp;#10;    }&amp;#10;} else {&amp;#10;    if ((Vihje == 1)) {&amp;#10;        //if ((((RSP_ahhaa_2.getRating() != null) &amp;&amp; (RSP_sudden_2.getRating() != null)) &amp;&amp; (RSP_pleasant_2.getRating() != null))) {&amp;#10;        Valmis = 1;&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;if ((button_next_2.contains(mouse_end_2) &amp;&amp; (mouse_end_2.getPressed()[0] == 1))) {&amp;#10;    mouseIsDown1 = true;&amp;#10;    if ((mouseIsDown1 &amp;&amp; (! oldMouseIsDown))) {&amp;#10;        oldMouseIsDown = true;&amp;#10;    }&amp;#10;} else {&amp;#10;    mouseIsDown1 = false;&amp;#10;}&amp;#10;if ((button_clear_2.contains(mouse_2) &amp;&amp; (mouse_2.getPressed()[0] == 1))) {&amp;#10;    mouseIsDown = true;&amp;#10;    if ((mouseIsDown &amp;&amp; (! oldMouseIsDown))) {&amp;#10;        brush_2.reset();&amp;#10;    }&amp;#10;}&amp;#10;if ((mouseIsDown2 == true)) {&amp;#10;    frames += 1;&amp;#10;    if ((frames &lt; 10)) {&amp;#10;        oldMouseIsDown = true;&amp;#10;    } else {&amp;#10;        mouseIsDown2 = false;&amp;#10;        oldMouseIsDown = false;&amp;#10;        frames = 0;&amp;#10;    }&amp;#10;}&amp;#10;if ((mouseIsDown1 == true)) {&amp;#10;    frames += 1;&amp;#10;    if ((frames &lt; 10)) {&amp;#10;        oldMouseIsDown = true;&amp;#10;    } else {&amp;#10;        mouseIsDown1 = false;&amp;#10;        oldMouseIsDown = false;&amp;#10;        frames = 0;&amp;#10;    }&amp;#10;}&amp;#10;if ((mouseIsDown == true)) {&amp;#10;    frames += 1;&amp;#10;    if ((frames &lt; 10)) {&amp;#10;        oldMouseIsDown = true;&amp;#10;    } else {&amp;#10;        mouseIsDown = false;&amp;#10;        oldMouseIsDown = false;&amp;#10;        frames = 0;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
         <Param val="H1_textbox_2.refresh();&amp;#10;brush_2.reset();&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
-        <Param val="#H1_textbox_2.refresh()&amp;#10;practice_brush.reset()&amp;#10;# Save screenshot&amp;#10;win.saveMovieFrames(screenshot_filename, clearFrames=True)&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="practice_brush.reset()&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="practice_trial_control" valType="code" updates="None" name="name"/>
       </CodeComponent>
@@ -1690,6 +1840,21 @@
       </TextboxComponent>
     </Routine>
     <Routine name="practice_trial2">
+      <RoutineSettingsComponent name="practice_trial2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="practice_trial2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="image_3" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -2345,6 +2510,21 @@
       </TextComponent>
     </Routine>
     <Routine name="practice_rsp2">
+      <RoutineSettingsComponent name="practice_rsp2" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="practice_rsp2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="practice_object_2" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -2498,6 +2678,21 @@
       </TextComponent>
     </Routine>
     <Routine name="exp_intro">
+      <RoutineSettingsComponent name="exp_intro" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="exp_intro" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="instruction4_2" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -2507,7 +2702,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="intro5.png" valType="file" updates="constant" name="image"/>
+        <Param val="introimg/intro5.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="instruction4_2" valType="code" updates="None" name="name"/>
@@ -2599,6 +2794,21 @@
       </TextComponent>
     </Routine>
     <Routine name="intro0">
+      <RoutineSettingsComponent name="intro0" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="intro0" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
       <ImageComponent name="instruction1_2" plugin="None">
         <Param val="center" valType="str" updates="constant" name="anchor"/>
         <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
@@ -2608,7 +2818,7 @@
         <Param val="" valType="num" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
         <Param val="False" valType="bool" updates="constant" name="flipVert"/>
-        <Param val="stimuli\intro0.PNG" valType="file" updates="constant" name="image"/>
+        <Param val="introimg/intro0.png" valType="file" updates="constant" name="image"/>
         <Param val="linear" valType="str" updates="constant" name="interpolate"/>
         <Param val="" valType="str" updates="constant" name="mask"/>
         <Param val="instruction1_2" valType="code" updates="None" name="name"/>
@@ -2711,8 +2921,8 @@
     <Routine name="exp_intro"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('trl', 1), ('stim1', 'stimuli/dolphin_14s_9.jpg'), ('stim2', 'stimuli/dolphin_14s_11.jpg'), ('stimulus', 'dolphin_14s_')]), OrderedDict([('trl', 2), ('stim1', 'stimuli/mask_12s_9.jpg'), ('stim2', 'stimuli/mask_12s_11.jpg'), ('stimulus', 'mask_12s_')]), OrderedDict([('trl', 3), ('stim1', 'stimuli/puppy_12s_9.jpg'), ('stim2', 'stimuli/puppy_12s_11.jpg'), ('stimulus', 'puppy_12s_')]), OrderedDict([('trl', 4), ('stim1', 'stimuli/penguin_12s_9.jpg'), ('stim2', 'stimuli/penguin_12s_11.jpg'), ('stimulus', 'penguin_12s_')]), OrderedDict([('trl', 5), ('stim1', 'stimuli/horse_08s_9.jpg'), ('stim2', 'stimuli/horse_08s_11.jpg'), ('stimulus', 'horse_08s_')]), OrderedDict([('trl', 6), ('stim1', 'stimuli/kangaroo_02s_9.jpg'), ('stim2', 'stimuli/kangaroo_02s_11.jpg'), ('stimulus', 'kangaroo_02s_')]), OrderedDict([('trl', 7), ('stim1', 'stimuli/bag_04s_9.jpg'), ('stim2', 'stimuli/bag_04s_11.jpg'), ('stimulus', 'bag_04s_')]), OrderedDict([('trl', 8), ('stim1', 'stimuli/recliner_10s_9.jpg'), ('stim2', 'stimuli/recliner_10s_11.jpg'), ('stimulus', 'recliner_10s_')]), OrderedDict([('trl', 9), ('stim1', 'stimuli/racehorse_07s_9.jpg'), ('stim2', 'stimuli/racehorse_07s_11.jpg'), ('stimulus', 'racehorse_07s_')]), OrderedDict([('trl', 10), ('stim1', 'stimuli/bottle_02n_9.jpg'), ('stim2', 'stimuli/bottle_02n_11.jpg'), ('stimulus', 'bottle_02n_')]), OrderedDict([('trl', 11), ('stim1', 'stimuli/anchor_02s_9.jpg'), ('stim2', 'stimuli/anchor_02s_11.jpg'), ('stimulus', 'anchor_02s_')]), OrderedDict([('trl', 12), ('stim1', 'stimuli/gramophone_01b_9.jpg'), ('stim2', 'stimuli/gramophone_01b_11.jpg'), ('stimulus', 'gramophone_01b_')]), OrderedDict([('trl', 13), ('stim1', 'stimuli/glasses_13s_9.jpg'), ('stim2', 'stimuli/glasses_13s_11.jpg'), ('stimulus', 'glasses_13s_')]), OrderedDict([('trl', 14), ('stim1', 'stimuli/cello_01s_9.jpg'), ('stim2', 'stimuli/cello_01s_11.jpg'), ('stimulus', 'cello_01s_')]), OrderedDict([('trl', 15), ('stim1', 'stimuli/margarita_17s_9.jpg'), ('stim2', 'stimuli/margarita_17s_11.jpg'), ('stimulus', 'margarita_17s_')]), OrderedDict([('trl', 16), ('stim1', 'stimuli/hammer_07s_9.jpg'), ('stim2', 'stimuli/hammer_07s_11.jpg'), ('stimulus', 'hammer_07s_')]), OrderedDict([('trl', 17), ('stim1', 'stimuli/magnifying_glass_01b_9.jpg'), ('stim2', 'stimuli/magnifying_glass_01b_11.jpg'), ('stimulus', 'magnifying_glass_01b_')]), OrderedDict([('trl', 18), ('stim1', 'stimuli/teddy_bear_06s_9.jpg'), ('stim2', 'stimuli/teddy_bear_06s_11.jpg'), ('stimulus', 'teddy_bear_06s_')]), OrderedDict([('trl', 19), ('stim1', 'stimuli/boot_02s_9.jpg'), ('stim2', 'stimuli/boot_02s_11.jpg'), ('stimulus', 'boot_02s_')]), OrderedDict([('trl', 20), ('stim1', 'stimuli/gun_01b_11.jpg'), ('stim2', 'stimuli/gun_01b_9.jpg'), ('stimulus', 'gun_01b_')]), OrderedDict([('trl', 21), ('stim1', 'stimuli/hat_07s_11.jpg'), ('stim2', 'stimuli/hat_07s_9.jpg'), ('stimulus', 'hat_07s_')]), OrderedDict([('trl', 22), ('stim1', 'stimuli/stiletto_10s_11.jpg'), ('stim2', 'stimuli/stiletto_10s_9.jpg'), ('stimulus', 'stiletto_10s_')]), OrderedDict([('trl', 23), ('stim1', 'stimuli/teapot_06s_11.jpg'), ('stim2', 'stimuli/teapot_06s_9.jpg'), ('stimulus', 'teapot_06s_')]), OrderedDict([('trl', 24), ('stim1', 'stimuli/swan_11s_11.jpg'), ('stim2', 'stimuli/swan_11s_9.jpg'), ('stimulus', 'swan_11s_')]), OrderedDict([('trl', 25), ('stim1', 'stimuli/bathrobe_02s_11.jpg'), ('stim2', 'stimuli/bathrobe_02s_9.jpg'), ('stimulus', 'bathrobe_02s_')]), OrderedDict([('trl', 26), ('stim1', 'stimuli/hairdryer_10s_11.jpg'), ('stim2', 'stimuli/hairdryer_10s_9.jpg'), ('stimulus', 'hairdryer_10s_')]), OrderedDict([('trl', 27), ('stim1', 'stimuli/headphones_01b_11.jpg'), ('stim2', 'stimuli/headphones_01b_9.jpg'), ('stimulus', 'headphones_01b_')]), OrderedDict([('trl', 28), ('stim1', 'stimuli/beer_05s_11.jpg'), ('stim2', 'stimuli/beer_05s_9.jpg'), ('stimulus', 'beer_05s_')]), OrderedDict([('trl', 29), ('stim1', 'stimuli/bird_18s_11.jpg'), ('stim2', 'stimuli/bird_18s_9.jpg'), ('stimulus', 'bird_18s_')]), OrderedDict([('trl', 30), ('stim1', 'stimuli/seahorse_02s_11.jpg'), ('stim2', 'stimuli/seahorse_02s_9.jpg'), ('stimulus', 'seahorse_02s_')]), OrderedDict([('trl', 31), ('stim1', 'stimuli/dragonfly_07s_11.jpg'), ('stim2', 'stimuli/dragonfly_07s_9.jpg'), ('stimulus', 'dragonfly_07s_')]), OrderedDict([('trl', 32), ('stim1', 'stimuli/clipper1_07s_11.jpg'), ('stim2', 'stimuli/clipper1_07s_9.jpg'), ('stimulus', 'clipper1_07s_')]), OrderedDict([('trl', 33), ('stim1', 'stimuli/boxing_gloves_06s_11.jpg'), ('stim2', 'stimuli/boxing_gloves_06s_9.jpg'), ('stimulus', 'boxing_gloves_06s_')]), OrderedDict([('trl', 34), ('stim1', 'stimuli/wine_17s_11.jpg'), ('stim2', 'stimuli/wine_17s_9.jpg'), ('stimulus', 'wine_17s_')]), OrderedDict([('trl', 35), ('stim1', 'stimuli/man_09s_11.jpg'), ('stim2', 'stimuli/man_09s_9.jpg'), ('stimulus', 'man_09s_')]), OrderedDict([('trl', 36), ('stim1', 'stimuli/toilet_paper_02s_11.jpg'), ('stim2', 'stimuli/toilet_paper_02s_9.jpg'), ('stimulus', 'toilet_paper_02s_')]), OrderedDict([('trl', 37), ('stim1', 'stimuli/coffee_04s_11.jpg'), ('stim2', 'stimuli/coffee_04s_9.jpg'), ('stimulus', 'coffee_04s_')]), OrderedDict([('trl', 38), ('stim1', 'stimuli/axe_12n_11.jpg'), ('stim2', 'stimuli/axe_12n_9.jpg'), ('stimulus', 'axe_12n_')])]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="trial_online.csv" valType="file"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('trl', 1), ('stim1', 'stimuli/airplane_149_11.png'), ('stim2', 'stimuli/airplane_149_11.png'), ('stim', 'stimuli/airplane_149_11.png')]), OrderedDict([('trl', 2), ('stim1', 'stimuli/apple_169_13.png'), ('stim2', 'stimuli/apple_169_13.png'), ('stim', 'stimuli/apple_169_13.png')]), OrderedDict([('trl', 3), ('stim1', 'stimuli/binoculars_169_13.png'), ('stim2', 'stimuli/binoculars_169_13.png'), ('stim', 'stimuli/binoculars_169_13.png')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="trial_tiny.csv" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
