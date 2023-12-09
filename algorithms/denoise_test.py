@@ -4,7 +4,7 @@ import pandas as pd
 from position_utils import find_dot_centres, stimuli_dots
 from denoise import remove_outliers_knn, remove_outliers_radius, remove_small_graphs, remove_small_graphs_adaptive
 
-original = cv2.imread('../selection/padlock_06s_15.jpg')
+original = cv2.imread('../stimuli/selection/padlock_06s_15.jpg')
 xs, ys = find_dot_centres(stimuli_dots(original))
 df = pd.DataFrame({'x': xs, 'y': ys}, dtype=int)
 
@@ -23,7 +23,7 @@ cv2.imshow("original", original)
 
 points_knn = remove_outliers_knn(df, k=3, min_connections=3, max_iter=1)
 points_radius = remove_outliers_radius(df, radius=20, min_connections=3, max_iter=1)
-points_graph = remove_small_graphs(df, k=3, min_size=15, max_iter=2)
+points_graph = remove_small_graphs(df, k=3, min_size=15)
 points_adaptive_graph = remove_small_graphs_adaptive(df, k=3, percent_to_keep=0.9, max_iter=2, strategy='mean')
 
 test_denoiser('knn', points_knn, color=(150, 200, 0))

@@ -1,7 +1,6 @@
 import cv2
-import pandas as pd
 
-from bottom_up import bottom_up, find_dot_centres, stimuli_dots
+from bottom_up import bottom_up
 
 distance_trackbar = 25
 angle_trackbar = 10
@@ -33,7 +32,7 @@ cv2.createTrackbar("distance", "Original", distance_trackbar, 100, updateValue_d
 cv2.createTrackbar("angle", "Original", angle_trackbar, 100, updateValue_angle)
 
 bottom_up = bottom_up()
-original = cv2.imread('../selection/bikini_02s_13.jpg')
+original = cv2.imread('../stimuli/selection/bikini_02s_13.jpg')
 cv2.imshow('original', original)
 
 

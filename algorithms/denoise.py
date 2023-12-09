@@ -10,7 +10,7 @@ def denoise(x, y, strategy):
   elif strategy == 'radius':
     points = remove_outliers_radius(points, radius=20, min_connections=3, max_iter=1)
   elif strategy == 'graph':
-    points = remove_small_graphs(points, k=3, min_size=10, max_iter=1)
+    points = remove_small_graphs(points, k=3, min_size=10)
   elif strategy == 'graph_ada':
     points = remove_small_graphs_adaptive(points, k=3, percent_to_keep=0.9, max_iter=2, strategy='mean')
   else:
@@ -20,6 +20,9 @@ def denoise(x, y, strategy):
 
 
 def remove_outliers_knn(points, k=3, min_connections=2, max_iter=3):
+  """
+  Every iteration removes points that have less than min_connections connections to other points. Uses Euclidean distance
+  """
   knn = NearestNeighbors(n_neighbors=k)
 
   for _ in range(max(1, max_iter)):
@@ -37,6 +40,9 @@ def remove_outliers_knn(points, k=3, min_connections=2, max_iter=3):
 
 
 def remove_outliers_radius(points, radius=10, min_connections=2, max_iter=3):
+  """
+  Every iteration removes points that have less than min_connections points in radius. Uses Euclidean distance.
+  """
   knn = NearestNeighbors(radius=radius)
 
   for _ in range(max(1, max_iter)):
@@ -53,25 +59,26 @@ def remove_outliers_radius(points, radius=10, min_connections=2, max_iter=3):
   return points_to_keep
 
 
-def remove_small_graphs(points, k=3, min_size=10, max_iter=3):
+def remove_small_graphs(points, k=3, min_size=10):
+  """
+  Removes points that are in graphs smaller than min_size. Uses KNN to form graphs.
+  """
   knn = NearestNeighbors(n_neighbors=k)
 
-  for _ in range(max(1, max_iter)):
-    knn.fit(points.values)
-    connection_matrix = knn.kneighbors_graph(points.values).toarray().astype(int)
-    graphs = find_connected_graphs(len(points), connection_matrix)
-    point_idx_to_keep = np.unique([idx for g in graphs if len(g) >= min_size for idx in g])
-    points_to_keep = [points.iloc[i] for i in point_idx_to_keep]
-    points_to_keep = pd.concat(points_to_keep, axis=1).T
-
-    if len(points_to_keep) == len(points):
-      return points_to_keep
-    points = points_to_keep
-
-  return points_to_keep
+  knn.fit(points.values)
+  connection_matrix = knn.kneighbors_graph(points.values).toarray().astype(int)
+  graphs = find_connected_graphs(len(points), connection_matrix)
+  point_idx_to_keep = np.unique([idx for g in graphs if len(g) >= min_size for idx in g])
+  points_to_keep = [points.iloc[i] for i in point_idx_to_keep]
+  return pd.concat(points_to_keep, axis=1).T
 
 
 def remove_small_graphs_adaptive(points, k=3, percent_to_keep=0.8, max_iter=3, strategy='mean'):
+  """
+  Every iteration removes points that are in graphs smaller than defined by the strategy. Uses KNN to form graphs. Result will be the input for next iteration.
+  Mean strategy: takes the mean size of top percent_to_keep graphs and removes all points in graphs smaller than that.
+  Min strategy: takes the min size of top percent_to_keep graphs and removes all points in graphs smaller than that.
+  """
   knn = NearestNeighbors(n_neighbors=k)
 
   if strategy not in ['mean', 'min']:

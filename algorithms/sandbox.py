@@ -25,7 +25,7 @@ def draw_graph(image, graph, points, color=(0, 200, 200)):
   [cv2.circle(image, point, 1, color, -1) for point in points.iloc[graph].values]
 
 
-original = cv2.imread('../selection/padlock_06s_15.jpg')
+original = cv2.imread('../stimuli/selection/padlock_06s_15.jpg')
 xs, ys = find_dot_centres(stimuli_dots(original))
 df = pd.DataFrame({'x': xs, 'y': ys}, dtype=int)
 k = 3
@@ -35,7 +35,7 @@ cv2.imshow("original", original)
 
 for i in range(depth):
   print(f"Iteration {i}, points: {len(df)}")
-  knn = NearestNeighbors(n_neighbors=k+i)
+  knn = NearestNeighbors(n_neighbors=k + i)
   knn.fit(df.values)
 
   connection_graph_img = original.copy()
@@ -53,7 +53,6 @@ for i in range(depth):
   # mean_of_top = np.mean(sorted_sizes[:int(len(graphs) * 0.7)], dtype=int)
   min_of_top = min(sorted_sizes[:int(len(graphs) * 0.7)])
   print(min_of_top)
-
 
   [draw_graph(graphs_img, graph, df, color=random_color()) for i, graph in enumerate(graphs)]
   graph_filtered = np.unique([idx for g in graphs if len(g) > min_of_top for idx in g])
