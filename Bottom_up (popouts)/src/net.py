@@ -18,7 +18,7 @@ def draw_neighbours(image, points, knn):
 
 
 def draw_filtered_points(image, filtered_points, color=(0, 0, 255)):
-  [cv2.circle(image, point.values, 1, color, -1) for point in filtered_points]
+  [cv2.circle(image, point, 1, color, -1) for point in filtered_points.values]
 
 
 def draw_graph(image, graph, points, color=(0, 200, 200)):
@@ -91,24 +91,3 @@ k = 3
 #     continue
 #
 # cv2.destroyAllWindows()
-
-
-knn_points_img = original.copy()
-radius_points_img = original.copy()
-graph_points_img = original.copy()
-
-points_knn = remove_outliers_knn(df, k=k, min_connections=3, max_iter=1)
-points_radius = remove_outliers_radius(df, radius=20, min_connections=3, max_iter=1)
-points_graph = remove_small_graphs(df, k=3, min_size=15, max_iter=2)
-
-draw_filtered_points(knn_points_img, points_knn, color=(150, 200, 0))
-draw_filtered_points(radius_points_img, points_radius, color=(200, 150, 0))
-draw_filtered_points(graph_points_img, points_graph, color=(200, 0, 150))
-
-cv2.imshow("original", original)
-cv2.imshow(f"filtered knn", knn_points_img)
-cv2.imshow(f"filtered radius", radius_points_img)
-cv2.imshow(f"graph points", graph_points_img)
-
-cv2.waitKey(0)
-cv2.destroyAllWindows()

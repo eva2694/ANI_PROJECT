@@ -1,9 +1,11 @@
 import cv2
+import pandas as pd
 from matplotlib import pyplot as plt
 from position_utils import *
 from scipy.spatial import distance
 import math
 import numpy as np
+from denoise import remove_outliers_knn, remove_outliers_radius, remove_small_graphs
 
 
 class bottom_up:
@@ -18,16 +20,13 @@ class bottom_up:
     diff = np.abs(a1 - a2)
     return diff
 
-  def get_distance_angle(self, dots):
-    x, y = find_dot_centres(dots)
-    self.x_coords, self.y_coords = x.copy(), y.copy()
-    self.no_dots = len(x)
+  def get_distance_angle(self):
     dists = np.zeros((self.no_dots, self.no_dots))
     angles = np.zeros((self.no_dots, self.no_dots))
     for i in range(self.no_dots):
       for j in range(self.no_dots):
-        dists[i, j] = distance.euclidean((x[i], y[i]), (x[j], y[j]))
-        angles[i, j] = self.angle(x[i], y[i], x[j], y[j])
+        dists[i, j] = distance.euclidean((self.x[i], self.y[i]), (self.x[j], self.y[j]))
+        angles[i, j] = self.angle(self.x[i], self.y[i], self.x[j], self.y[j])
     return dists, angles
 
   def threshold_angle_on_distance(self, angles, dists, threshold=25):
@@ -131,20 +130,35 @@ class bottom_up:
       i += 1
     return seqs
 
+  def denoise(self, x, y, strategy):
+    points = pd.DataFrame({'x': x, 'y': y}, dtype=int)
+    if strategy == 'knn':
+      points = remove_outliers_knn(points, k=3, min_connections=3, max_iter=1)
+    elif strategy == 'radius':
+      points = remove_outliers_radius(points, radius=20, min_connections=3, max_iter=1)
+    elif strategy == 'graph':
+      points = remove_small_graphs(points, k=3, min_size=10, max_iter=1)
+    self.x = points['x'].to_numpy()
+    self.y = points['y'].to_numpy()
+
   def index_to_seqs(self, seqs):
     ''' Changes the sequence from dot index to the x,y point in pixel space'''
     coord_seqs = []
     for seq in seqs:
-      coord_seqs.append(np.stack((self.x_coords[seq], self.y_coords[seq]), axis=1).astype(int))
+      coord_seqs.append(np.stack((self.x[seq], self.y[seq]), axis=1).astype(int))
     return coord_seqs
 
-  def find_sequence(self, image, distance=25, angle=10):
+  def find_sequence(self, image, distance=25, angle=10, denoiser='knn'):
     ''' Function expected to be called, give it an image and expect in return sequence of co-ordinates of dots connected by bottom-up bias curves'''
     self.dots = stimuli_dots(image)
-    dists, angles = self.get_distance_angle(self.dots)
+    xs, ys = find_dot_centres(self.dots)
+    self.denoise(xs, ys, denoiser)
+    self.no_dots = len(self.x)
+
+    dists, angles = self.get_distance_angle()
     angles = self.threshold_angle_on_distance(angles, dists, threshold=distance)
     conn = self.get_connection_table_angle_thresholded(angles, a_tolerance=angle)
     connections = self.filter_long_lines(conn, sequence_threshold=5)
     final_seqs = self.clean_same_sequences(connections)
     final_coord_seqs = self.index_to_seqs(final_seqs)
-    return final_coord_seqs
+    return final_coord_seqs, self.x, self.y

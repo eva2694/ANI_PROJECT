@@ -11,10 +11,11 @@ def remove_outliers_knn(points, k=3, min_connections=2, max_iter=3):
     connection_counts = knn.kneighbors_graph(points.values).toarray().sum(axis=0)
     points_to_keep = [points.iloc[i] for i, connections in enumerate(connection_counts) if
                       connections >= min_connections]
+    points_to_keep = pd.concat(points_to_keep, axis=1).T
 
     if len(points_to_keep) == len(points):
       return points_to_keep
-    points = pd.concat(points_to_keep, axis=1).T
+    points = points_to_keep
 
   return points_to_keep
 
@@ -27,10 +28,11 @@ def remove_outliers_radius(points, radius=10, min_connections=2, max_iter=3):
     connection_counts = knn.radius_neighbors_graph(points.values).toarray().sum(axis=0)
     points_to_keep = [points.iloc[i] for i, connections in enumerate(connection_counts) if
                       connections >= min_connections]
+    points_to_keep = pd.concat(points_to_keep, axis=1).T
 
     if len(points_to_keep) == len(points):
       return points_to_keep
-    points = pd.concat(points_to_keep, axis=1).T
+    points = points_to_keep
 
   return points_to_keep
 
@@ -44,10 +46,11 @@ def remove_small_graphs(points, k=3, min_size=10, max_iter=3):
     graphs = find_connected_graphs(len(points), connection_matrix)
     point_idx_to_keep = np.unique([idx for g in graphs if len(g) >= min_size for idx in g])
     points_to_keep = [points.iloc[i] for i in point_idx_to_keep]
+    points_to_keep = pd.concat(points_to_keep, axis=1).T
 
     if len(points_to_keep) == len(points):
       return points_to_keep
-    points = pd.concat(points_to_keep, axis=1).T
+    points = points_to_keep
 
   return points_to_keep
 
