@@ -8,6 +8,7 @@ __pycache__/
 *.pyo
 *.pyd
 *.so
+*.spec
 
 # Backup files
 *.bak
@@ -45,3 +46,5 @@ Thumbs.db
 /lib/
 /html/lib/
 
+build
+dist

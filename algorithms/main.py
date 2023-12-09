@@ -1,21 +1,17 @@
+from os import listdir
+from os.path import join, isfile
+
 import cv2
 
-from bottom_up import bottom_up
-
-distance_trackbar = 25
-angle_trackbar = 10
+from bottom_up import BottomUp
+from conf import Conf
 
 
-def updateValue_distance(new_distance):
-  global distance_trackbar
-  distance_trackbar = new_distance
-  redraw()
-
-
-def updateValue_angle(new_angle):
-  global angle_trackbar
-  angle_trackbar = new_angle
-  redraw()
+def update(img, key, val, original_img):
+  global conf, redraw_ready
+  conf.set(img, key, val)
+  if redraw_ready:
+    redraw(img, original_img)
 
 
 def draw_sequence(img, final_coord_seqs):
@@ -27,29 +23,50 @@ def draw_used_points(img, x, y):
   [cv2.circle(img, point, 1, (0, 200, 100), -1) for point in zip(x, y)]
 
 
-cv2.namedWindow("Original")
-cv2.createTrackbar("distance", "Original", distance_trackbar, 100, updateValue_distance)
-cv2.createTrackbar("angle", "Original", angle_trackbar, 100, updateValue_angle)
+def redraw(img, original_img):
+  global conf
 
-bottom_up = bottom_up()
-original = cv2.imread('../stimuli/selection/bikini_02s_13.jpg')
-cv2.imshow('original', original)
+  bottom_up = BottomUp()
+  bottom_up_img = original_img.copy()
+  denoised_img = original_img.copy()
 
+  final_coord_seqs, xs, ys = bottom_up.find_sequence(original_img, conf.get_img_conf(img))
+  draw_used_points(denoised_img, xs, ys)
+  draw_sequence(bottom_up_img, final_coord_seqs)
 
-def redraw():
-  global bottom_up, distance_trackbar, angle_trackbar
-
-  final_img = original.copy()
-  used_points_img = original.copy()
-
-  final_coord_seqs, xs, ys = bottom_up.find_sequence(original, distance_trackbar, angle_trackbar, 'graph_ada')
-  draw_used_points(used_points_img, xs, ys)
-  draw_sequence(final_img, final_coord_seqs)
-
-  cv2.imshow('final', final_img)
-  cv2.imshow('used points', used_points_img)
+  cv2.imshow('bottom up', bottom_up_img)
+  cv2.imshow('denoised', denoised_img)
 
 
-redraw()
-cv2.waitKey(0)
+def create_trackbars(img, conf, original_img):
+  global redraw_ready
+
+  redraw_ready = False
+  for key in conf.keys():
+    cv2.createTrackbar(key, "Conf", conf.get(img, key), conf.max_val(key),
+                       (lambda v, i=img, k=key, o=original_img: update(img=i, key=k, val=v, original_img=o)))
+  redraw_ready = True
+
+
+images_dir = '../stimuli/selection'
+images = [f for f in listdir(images_dir) if isfile(join(images_dir, f))]
+conf = Conf()
+redraw_ready = False
+
+for image in images:
+  print(f"Image: {image}")
+  cv2.namedWindow("Conf")
+  original = cv2.imread(join(images_dir, image))
+  create_trackbars(image, conf, original)
+  cv2.imshow(f'original {image}', original)
+  redraw(image, original)
+
+  if cv2.waitKey(0) & 0xFF == ord('q'):
+    break
+  else:
+    cv2.destroyWindow(f'original {image}')
+    cv2.destroyWindow("Conf")
+    continue
+
 cv2.destroyAllWindows()
+conf.save()

@@ -3,22 +3,6 @@ import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 
 
-def denoise(x, y, strategy):
-  points = pd.DataFrame({'x': x, 'y': y}, dtype=int)
-  if strategy == 'knn':
-    points = remove_outliers_knn(points, k=3, min_connections=3, max_iter=1)
-  elif strategy == 'radius':
-    points = remove_outliers_radius(points, radius=20, min_connections=3, max_iter=1)
-  elif strategy == 'graph':
-    points = remove_small_graphs(points, k=3, min_size=10)
-  elif strategy == 'graph_ada':
-    points = remove_small_graphs_adaptive(points, k=3, percent_to_keep=0.9, max_iter=2, strategy='mean')
-  else:
-    print(f"Unknown denoise strategy: {strategy}, not filtering points")
-  print(f"Denoising with {strategy}. Keeping {len(points)} points out of {len(x)}")
-  return points['x'].to_numpy(), points['y'].to_numpy()
-
-
 def remove_outliers_knn(points, k=3, min_connections=2, max_iter=3):
   """
   Every iteration removes points that have less than min_connections connections to other points. Uses Euclidean distance
@@ -113,7 +97,7 @@ def find_connected_graphs(n_points, connection_matrix):
   for i in range(n_points):
     if i in visited:
       continue
-    graph = find_graph_for_point(i, connection_matrix, [i])
+    graph = find_graph_for_point(i, connection_matrix, {i})
     visited.update(graph)
     graphs.append(graph)
   return graphs
@@ -122,7 +106,7 @@ def find_connected_graphs(n_points, connection_matrix):
 def find_graph_for_point(point_idx, connection_matrix, visited_points):
   connected_points = np.argwhere(connection_matrix[point_idx] == 1)
   for connected_idx in connected_points:
-    if connected_idx not in visited_points:
-      visited_points.append(connected_idx[0])
+    if connected_idx[0] not in visited_points:
+      visited_points.add(connected_idx[0])
       find_graph_for_point(connected_idx[0], connection_matrix, visited_points)
   return visited_points

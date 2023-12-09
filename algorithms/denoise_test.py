@@ -24,12 +24,16 @@ cv2.imshow("original", original)
 points_knn = remove_outliers_knn(df, k=3, min_connections=3, max_iter=1)
 points_radius = remove_outliers_radius(df, radius=20, min_connections=3, max_iter=1)
 points_graph = remove_small_graphs(df, k=3, min_size=15)
-points_adaptive_graph = remove_small_graphs_adaptive(df, k=3, percent_to_keep=0.9, max_iter=2, strategy='mean')
+points_adaptive_graph = remove_small_graphs_adaptive(df, k=3, percent_to_keep=0.9, max_iter=1, strategy='mean')
+
+points_combined = remove_small_graphs_adaptive(df, k=3, percent_to_keep=0.9, max_iter=1, strategy='mean')
+points_combined = remove_outliers_radius(points_combined, radius=18, min_connections=3, max_iter=5)
 
 test_denoiser('knn', points_knn, color=(150, 200, 0))
 test_denoiser('radius', points_radius, color=(200, 150, 0))
 test_denoiser('graph fixed', points_graph, color=(200, 0, 150))
 test_denoiser('graph adaptive', points_adaptive_graph, color=(0, 200, 150))
+test_denoiser('combined', points_combined, color=(50, 100, 150))
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
