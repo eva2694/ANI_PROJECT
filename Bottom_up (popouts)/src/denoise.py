@@ -3,6 +3,22 @@ import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 
 
+def denoise(x, y, strategy):
+  points = pd.DataFrame({'x': x, 'y': y}, dtype=int)
+  if strategy == 'knn':
+    points = remove_outliers_knn(points, k=3, min_connections=3, max_iter=1)
+  elif strategy == 'radius':
+    points = remove_outliers_radius(points, radius=20, min_connections=3, max_iter=1)
+  elif strategy == 'graph':
+    points = remove_small_graphs(points, k=3, min_size=10, max_iter=1)
+  elif strategy == 'graph_ada':
+    points = remove_small_graphs_adaptive(points, k=3, percent_to_keep=0.9, max_iter=2, strategy='mean')
+  else:
+    print(f"Unknown denoise strategy: {strategy}, not filtering points")
+  print(f"Denoising with {strategy}. Keeping {len(points)} points out of {len(x)}")
+  return points['x'].to_numpy(), points['y'].to_numpy()
+
+
 def remove_outliers_knn(points, k=3, min_connections=2, max_iter=3):
   knn = NearestNeighbors(n_neighbors=k)
 
@@ -45,6 +61,35 @@ def remove_small_graphs(points, k=3, min_size=10, max_iter=3):
     connection_matrix = knn.kneighbors_graph(points.values).toarray().astype(int)
     graphs = find_connected_graphs(len(points), connection_matrix)
     point_idx_to_keep = np.unique([idx for g in graphs if len(g) >= min_size for idx in g])
+    points_to_keep = [points.iloc[i] for i in point_idx_to_keep]
+    points_to_keep = pd.concat(points_to_keep, axis=1).T
+
+    if len(points_to_keep) == len(points):
+      return points_to_keep
+    points = points_to_keep
+
+  return points_to_keep
+
+
+def remove_small_graphs_adaptive(points, k=3, percent_to_keep=0.8, max_iter=3, strategy='mean'):
+  knn = NearestNeighbors(n_neighbors=k)
+
+  if strategy not in ['mean', 'min']:
+    strategy = 'mean'
+
+  for _ in range(max(1, max_iter)):
+    knn.fit(points.values)
+    connection_matrix = knn.kneighbors_graph(points.values).toarray().astype(int)
+    graphs = find_connected_graphs(len(points), connection_matrix)
+    sorted_sizes = sorted([len(g) for g in graphs], reverse=True)
+
+    if strategy == 'mean':
+      mean_of_top = np.mean(sorted_sizes[:int(len(graphs) * percent_to_keep)], dtype=int)
+      point_idx_to_keep = np.unique([idx for g in graphs if len(g) >= mean_of_top for idx in g])
+    elif strategy == 'min':
+      min_of_top = min(sorted_sizes[:int(len(graphs) * percent_to_keep)])
+      point_idx_to_keep = np.unique([idx for g in graphs if len(g) >= min_of_top for idx in g])
+
     points_to_keep = [points.iloc[i] for i in point_idx_to_keep]
     points_to_keep = pd.concat(points_to_keep, axis=1).T
 

@@ -1,11 +1,9 @@
-import cv2
-import pandas as pd
-from matplotlib import pyplot as plt
-from position_utils import *
-from scipy.spatial import distance
 import math
-import numpy as np
-from denoise import remove_outliers_knn, remove_outliers_radius, remove_small_graphs
+
+from scipy.spatial import distance
+
+from denoise import denoise
+from position_utils import *
 
 
 class bottom_up:
@@ -130,17 +128,6 @@ class bottom_up:
       i += 1
     return seqs
 
-  def denoise(self, x, y, strategy):
-    points = pd.DataFrame({'x': x, 'y': y}, dtype=int)
-    if strategy == 'knn':
-      points = remove_outliers_knn(points, k=3, min_connections=3, max_iter=1)
-    elif strategy == 'radius':
-      points = remove_outliers_radius(points, radius=20, min_connections=3, max_iter=1)
-    elif strategy == 'graph':
-      points = remove_small_graphs(points, k=3, min_size=10, max_iter=1)
-    self.x = points['x'].to_numpy()
-    self.y = points['y'].to_numpy()
-
   def index_to_seqs(self, seqs):
     ''' Changes the sequence from dot index to the x,y point in pixel space'''
     coord_seqs = []
@@ -152,7 +139,7 @@ class bottom_up:
     ''' Function expected to be called, give it an image and expect in return sequence of co-ordinates of dots connected by bottom-up bias curves'''
     self.dots = stimuli_dots(image)
     xs, ys = find_dot_centres(self.dots)
-    self.denoise(xs, ys, denoiser)
+    self.x, self.y = denoise(xs, ys, denoiser)
     self.no_dots = len(self.x)
 
     dists, angles = self.get_distance_angle()

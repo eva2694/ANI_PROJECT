@@ -43,7 +43,7 @@ def redraw():
   final_img = original.copy()
   used_points_img = original.copy()
 
-  final_coord_seqs, xs, ys = bottom_up.find_sequence(original, distance_trackbar, angle_trackbar, 'graph')
+  final_coord_seqs, xs, ys = bottom_up.find_sequence(original, distance_trackbar, angle_trackbar, 'graph_ada')
   draw_used_points(used_points_img, xs, ys)
   draw_sequence(final_img, final_coord_seqs)
 
