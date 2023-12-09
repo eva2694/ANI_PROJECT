@@ -3,10 +3,10 @@ import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 
 from position_utils import find_dot_centres, stimuli_dots
-from denoise import remove_outliers_knn
+from denoise import remove_outliers_knn, remove_outliers_radius
 
 
-def draw_connections(image, points):
+def draw_connections(image, points, knn):
   for index, point in points.iterrows():
     neighbour_idxs = knn.kneighbors(point.values.reshape(1, -1), return_distance=False)[0]
     [cv2.line(image, point.values, points.iloc[ni].values, (0, 255), 1) for ni in neighbour_idxs]
@@ -17,11 +17,11 @@ def draw_filtered_points(image, filtered_points, color=(0, 0, 255)):
 
 
 
-original = cv2.imread('../selection/beaker_01b_13.jpg')
+original = cv2.imread('../selection/padlock_06s_15.jpg')
 xs, ys = find_dot_centres(stimuli_dots(original))
 df = pd.DataFrame({'x': xs, 'y': ys}, dtype=int)
 k = 3
-# depth = 3
+# depth = 5
 # knn = NearestNeighbors(n_neighbors=k)
 #
 # cv2.imshow("original", original)
@@ -51,15 +51,19 @@ k = 3
 #     break
 #   else:
 #     continue
-
+#
 # cv2.destroyAllWindows()
 
 
-filtered_points_img = original.copy()
-points = remove_outliers_knn(df, k)
-draw_filtered_points(filtered_points_img, points, color=(150, 200, 0))
+knn_points_img = original.copy()
+radius_points_img = original.copy()
+points_knn = remove_outliers_knn(df, k=k, min_connections=3, max_iter=1)
+points_radius = remove_outliers_radius(df, radius=20, min_connections=3, max_iter=1)
+draw_filtered_points(knn_points_img, points_knn, color=(150, 200, 0))
+draw_filtered_points(radius_points_img, points_radius, color=(200, 150, 0))
 cv2.imshow("original", original)
-cv2.imshow(f"filtered", filtered_points_img)
+cv2.imshow(f"filtered knn", knn_points_img)
+cv2.imshow(f"filtered radius", radius_points_img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
