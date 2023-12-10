@@ -1,0 +1,2030 @@
+44.5074 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001C0C1D2CD90>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001C0C28CE610>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+44.5077 	EXP 	window1: mouseVisible = True
+44.5077 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+44.5077 	EXP 	window1: recordFrameIntervals = False
+44.5765 	EXP 	window1: recordFrameIntervals = True
+44.6530 	EXP 	Screen (0) actual frame rate measured at 144.08Hz
+44.6530 	EXP 	window1: recordFrameIntervals = False
+47.4419 	EXP 	Created instruction1_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='introimg/intro0.png', interpolate=True, mask=None, maskParams=None, name='instruction1_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.3, 1.6]), texRes=128.0, units='norm', win=Window(...))
+47.4419 	EXP 	window1: mouseVisible = True
+47.4503 	EXP 	Created button1_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='button1_2', opacity=1, ori=0.0, pos=array([ 0.5 , -0.65]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+47.6253 	EXP 	Created button_txt1_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='button_txt1_2', opacity=1, ori=0.0, pos=array([ 0.5 , -0.65]), rgb=UNKNOWN, text='Next', units='norm', win=Window(...), wrapWidth=1)
+48.0560 	EXP 	Created instruction1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='introimg/intro1.png', interpolate=True, mask=None, maskParams=None, name='instruction1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.3, 1.6]), texRes=128.0, units='norm', win=Window(...))
+48.0561 	EXP 	window1: mouseVisible = True
+48.0576 	EXP 	Created button1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='button1', opacity=1, ori=0.0, pos=array([ 0.5 , -0.65]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+48.0597 	EXP 	Created button_txt1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='button_txt1', opacity=1, ori=0.0, pos=array([ 0.5 , -0.65]), rgb=UNKNOWN, text='Next', units='norm', win=Window(...), wrapWidth=1)
+48.6240 	EXP 	Created instruction2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='introimg/intro2.png', interpolate=True, mask=None, maskParams=None, name='instruction2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.3, 1.6]), texRes=128.0, units='norm', win=Window(...))
+48.6241 	EXP 	window1: mouseVisible = True
+48.6255 	EXP 	Created button2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='button2', opacity=1, ori=0.0, pos=array([ 0.5 , -0.65]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+48.6277 	EXP 	Created button_txt2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='button_txt2', opacity=1, ori=0.0, pos=array([ 0.5 , -0.65]), rgb=UNKNOWN, text='Next', units='norm', win=Window(...), wrapWidth=1)
+49.1577 	EXP 	Created instruction3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='introimg/intro3.png', interpolate=True, mask=None, maskParams=None, name='instruction3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.3, 1.6]), texRes=128.0, units='norm', win=Window(...))
+49.1578 	EXP 	window1: mouseVisible = True
+49.1592 	EXP 	Created button3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='button3', opacity=1, ori=0.0, pos=array([ 0.5 , -0.65]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+49.1616 	EXP 	Created button_txt3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='button_txt3', opacity=1, ori=0.0, pos=array([ 0.5 , -0.65]), rgb=UNKNOWN, text='Next', units='norm', win=Window(...), wrapWidth=1)
+49.6833 	EXP 	Created instruction4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='introimg/intro4.png', interpolate=True, mask=None, maskParams=None, name='instruction4', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.3, 1.6]), texRes=128.0, units='norm', win=Window(...))
+49.6834 	EXP 	window1: mouseVisible = True
+49.6849 	EXP 	Created button4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='button4', opacity=1, ori=0.0, pos=array([ 0.5 , -0.65]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+49.6871 	EXP 	Created button_txt4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='button_txt4', opacity=1, ori=0.0, pos=array([ 0.5 , -0.65]), rgb=UNKNOWN, text='Next', units='norm', win=Window(...), wrapWidth=1)
+49.6949 	EXP 	Created practice_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='practice_image', opacity=1, ori=0.0, pos=array([-0.4,  0. ]), size=array([0.65, 0.65]), texRes=128.0, units='height', win=Window(...))
+49.6950 	EXP 	window1: mouseVisible = True
+49.6951 	EXP 	Created practice_brush = <psychopy.visual.brush.Brush object at 0x000001C0C2EE0E20>
+49.6951 	EXP 	window1: mouseVisible = True
+49.7082 	EXP 	Created practice_instructions_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='practice_instructions_txt', opacity=1, ori=0.0, pos=array([-0.45,  0.75]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+49.7165 	EXP 	Created practice_times_up_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='practice_times_up_txt', opacity=1, ori=0.0, pos=array([-0.45,  0.75]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+49.7182 	EXP 	Created practice_button_clear = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='practice_button_clear', opacity=1, ori=0.0, pos=array([-0.2 , -0.75]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+49.7253 	EXP 	Created practice_clear_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='practice_clear_txt', opacity=1, ori=0.0, pos=array([-0.2 , -0.75]), rgb=UNKNOWN, text='Erase', units='norm', win=Window(...), wrapWidth=1)
+49.7253 	EXP 	window1: mouseVisible = True
+49.7270 	EXP 	Created practice_button_next = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-9.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='practice_button_next', opacity=1, ori=0.0, pos=array([ 0.7 , -0.75]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+49.7315 	EXP 	Created practice_next_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='practice_next_txt', opacity=1, ori=0.0, pos=array([ 0.7 , -0.75]), rgb=UNKNOWN, text='Next', units='norm', win=Window(...), wrapWidth=1)
+49.7316 	EXP 	window1: mouseVisible = True
+49.7336 	EXP 	Created practice_button_done = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-12.0, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='practice_button_done', opacity=1, ori=0.0, pos=array([0.3, 0.6]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+49.7380 	EXP 	Created practice_done_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='practice_done_txt', opacity=1, ori=0.0, pos=array([0.3, 0.6]), rgb=UNKNOWN, text='Done!', units='norm', win=Window(...), wrapWidth=1)
+49.7491 	EXP 	Created practice_objekt_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='practice_objekt_txt', opacity=1, ori=0.0, pos=array([0.4 , 0.55]), rgb=UNKNOWN, text='What object did you find in the image?', units='norm', win=Window(...), wrapWidth=1)
+49.7679 	EXP 	Created practice_object = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='introimg/practice.png', interpolate=True, mask=None, maskParams=None, name='practice_object', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.65, 0.65]), texRes=128.0, units='height', win=Window(...))
+49.7727 	EXP 	Created practice_outline = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='introimg/practice_solution.png', interpolate=True, mask=None, maskParams=None, name='practice_outline', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.65, 0.65]), texRes=128.0, units='height', win=Window(...))
+49.7857 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0. , 0.7]), rgb=UNKNOWN, text='Answer: Dolphin', units='norm', win=Window(...), wrapWidth=1)
+49.7857 	EXP 	window1: mouseVisible = True
+49.7870 	EXP 	Created button5 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='button5', opacity=1, ori=0.0, pos=array([ 0.5, -0.6]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+49.7907 	EXP 	Created button_txt5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='button_txt5', opacity=1, ori=0.0, pos=array([ 0.5, -0.6]), rgb=UNKNOWN, text='Next', units='norm', win=Window(...), wrapWidth=1)
+50.1440 	EXP 	Created instruction4_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='introimg/intro5.png', interpolate=True, mask=None, maskParams=None, name='instruction4_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.3, 1.6]), texRes=128.0, units='norm', win=Window(...))
+50.1441 	EXP 	window1: mouseVisible = True
+50.1455 	EXP 	Created button4_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='button4_2', opacity=1, ori=0.0, pos=array([ 0.5 , -0.65]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+50.1477 	EXP 	Created button_txt4_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='button_txt4_2', opacity=1, ori=0.0, pos=array([ 0.5 , -0.65]), rgb=UNKNOWN, text='Next', units='norm', win=Window(...), wrapWidth=1)
+50.1503 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([-0.4,  0. ]), size=array([0.65, 0.65]), texRes=128.0, units='height', win=Window(...))
+50.1504 	EXP 	window1: mouseVisible = True
+50.1505 	EXP 	window1: mouseVisible = True
+50.1505 	EXP 	Created brush = <psychopy.visual.brush.Brush object at 0x000001C0C2C252E0>
+50.1589 	EXP 	Created instructions_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='instructions_txt', opacity=1, ori=0.0, pos=array([-0.45,  0.75]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+50.1646 	EXP 	Created times_up_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='times_up_txt', opacity=1, ori=0.0, pos=array([-0.45,  0.75]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+50.1659 	EXP 	Created button_clear = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='button_clear', opacity=1, ori=0.0, pos=array([-0.2 , -0.75]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+50.1694 	EXP 	Created clear_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='clear_txt', opacity=1, ori=0.0, pos=array([-0.2 , -0.75]), rgb=UNKNOWN, text='Erase', units='norm', win=Window(...), wrapWidth=1)
+50.1695 	EXP 	window1: mouseVisible = True
+50.1709 	EXP 	Created button_next = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-9.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='button_next', opacity=1, ori=0.0, pos=array([ 0.7 , -0.75]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+50.1734 	EXP 	Created next_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='next_txt', opacity=1, ori=0.0, pos=array([ 0.7 , -0.75]), rgb=UNKNOWN, text='Next', units='norm', win=Window(...), wrapWidth=1)
+50.1735 	EXP 	window1: mouseVisible = True
+50.1748 	EXP 	Created button_done = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-12.0, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='button_done', opacity=1, ori=0.0, pos=array([0.3, 0.6]), size=array([0.2, 0.1]), units='norm', vertices=ndarray(...), win=Window(...))
+50.1774 	EXP 	Created done_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='done_txt', opacity=1, ori=0.0, pos=array([0.3, 0.6]), rgb=UNKNOWN, text='Done!', units='norm', win=Window(...), wrapWidth=1)
+50.1824 	EXP 	Created object_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='object_txt', opacity=1, ori=0.0, pos=array([0.4 , 0.55]), rgb=UNKNOWN, text='What object did you find in the image?', units='norm', win=Window(...), wrapWidth=1)
+50.1866 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+50.1932 	EXP 	Created end_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='end_txt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='The end. Thank you!', units='norm', win=Window(...), wrapWidth=1)
+50.2236 	EXP 	practice_brush: autoLog = True
+50.2236 	EXP 	practice_brush: autoDraw = False
+50.2236 	EXP 	practice_question_textbox: autoLog = True
+50.2236 	EXP 	brush: autoLog = True
+50.2236 	EXP 	brush: autoDraw = False
+50.2236 	EXP 	question_textbox: autoLog = True
+50.2236 	EXP 	instruction1_2: autoDraw = True
+50.2236 	EXP 	button1_2: autoDraw = True
+50.2236 	EXP 	button_txt1_2: autoDraw = True
+51.4472 	DATA 	Mouse: Left button down, pos=(1395,186)
+51.4526 	EXP 	instruction1_2: autoDraw = False
+51.4526 	EXP 	button1_2: autoDraw = False
+51.4526 	EXP 	button_txt1_2: autoDraw = False
+51.4526 	EXP 	instruction1: autoDraw = True
+51.5709 	DATA 	Mouse:  Left button up, pos=(1395,186)
+53.4453 	EXP 	button1: autoDraw = True
+53.4453 	EXP 	button_txt1: autoDraw = True
+54.2584 	DATA 	Mouse: Left button down, pos=(1408,176)
+54.2650 	EXP 	instruction1: autoDraw = False
+54.2650 	EXP 	button1: autoDraw = False
+54.2650 	EXP 	button_txt1: autoDraw = False
+54.2650 	EXP 	instruction2: autoDraw = True
+54.3695 	DATA 	Mouse:  Left button up, pos=(1408,176)
+56.2508 	EXP 	button2: autoDraw = True
+56.2508 	EXP 	button_txt2: autoDraw = True
+56.8135 	DATA 	Mouse: Left button down, pos=(1395,185)
+56.8204 	EXP 	instruction2: autoDraw = False
+56.8204 	EXP 	button2: autoDraw = False
+56.8204 	EXP 	button_txt2: autoDraw = False
+56.8204 	EXP 	instruction3: autoDraw = True
+56.9251 	DATA 	Mouse:  Left button up, pos=(1395,185)
+58.8063 	EXP 	button3: autoDraw = True
+58.8063 	EXP 	button_txt3: autoDraw = True
+59.4603 	DATA 	Mouse: Left button down, pos=(1397,173)
+59.4731 	EXP 	instruction3: autoDraw = False
+59.4731 	EXP 	button3: autoDraw = False
+59.4731 	EXP 	button_txt3: autoDraw = False
+59.4731 	EXP 	instruction4: autoDraw = True
+59.5498 	DATA 	Mouse:  Left button up, pos=(1397,172)
+61.4589 	EXP 	button4: autoDraw = True
+61.4589 	EXP 	button_txt4: autoDraw = True
+61.9399 	DATA 	Mouse: Left button down, pos=(1429,188)
+61.9457 	WARNING 	Requested image 'introimg/practice.jpg' not found but similar filename 'introimg/practice.png' exists. This will be used instead but changing the filename is advised.
+61.9463 	EXP 	Resetting practice_brush
+61.9475 	EXP 	Resetting practice_brush parameter: brushPos.
+61.9475 	EXP 	Creating ShapeStim for practice_brush
+61.9601 	EXP 	instruction4: autoDraw = False
+61.9601 	EXP 	button4: autoDraw = False
+61.9601 	EXP 	button_txt4: autoDraw = False
+61.9601 	EXP 	practice_image: image = 'introimg/practice.jpg'
+61.9601 	EXP 	practice_image: autoDraw = True
+61.9601 	EXP 	practice_brush: autoDraw = True
+61.9601 	EXP 	practice_instructions_txt: autoDraw = True
+61.9601 	EXP 	practice_button_clear: autoDraw = True
+61.9601 	EXP 	practice_clear_txt: autoDraw = True
+61.9601 	EXP 	practice_button_done: autoDraw = True
+61.9601 	EXP 	practice_done_txt: autoDraw = True
+62.0607 	DATA 	Mouse:  Left button up, pos=(1429,188)
+64.3913 	DATA 	Mouse: Left button down, pos=(1224,886)
+64.3919 	EXP 	Resetting practice_brush parameter: brushPos.
+64.3920 	EXP 	Creating ShapeStim for practice_brush
+64.4139 	EXP 	practice_instructions_txt: autoDraw = False
+64.4139 	EXP 	practice_times_up_txt: autoDraw = True
+64.4139 	EXP 	practice_button_next: autoDraw = True
+64.4139 	EXP 	practice_next_txt: autoDraw = True
+64.4139 	EXP 	practice_button_done: autoDraw = False
+64.4139 	EXP 	practice_done_txt: autoDraw = False
+64.4139 	EXP 	practice_objekt_txt: autoDraw = True
+64.4139 	EXP 	practice_question_textbox: autoDraw = True
+64.4853 	DATA 	Mouse:  Left button up, pos=(1224,886)
+65.2287 	DATA 	Mouse: Left button down, pos=(1613,120)
+65.2354 	EXP 	Resetting practice_brush
+65.2393 	EXP 	practice_image: autoDraw = False
+65.2393 	EXP 	practice_brush: autoDraw = False
+65.2393 	EXP 	practice_instructions_txt: autoDraw = False
+65.2393 	EXP 	practice_times_up_txt: autoDraw = False
+65.2393 	EXP 	practice_button_clear: autoDraw = False
+65.2393 	EXP 	practice_clear_txt: autoDraw = False
+65.2393 	EXP 	practice_button_next: autoDraw = False
+65.2393 	EXP 	practice_next_txt: autoDraw = False
+65.2393 	EXP 	practice_button_done: autoDraw = False
+65.2393 	EXP 	practice_done_txt: autoDraw = False
+65.2393 	EXP 	practice_objekt_txt: autoDraw = False
+65.2393 	EXP 	practice_question_textbox: autoDraw = False
+65.2393 	EXP 	practice_object: autoDraw = True
+65.2393 	EXP 	text_2: autoDraw = True
+65.3582 	DATA 	Mouse:  Left button up, pos=(1613,120)
+67.2323 	EXP 	practice_outline: autoDraw = True
+67.2323 	EXP 	button5: autoDraw = True
+67.2323 	EXP 	button_txt5: autoDraw = True
+67.2386 	EXP 	practice_object: autoDraw = False
+67.8576 	DATA 	Mouse: Left button down, pos=(1451,223)
+67.8643 	EXP 	practice_object: autoDraw = False
+67.8643 	EXP 	practice_outline: autoDraw = False
+67.8643 	EXP 	text_2: autoDraw = False
+67.8643 	EXP 	button5: autoDraw = False
+67.8643 	EXP 	button_txt5: autoDraw = False
+67.8643 	EXP 	instruction4_2: autoDraw = True
+67.9623 	DATA 	Mouse:  Left button up, pos=(1451,223)
+69.8495 	EXP 	button4_2: autoDraw = True
+69.8495 	EXP 	button_txt4_2: autoDraw = True
+70.1911 	DATA 	Mouse: Left button down, pos=(1456,171)
+70.2186 	EXP 	Imported trial_final.csv as conditions, 38 conditions, 4 params
+70.2201 	EXP 	Created sequence: random, trialTypes=38, nReps=1, seed=None
+70.2203 	EXP 	New trial (rep=0, index=0): OrderedDict([('trl', 31), ('stim1', 'stimuli/boot_02s_9'), ('stim2', 'stimuli/boot_02s_9'), ('stim', 'stimuli/boot_02s_9')])
+70.2206 	WARNING 	Requested image 'stimuli/boot_02s_9' not found but similar filename 'stimuli/boot_02s_9.jpg' exists. This will be used instead but changing the filename is advised.
+70.2251 	EXP 	Resetting brush
+70.2268 	EXP 	Resetting brush parameter: brushPos.
+70.2268 	EXP 	Creating ShapeStim for brush
+70.2326 	EXP 	instruction4_2: autoDraw = False
+70.2326 	EXP 	button4_2: autoDraw = False
+70.2326 	EXP 	button_txt4_2: autoDraw = False
+70.2326 	EXP 	image: image = 'stimuli/boot_02s_9'
+70.2326 	EXP 	image: autoDraw = True
+70.2326 	EXP 	brush: autoDraw = True
+70.2326 	EXP 	instructions_txt: autoDraw = True
+70.2326 	EXP 	button_clear: autoDraw = True
+70.2326 	EXP 	clear_txt: autoDraw = True
+70.2326 	EXP 	button_done: autoDraw = True
+70.2326 	EXP 	done_txt: autoDraw = True
+70.2983 	DATA 	Mouse:  Left button up, pos=(1456,171)
+72.7133 	DATA 	Mouse: Left button down, pos=(259,330)
+72.7140 	EXP 	Resetting brush parameter: brushPos.
+72.7140 	EXP 	Creating ShapeStim for brush
+77.1525 	DATA 	Mouse:  Left button up, pos=(416,878)
+78.1508 	DATA 	Mouse: Left button down, pos=(206,861)
+78.1513 	EXP 	Resetting brush parameter: brushPos.
+78.1513 	EXP 	Creating ShapeStim for brush
+81.3937 	DATA 	Mouse:  Left button up, pos=(302,345)
+82.6157 	DATA 	Mouse: Left button down, pos=(628,807)
+82.6162 	EXP 	Resetting brush parameter: brushPos.
+82.6163 	EXP 	Creating ShapeStim for brush
+88.4477 	DATA 	Mouse:  Left button up, pos=(805,762)
+89.3707 	DATA 	Mouse: Left button down, pos=(1165,858)
+89.3718 	EXP 	Resetting brush parameter: brushPos.
+89.3719 	EXP 	Creating ShapeStim for brush
+89.3795 	EXP 	instructions_txt: autoDraw = False
+89.3795 	EXP 	times_up_txt: autoDraw = True
+89.3795 	EXP 	button_next: autoDraw = True
+89.3795 	EXP 	next_txt: autoDraw = True
+89.3795 	EXP 	button_done: autoDraw = False
+89.3795 	EXP 	done_txt: autoDraw = False
+89.3795 	EXP 	object_txt: autoDraw = True
+89.3795 	EXP 	question_textbox: autoDraw = True
+89.4891 	DATA 	Mouse:  Left button up, pos=(1165,858)
+90.5084 	DATA 	Mouse: Left button down, pos=(1626,110)
+90.5403 	EXP 	Resetting brush
+90.6495 	EXP 	New trial (rep=0, index=1): OrderedDict([('trl', 24), ('stim1', 'stimuli/selection/puppy_12s_11'), ('stim2', 'stimuli/selection/puppy_12s_11'), ('stim', 'stimuli/selection/puppy_12s_11')])
+90.6500 	WARNING 	Requested image 'stimuli/selection/puppy_12s_11' not found but similar filename 'stimuli/selection/puppy_12s_11.jpg' exists. This will be used instead but changing the filename is advised.
+90.6518 	EXP 	Resetting brush
+90.6530 	DATA 	Mouse:  Left button up, pos=(1625,118)
+90.6591 	EXP 	image: autoDraw = False
+90.6591 	EXP 	brush: autoDraw = False
+90.6591 	EXP 	instructions_txt: autoDraw = False
+90.6591 	EXP 	times_up_txt: autoDraw = False
+90.6591 	EXP 	button_clear: autoDraw = False
+90.6591 	EXP 	clear_txt: autoDraw = False
+90.6591 	EXP 	button_next: autoDraw = False
+90.6591 	EXP 	next_txt: autoDraw = False
+90.6591 	EXP 	button_done: autoDraw = False
+90.6591 	EXP 	done_txt: autoDraw = False
+90.6591 	EXP 	object_txt: autoDraw = False
+90.6591 	EXP 	question_textbox: autoDraw = False
+90.6591 	EXP 	image: image = 'stimuli/selection/puppy_12s_11'
+90.6591 	EXP 	image: autoDraw = True
+90.6591 	EXP 	brush: autoDraw = True
+90.6591 	EXP 	instructions_txt: autoDraw = True
+90.6591 	EXP 	button_clear: autoDraw = True
+90.6591 	EXP 	clear_txt: autoDraw = True
+90.6591 	EXP 	button_done: autoDraw = True
+90.6591 	EXP 	done_txt: autoDraw = True
+90.7816 	DATA 	Mouse: Left button down, pos=(1624,141)
+90.7820 	EXP 	Resetting brush parameter: brushPos.
+90.7820 	EXP 	Creating ShapeStim for brush
+90.9073 	DATA 	Mouse:  Left button up, pos=(1624,141)
+93.0801 	DATA 	Mouse: Left button down, pos=(351,667)
+93.0808 	EXP 	Resetting brush parameter: brushPos.
+93.0808 	EXP 	Creating ShapeStim for brush
+96.3654 	DATA 	Mouse:  Left button up, pos=(560,878)
+96.8857 	DATA 	Mouse: Left button down, pos=(625,896)
+96.8862 	EXP 	Resetting brush parameter: brushPos.
+96.8863 	EXP 	Creating ShapeStim for brush
+106.0658 	DATA 	Mouse:  Left button up, pos=(358,667)
+107.1169 	DATA 	Mouse: Left button down, pos=(1183,838)
+107.1228 	EXP 	Resetting brush parameter: brushPos.
+107.1230 	EXP 	Creating ShapeStim for brush
+107.1296 	EXP 	instructions_txt: autoDraw = False
+107.1296 	EXP 	times_up_txt: autoDraw = True
+107.1296 	EXP 	button_next: autoDraw = True
+107.1296 	EXP 	next_txt: autoDraw = True
+107.1296 	EXP 	button_done: autoDraw = False
+107.1296 	EXP 	done_txt: autoDraw = False
+107.1296 	EXP 	object_txt: autoDraw = True
+107.1296 	EXP 	question_textbox: autoDraw = True
+107.2558 	DATA 	Mouse:  Left button up, pos=(1183,838)
+108.1172 	DATA 	Mouse: Left button down, pos=(1643,147)
+108.1402 	EXP 	Resetting brush
+108.2339 	EXP 	New trial (rep=0, index=2): OrderedDict([('trl', 35), ('stim1', 'stimuli/mask_12s_11'), ('stim2', 'stimuli/mask_12s_11'), ('stim', 'stimuli/mask_12s_11')])
+108.2343 	WARNING 	Requested image 'stimuli/mask_12s_11' not found but similar filename 'stimuli/mask_12s_11.jpg' exists. This will be used instead but changing the filename is advised.
+108.2357 	EXP 	Resetting brush
+108.2371 	EXP 	Resetting brush parameter: brushPos.
+108.2371 	EXP 	Creating ShapeStim for brush
+108.2426 	EXP 	image: autoDraw = False
+108.2426 	EXP 	brush: autoDraw = False
+108.2426 	EXP 	instructions_txt: autoDraw = False
+108.2426 	EXP 	times_up_txt: autoDraw = False
+108.2426 	EXP 	button_clear: autoDraw = False
+108.2426 	EXP 	clear_txt: autoDraw = False
+108.2426 	EXP 	button_next: autoDraw = False
+108.2426 	EXP 	next_txt: autoDraw = False
+108.2426 	EXP 	button_done: autoDraw = False
+108.2426 	EXP 	done_txt: autoDraw = False
+108.2426 	EXP 	object_txt: autoDraw = False
+108.2426 	EXP 	question_textbox: autoDraw = False
+108.2426 	EXP 	image: image = 'stimuli/mask_12s_11'
+108.2426 	EXP 	image: autoDraw = True
+108.2426 	EXP 	brush: autoDraw = True
+108.2426 	EXP 	instructions_txt: autoDraw = True
+108.2426 	EXP 	button_clear: autoDraw = True
+108.2426 	EXP 	clear_txt: autoDraw = True
+108.2426 	EXP 	button_done: autoDraw = True
+108.2426 	EXP 	done_txt: autoDraw = True
+108.2530 	DATA 	Mouse:  Left button up, pos=(1643,147)
+109.6008 	DATA 	Mouse: Left button down, pos=(357,621)
+109.6013 	EXP 	Resetting brush parameter: brushPos.
+109.6013 	EXP 	Creating ShapeStim for brush
+112.6999 	DATA 	Mouse:  Left button up, pos=(364,628)
+112.9959 	DATA 	Mouse: Left button down, pos=(478,516)
+112.9964 	EXP 	Resetting brush parameter: brushPos.
+112.9965 	EXP 	Creating ShapeStim for brush
+113.1284 	DATA 	Mouse:  Left button up, pos=(477,505)
+113.5545 	DATA 	Mouse: Left button down, pos=(478,495)
+113.5595 	EXP 	Resetting brush parameter: brushPos.
+113.5596 	EXP 	Creating ShapeStim for brush
+116.1278 	DATA 	Mouse:  Left button up, pos=(492,472)
+117.5451 	DATA 	Mouse: Left button down, pos=(302,855)
+117.5457 	EXP 	Resetting brush parameter: brushPos.
+117.5458 	EXP 	Creating ShapeStim for brush
+119.4542 	DATA 	Mouse:  Left button up, pos=(878,478)
+120.8500 	DATA 	Mouse: Left button down, pos=(184,503)
+120.8506 	EXP 	Resetting brush parameter: brushPos.
+120.8507 	EXP 	Creating ShapeStim for brush
+121.6838 	DATA 	Mouse:  Left button up, pos=(532,216)
+122.7603 	DATA 	Mouse: Left button down, pos=(1293,870)
+122.7611 	EXP 	Resetting brush parameter: brushPos.
+122.7611 	EXP 	Creating ShapeStim for brush
+122.7682 	EXP 	instructions_txt: autoDraw = False
+122.7682 	EXP 	times_up_txt: autoDraw = True
+122.7682 	EXP 	button_next: autoDraw = True
+122.7682 	EXP 	next_txt: autoDraw = True
+122.7682 	EXP 	button_done: autoDraw = False
+122.7682 	EXP 	done_txt: autoDraw = False
+122.7682 	EXP 	object_txt: autoDraw = True
+122.7682 	EXP 	question_textbox: autoDraw = True
+122.8395 	DATA 	Mouse:  Left button up, pos=(1293,870)
+123.5969 	DATA 	Mouse: Left button down, pos=(1654,119)
+123.6166 	EXP 	Resetting brush
+123.7112 	EXP 	New trial (rep=0, index=3): OrderedDict([('trl', 26), ('stim1', 'stimuli/selection/swan_11s_17'), ('stim2', 'stimuli/selection/swan_11s_17'), ('stim', 'stimuli/selection/swan_11s_17')])
+123.7116 	WARNING 	Requested image 'stimuli/selection/swan_11s_17' not found but similar filename 'stimuli/selection/swan_11s_17.jpg' exists. This will be used instead but changing the filename is advised.
+123.7130 	EXP 	Resetting brush
+123.7146 	EXP 	Resetting brush parameter: brushPos.
+123.7147 	EXP 	Creating ShapeStim for brush
+123.7201 	EXP 	image: autoDraw = False
+123.7201 	EXP 	brush: autoDraw = False
+123.7201 	EXP 	instructions_txt: autoDraw = False
+123.7201 	EXP 	times_up_txt: autoDraw = False
+123.7201 	EXP 	button_clear: autoDraw = False
+123.7201 	EXP 	clear_txt: autoDraw = False
+123.7201 	EXP 	button_next: autoDraw = False
+123.7201 	EXP 	next_txt: autoDraw = False
+123.7201 	EXP 	button_done: autoDraw = False
+123.7201 	EXP 	done_txt: autoDraw = False
+123.7201 	EXP 	object_txt: autoDraw = False
+123.7201 	EXP 	question_textbox: autoDraw = False
+123.7201 	EXP 	image: image = 'stimuli/selection/swan_11s_17'
+123.7201 	EXP 	image: autoDraw = True
+123.7201 	EXP 	brush: autoDraw = True
+123.7201 	EXP 	instructions_txt: autoDraw = True
+123.7201 	EXP 	button_clear: autoDraw = True
+123.7201 	EXP 	clear_txt: autoDraw = True
+123.7201 	EXP 	button_done: autoDraw = True
+123.7201 	EXP 	done_txt: autoDraw = True
+123.7269 	DATA 	Mouse:  Left button up, pos=(1654,119)
+125.3490 	DATA 	Mouse: Left button down, pos=(580,339)
+125.3495 	EXP 	Resetting brush parameter: brushPos.
+125.3495 	EXP 	Creating ShapeStim for brush
+133.6576 	DATA 	Mouse:  Left button up, pos=(874,338)
+135.0849 	DATA 	Mouse: Left button down, pos=(1228,865)
+135.0855 	EXP 	Resetting brush parameter: brushPos.
+135.0857 	EXP 	Creating ShapeStim for brush
+135.0928 	EXP 	instructions_txt: autoDraw = False
+135.0928 	EXP 	times_up_txt: autoDraw = True
+135.0928 	EXP 	button_next: autoDraw = True
+135.0928 	EXP 	next_txt: autoDraw = True
+135.0928 	EXP 	button_done: autoDraw = False
+135.0928 	EXP 	done_txt: autoDraw = False
+135.0928 	EXP 	object_txt: autoDraw = True
+135.0928 	EXP 	question_textbox: autoDraw = True
+135.2081 	DATA 	Mouse:  Left button up, pos=(1228,865)
+136.1400 	DATA 	Mouse: Left button down, pos=(1580,131)
+136.1566 	EXP 	Resetting brush
+136.2410 	EXP 	New trial (rep=0, index=4): OrderedDict([('trl', 16), ('stim1', 'stimuli/selection/hamburger_05s_11'), ('stim2', 'stimuli/selection/hamburger_05s_11'), ('stim', 'stimuli/selection/hamburger_05s_11')])
+136.2414 	WARNING 	Requested image 'stimuli/selection/hamburger_05s_11' not found but similar filename 'stimuli/selection/hamburger_05s_11.jpg' exists. This will be used instead but changing the filename is advised.
+136.2427 	EXP 	Resetting brush
+136.2442 	EXP 	Resetting brush parameter: brushPos.
+136.2442 	EXP 	Creating ShapeStim for brush
+136.2496 	EXP 	image: autoDraw = False
+136.2496 	EXP 	brush: autoDraw = False
+136.2496 	EXP 	instructions_txt: autoDraw = False
+136.2496 	EXP 	times_up_txt: autoDraw = False
+136.2496 	EXP 	button_clear: autoDraw = False
+136.2496 	EXP 	clear_txt: autoDraw = False
+136.2496 	EXP 	button_next: autoDraw = False
+136.2496 	EXP 	next_txt: autoDraw = False
+136.2496 	EXP 	button_done: autoDraw = False
+136.2496 	EXP 	done_txt: autoDraw = False
+136.2496 	EXP 	object_txt: autoDraw = False
+136.2496 	EXP 	question_textbox: autoDraw = False
+136.2496 	EXP 	image: image = 'stimuli/selection/hamburger_05s_11'
+136.2496 	EXP 	image: autoDraw = True
+136.2496 	EXP 	brush: autoDraw = True
+136.2496 	EXP 	instructions_txt: autoDraw = True
+136.2496 	EXP 	button_clear: autoDraw = True
+136.2496 	EXP 	clear_txt: autoDraw = True
+136.2496 	EXP 	button_done: autoDraw = True
+136.2496 	EXP 	done_txt: autoDraw = True
+136.2843 	DATA 	Mouse:  Left button up, pos=(1580,131)
+138.6318 	DATA 	Mouse: Left button down, pos=(386,698)
+138.6325 	EXP 	Resetting brush parameter: brushPos.
+138.6325 	EXP 	Creating ShapeStim for brush
+149.4532 	DATA 	Mouse:  Left button up, pos=(585,591)
+150.6863 	DATA 	Mouse: Left button down, pos=(1187,862)
+150.6871 	EXP 	Resetting brush parameter: brushPos.
+150.6873 	EXP 	Creating ShapeStim for brush
+150.6935 	EXP 	instructions_txt: autoDraw = False
+150.6935 	EXP 	times_up_txt: autoDraw = True
+150.6935 	EXP 	button_next: autoDraw = True
+150.6935 	EXP 	next_txt: autoDraw = True
+150.6935 	EXP 	button_done: autoDraw = False
+150.6935 	EXP 	done_txt: autoDraw = False
+150.6935 	EXP 	object_txt: autoDraw = True
+150.6935 	EXP 	question_textbox: autoDraw = True
+150.7972 	DATA 	Mouse:  Left button up, pos=(1187,862)
+151.8084 	DATA 	Mouse: Left button down, pos=(1613,165)
+151.8089 	EXP 	Resetting brush parameter: brushPos.
+151.8089 	EXP 	Creating ShapeStim for brush
+151.8851 	DATA 	Mouse:  Left button up, pos=(1613,165)
+152.1451 	DATA 	Mouse: Left button down, pos=(1599,128)
+152.1693 	EXP 	Resetting brush
+152.2569 	EXP 	New trial (rep=0, index=5): OrderedDict([('trl', 10), ('stim1', 'stimuli/selection/cow_08s_13'), ('stim2', 'stimuli/selection/cow_08s_13'), ('stim', 'stimuli/selection/cow_08s_13')])
+152.2572 	WARNING 	Requested image 'stimuli/selection/cow_08s_13' not found but similar filename 'stimuli/selection/cow_08s_13.jpg' exists. This will be used instead but changing the filename is advised.
+152.2589 	EXP 	Resetting brush
+152.2607 	EXP 	Resetting brush parameter: brushPos.
+152.2607 	EXP 	Creating ShapeStim for brush
+152.2662 	EXP 	image: autoDraw = False
+152.2662 	EXP 	brush: autoDraw = False
+152.2662 	EXP 	instructions_txt: autoDraw = False
+152.2662 	EXP 	times_up_txt: autoDraw = False
+152.2662 	EXP 	button_clear: autoDraw = False
+152.2662 	EXP 	clear_txt: autoDraw = False
+152.2662 	EXP 	button_next: autoDraw = False
+152.2662 	EXP 	next_txt: autoDraw = False
+152.2662 	EXP 	button_done: autoDraw = False
+152.2662 	EXP 	done_txt: autoDraw = False
+152.2662 	EXP 	object_txt: autoDraw = False
+152.2662 	EXP 	question_textbox: autoDraw = False
+152.2662 	EXP 	image: image = 'stimuli/selection/cow_08s_13'
+152.2662 	EXP 	image: autoDraw = True
+152.2662 	EXP 	brush: autoDraw = True
+152.2662 	EXP 	instructions_txt: autoDraw = True
+152.2662 	EXP 	button_clear: autoDraw = True
+152.2662 	EXP 	clear_txt: autoDraw = True
+152.2662 	EXP 	button_done: autoDraw = True
+152.2662 	EXP 	done_txt: autoDraw = True
+152.2873 	DATA 	Mouse:  Left button up, pos=(1597,125)
+153.9884 	DATA 	Mouse: Left button down, pos=(179,595)
+153.9938 	EXP 	Resetting brush parameter: brushPos.
+153.9938 	EXP 	Creating ShapeStim for brush
+162.7293 	DATA 	Mouse:  Left button up, pos=(471,537)
+163.6251 	DATA 	Mouse: Left button down, pos=(1186,863)
+163.6257 	EXP 	Resetting brush parameter: brushPos.
+163.6259 	EXP 	Creating ShapeStim for brush
+163.6322 	EXP 	instructions_txt: autoDraw = False
+163.6322 	EXP 	times_up_txt: autoDraw = True
+163.6322 	EXP 	button_next: autoDraw = True
+163.6322 	EXP 	next_txt: autoDraw = True
+163.6322 	EXP 	button_done: autoDraw = False
+163.6322 	EXP 	done_txt: autoDraw = False
+163.6322 	EXP 	object_txt: autoDraw = True
+163.6322 	EXP 	question_textbox: autoDraw = True
+163.7393 	DATA 	Mouse:  Left button up, pos=(1186,863)
+164.7761 	DATA 	Mouse: Left button down, pos=(1587,136)
+164.7964 	EXP 	Resetting brush
+164.8859 	EXP 	New trial (rep=0, index=6): OrderedDict([('trl', 6), ('stim1', 'stimuli/selection/bowtie_02s_13'), ('stim2', 'stimuli/selection/bowtie_02s_13'), ('stim', 'stimuli/selection/bowtie_02s_13')])
+164.8861 	WARNING 	Requested image 'stimuli/selection/bowtie_02s_13' not found but similar filename 'stimuli/selection/bowtie_02s_13.jpg' exists. This will be used instead but changing the filename is advised.
+164.8873 	EXP 	Resetting brush
+164.8888 	EXP 	Resetting brush parameter: brushPos.
+164.8888 	EXP 	Creating ShapeStim for brush
+164.8944 	EXP 	image: autoDraw = False
+164.8944 	EXP 	brush: autoDraw = False
+164.8944 	EXP 	instructions_txt: autoDraw = False
+164.8944 	EXP 	times_up_txt: autoDraw = False
+164.8944 	EXP 	button_clear: autoDraw = False
+164.8944 	EXP 	clear_txt: autoDraw = False
+164.8944 	EXP 	button_next: autoDraw = False
+164.8944 	EXP 	next_txt: autoDraw = False
+164.8944 	EXP 	button_done: autoDraw = False
+164.8944 	EXP 	done_txt: autoDraw = False
+164.8944 	EXP 	object_txt: autoDraw = False
+164.8944 	EXP 	question_textbox: autoDraw = False
+164.8944 	EXP 	image: image = 'stimuli/selection/bowtie_02s_13'
+164.8944 	EXP 	image: autoDraw = True
+164.8944 	EXP 	brush: autoDraw = True
+164.8944 	EXP 	instructions_txt: autoDraw = True
+164.8944 	EXP 	button_clear: autoDraw = True
+164.8944 	EXP 	clear_txt: autoDraw = True
+164.8944 	EXP 	button_done: autoDraw = True
+164.8944 	EXP 	done_txt: autoDraw = True
+164.9007 	DATA 	Mouse:  Left button up, pos=(1587,136)
+166.0650 	DATA 	Mouse: Left button down, pos=(404,252)
+166.0656 	EXP 	Resetting brush parameter: brushPos.
+166.0656 	EXP 	Creating ShapeStim for brush
+168.7582 	DATA 	Mouse:  Left button up, pos=(588,591)
+169.3002 	DATA 	Mouse: Left button down, pos=(540,606)
+169.3007 	EXP 	Resetting brush parameter: brushPos.
+169.3008 	EXP 	Creating ShapeStim for brush
+172.1780 	DATA 	Mouse:  Left button up, pos=(877,546)
+173.1619 	DATA 	Mouse: Left button down, pos=(1211,865)
+173.1625 	EXP 	Resetting brush parameter: brushPos.
+173.1626 	EXP 	Creating ShapeStim for brush
+173.1691 	EXP 	instructions_txt: autoDraw = False
+173.1691 	EXP 	times_up_txt: autoDraw = True
+173.1691 	EXP 	button_next: autoDraw = True
+173.1691 	EXP 	next_txt: autoDraw = True
+173.1691 	EXP 	button_done: autoDraw = False
+173.1691 	EXP 	done_txt: autoDraw = False
+173.1691 	EXP 	object_txt: autoDraw = True
+173.1691 	EXP 	question_textbox: autoDraw = True
+173.2830 	DATA 	Mouse:  Left button up, pos=(1211,865)
+174.2459 	DATA 	Mouse: Left button down, pos=(1638,125)
+174.2618 	EXP 	Resetting brush
+174.3476 	EXP 	New trial (rep=0, index=7): OrderedDict([('trl', 8), ('stim1', 'stimuli/selection/butterfly_02s_15'), ('stim2', 'stimuli/selection/butterfly_02s_15'), ('stim', 'stimuli/selection/butterfly_02s_15')])
+174.3479 	WARNING 	Requested image 'stimuli/selection/butterfly_02s_15' not found but similar filename 'stimuli/selection/butterfly_02s_15.jpg' exists. This will be used instead but changing the filename is advised.
+174.3490 	EXP 	Resetting brush
+174.3504 	EXP 	Resetting brush parameter: brushPos.
+174.3504 	EXP 	Creating ShapeStim for brush
+174.3558 	EXP 	image: autoDraw = False
+174.3558 	EXP 	brush: autoDraw = False
+174.3558 	EXP 	instructions_txt: autoDraw = False
+174.3558 	EXP 	times_up_txt: autoDraw = False
+174.3558 	EXP 	button_clear: autoDraw = False
+174.3558 	EXP 	clear_txt: autoDraw = False
+174.3558 	EXP 	button_next: autoDraw = False
+174.3558 	EXP 	next_txt: autoDraw = False
+174.3558 	EXP 	button_done: autoDraw = False
+174.3558 	EXP 	done_txt: autoDraw = False
+174.3558 	EXP 	object_txt: autoDraw = False
+174.3558 	EXP 	question_textbox: autoDraw = False
+174.3558 	EXP 	image: image = 'stimuli/selection/butterfly_02s_15'
+174.3558 	EXP 	image: autoDraw = True
+174.3558 	EXP 	brush: autoDraw = True
+174.3558 	EXP 	instructions_txt: autoDraw = True
+174.3558 	EXP 	button_clear: autoDraw = True
+174.3558 	EXP 	clear_txt: autoDraw = True
+174.3558 	EXP 	button_done: autoDraw = True
+174.3558 	EXP 	done_txt: autoDraw = True
+174.4187 	DATA 	Mouse:  Left button up, pos=(1638,125)
+176.9909 	DATA 	Mouse: Left button down, pos=(185,735)
+176.9947 	EXP 	Resetting brush parameter: brushPos.
+176.9947 	EXP 	Creating ShapeStim for brush
+178.2676 	DATA 	Mouse:  Left button up, pos=(371,728)
+178.8028 	DATA 	Mouse: Left button down, pos=(168,742)
+178.8073 	EXP 	Resetting brush parameter: brushPos.
+178.8073 	EXP 	Creating ShapeStim for brush
+179.0360 	DATA 	Mouse:  Left button up, pos=(168,743)
+179.2929 	DATA 	Mouse: Left button down, pos=(184,741)
+179.2933 	EXP 	Resetting brush parameter: brushPos.
+179.2933 	EXP 	Creating ShapeStim for brush
+184.4770 	DATA 	Mouse:  Left button up, pos=(259,302)
+185.8075 	DATA 	Mouse: Left button down, pos=(531,630)
+185.8075 	EXP 	Resetting brush parameter: brushPos.
+185.8076 	EXP 	Creating ShapeStim for brush
+187.1820 	DATA 	Mouse:  Left button up, pos=(823,481)
+187.9601 	DATA 	Mouse: Left button down, pos=(1229,872)
+187.9608 	EXP 	Resetting brush parameter: brushPos.
+187.9609 	EXP 	Creating ShapeStim for brush
+187.9679 	EXP 	instructions_txt: autoDraw = False
+187.9679 	EXP 	times_up_txt: autoDraw = True
+187.9679 	EXP 	button_next: autoDraw = True
+187.9679 	EXP 	next_txt: autoDraw = True
+187.9679 	EXP 	button_done: autoDraw = False
+187.9679 	EXP 	done_txt: autoDraw = False
+187.9679 	EXP 	object_txt: autoDraw = True
+187.9679 	EXP 	question_textbox: autoDraw = True
+188.0784 	DATA 	Mouse:  Left button up, pos=(1229,872)
+189.0113 	DATA 	Mouse: Left button down, pos=(1628,118)
+189.0330 	EXP 	Resetting brush
+189.1206 	EXP 	New trial (rep=0, index=8): OrderedDict([('trl', 27), ('stim1', 'stimuli/selection/teddy_bear_06s_11'), ('stim2', 'stimuli/selection/teddy_bear_06s_11'), ('stim', 'stimuli/selection/teddy_bear_06s_11')])
+189.1209 	WARNING 	Requested image 'stimuli/selection/teddy_bear_06s_11' not found but similar filename 'stimuli/selection/teddy_bear_06s_11.jpg' exists. This will be used instead but changing the filename is advised.
+189.1222 	EXP 	Resetting brush
+189.1239 	EXP 	Resetting brush parameter: brushPos.
+189.1239 	EXP 	Creating ShapeStim for brush
+189.1295 	EXP 	image: autoDraw = False
+189.1295 	EXP 	brush: autoDraw = False
+189.1295 	EXP 	instructions_txt: autoDraw = False
+189.1295 	EXP 	times_up_txt: autoDraw = False
+189.1295 	EXP 	button_clear: autoDraw = False
+189.1295 	EXP 	clear_txt: autoDraw = False
+189.1295 	EXP 	button_next: autoDraw = False
+189.1295 	EXP 	next_txt: autoDraw = False
+189.1295 	EXP 	button_done: autoDraw = False
+189.1295 	EXP 	done_txt: autoDraw = False
+189.1295 	EXP 	object_txt: autoDraw = False
+189.1295 	EXP 	question_textbox: autoDraw = False
+189.1295 	EXP 	image: image = 'stimuli/selection/teddy_bear_06s_11'
+189.1295 	EXP 	image: autoDraw = True
+189.1295 	EXP 	brush: autoDraw = True
+189.1295 	EXP 	instructions_txt: autoDraw = True
+189.1295 	EXP 	button_clear: autoDraw = True
+189.1295 	EXP 	clear_txt: autoDraw = True
+189.1295 	EXP 	button_done: autoDraw = True
+189.1295 	EXP 	done_txt: autoDraw = True
+189.1774 	DATA 	Mouse:  Left button up, pos=(1627,117)
+190.5678 	DATA 	Mouse: Left button down, pos=(478,303)
+190.5736 	EXP 	Resetting brush parameter: brushPos.
+190.5736 	EXP 	Creating ShapeStim for brush
+198.2073 	DATA 	Mouse:  Left button up, pos=(476,295)
+199.3794 	DATA 	Mouse: Left button down, pos=(1228,853)
+199.3795 	EXP 	Resetting brush parameter: brushPos.
+199.3796 	EXP 	Creating ShapeStim for brush
+199.3922 	EXP 	instructions_txt: autoDraw = False
+199.3922 	EXP 	times_up_txt: autoDraw = True
+199.3922 	EXP 	button_next: autoDraw = True
+199.3922 	EXP 	next_txt: autoDraw = True
+199.3922 	EXP 	button_done: autoDraw = False
+199.3922 	EXP 	done_txt: autoDraw = False
+199.3922 	EXP 	object_txt: autoDraw = True
+199.3922 	EXP 	question_textbox: autoDraw = True
+199.4838 	DATA 	Mouse:  Left button up, pos=(1228,853)
+200.3395 	DATA 	Mouse: Left button down, pos=(1578,126)
+200.3587 	EXP 	Resetting brush
+200.4552 	EXP 	New trial (rep=0, index=9): OrderedDict([('trl', 3), ('stim1', 'stimuli/selection/beaker_01b_13'), ('stim2', 'stimuli/selection/beaker_01b_13'), ('stim', 'stimuli/selection/beaker_01b_13')])
+200.4556 	WARNING 	Requested image 'stimuli/selection/beaker_01b_13' not found but similar filename 'stimuli/selection/beaker_01b_13.jpg' exists. This will be used instead but changing the filename is advised.
+200.4568 	EXP 	Resetting brush
+200.4582 	EXP 	Resetting brush parameter: brushPos.
+200.4582 	EXP 	Creating ShapeStim for brush
+200.4637 	EXP 	image: autoDraw = False
+200.4637 	EXP 	brush: autoDraw = False
+200.4637 	EXP 	instructions_txt: autoDraw = False
+200.4637 	EXP 	times_up_txt: autoDraw = False
+200.4637 	EXP 	button_clear: autoDraw = False
+200.4637 	EXP 	clear_txt: autoDraw = False
+200.4637 	EXP 	button_next: autoDraw = False
+200.4637 	EXP 	next_txt: autoDraw = False
+200.4637 	EXP 	button_done: autoDraw = False
+200.4637 	EXP 	done_txt: autoDraw = False
+200.4637 	EXP 	object_txt: autoDraw = False
+200.4637 	EXP 	question_textbox: autoDraw = False
+200.4637 	EXP 	image: image = 'stimuli/selection/beaker_01b_13'
+200.4637 	EXP 	image: autoDraw = True
+200.4637 	EXP 	brush: autoDraw = True
+200.4637 	EXP 	instructions_txt: autoDraw = True
+200.4637 	EXP 	button_clear: autoDraw = True
+200.4637 	EXP 	clear_txt: autoDraw = True
+200.4637 	EXP 	button_done: autoDraw = True
+200.4637 	EXP 	done_txt: autoDraw = True
+200.4648 	DATA 	Mouse:  Left button up, pos=(1578,126)
+201.6559 	DATA 	Mouse: Left button down, pos=(436,793)
+201.6567 	EXP 	Resetting brush parameter: brushPos.
+201.6567 	EXP 	Creating ShapeStim for brush
+203.5030 	DATA 	Mouse:  Left button up, pos=(634,274)
+204.1100 	DATA 	Mouse: Left button down, pos=(1204,863)
+204.1146 	EXP 	Resetting brush parameter: brushPos.
+204.1147 	EXP 	Creating ShapeStim for brush
+204.1216 	EXP 	instructions_txt: autoDraw = False
+204.1216 	EXP 	times_up_txt: autoDraw = True
+204.1216 	EXP 	button_next: autoDraw = True
+204.1216 	EXP 	next_txt: autoDraw = True
+204.1216 	EXP 	button_done: autoDraw = False
+204.1216 	EXP 	done_txt: autoDraw = False
+204.1216 	EXP 	object_txt: autoDraw = True
+204.1216 	EXP 	question_textbox: autoDraw = True
+204.2254 	DATA 	Mouse:  Left button up, pos=(1204,863)
+205.0253 	DATA 	Mouse: Left button down, pos=(1605,125)
+205.0344 	EXP 	Resetting brush
+205.1196 	EXP 	New trial (rep=0, index=10): OrderedDict([('trl', 13), ('stim1', 'stimuli/selection/giraffe_20s_15'), ('stim2', 'stimuli/selection/giraffe_20s_15'), ('stim', 'stimuli/selection/giraffe_20s_15')])
+205.1201 	WARNING 	Requested image 'stimuli/selection/giraffe_20s_15' not found but similar filename 'stimuli/selection/giraffe_20s_15.jpg' exists. This will be used instead but changing the filename is advised.
+205.1214 	EXP 	Resetting brush
+205.1231 	EXP 	Resetting brush parameter: brushPos.
+205.1231 	EXP 	Creating ShapeStim for brush
+205.1284 	EXP 	image: autoDraw = False
+205.1284 	EXP 	brush: autoDraw = False
+205.1284 	EXP 	instructions_txt: autoDraw = False
+205.1284 	EXP 	times_up_txt: autoDraw = False
+205.1284 	EXP 	button_clear: autoDraw = False
+205.1284 	EXP 	clear_txt: autoDraw = False
+205.1284 	EXP 	button_next: autoDraw = False
+205.1284 	EXP 	next_txt: autoDraw = False
+205.1284 	EXP 	button_done: autoDraw = False
+205.1284 	EXP 	done_txt: autoDraw = False
+205.1284 	EXP 	object_txt: autoDraw = False
+205.1284 	EXP 	question_textbox: autoDraw = False
+205.1284 	EXP 	image: image = 'stimuli/selection/giraffe_20s_15'
+205.1284 	EXP 	image: autoDraw = True
+205.1284 	EXP 	brush: autoDraw = True
+205.1284 	EXP 	instructions_txt: autoDraw = True
+205.1284 	EXP 	button_clear: autoDraw = True
+205.1284 	EXP 	clear_txt: autoDraw = True
+205.1284 	EXP 	button_done: autoDraw = True
+205.1284 	EXP 	done_txt: autoDraw = True
+205.1609 	DATA 	Mouse:  Left button up, pos=(1600,125)
+206.1700 	DATA 	Mouse: Left button down, pos=(331,782)
+206.1753 	EXP 	Resetting brush parameter: brushPos.
+206.1753 	EXP 	Creating ShapeStim for brush
+209.8614 	DATA 	Mouse:  Left button up, pos=(448,285)
+210.6678 	DATA 	Mouse: Left button down, pos=(1230,859)
+210.6687 	EXP 	Resetting brush parameter: brushPos.
+210.6688 	EXP 	Creating ShapeStim for brush
+210.6751 	EXP 	instructions_txt: autoDraw = False
+210.6751 	EXP 	times_up_txt: autoDraw = True
+210.6751 	EXP 	button_next: autoDraw = True
+210.6751 	EXP 	next_txt: autoDraw = True
+210.6751 	EXP 	button_done: autoDraw = False
+210.6751 	EXP 	done_txt: autoDraw = False
+210.6751 	EXP 	object_txt: autoDraw = True
+210.6751 	EXP 	question_textbox: autoDraw = True
+210.7888 	DATA 	Mouse:  Left button up, pos=(1230,859)
+212.2278 	DATA 	Mouse: Left button down, pos=(1620,134)
+212.2404 	EXP 	Resetting brush
+212.3260 	EXP 	New trial (rep=0, index=11): OrderedDict([('trl', 33), ('stim1', 'stimuli/glasses_13s_9'), ('stim2', 'stimuli/glasses_13s_9'), ('stim', 'stimuli/glasses_13s_9')])
+212.3264 	WARNING 	Requested image 'stimuli/glasses_13s_9' not found but similar filename 'stimuli/glasses_13s_9.jpg' exists. This will be used instead but changing the filename is advised.
+212.3279 	EXP 	Resetting brush
+212.3294 	EXP 	Resetting brush parameter: brushPos.
+212.3294 	EXP 	Creating ShapeStim for brush
+212.3347 	EXP 	image: autoDraw = False
+212.3347 	EXP 	brush: autoDraw = False
+212.3347 	EXP 	instructions_txt: autoDraw = False
+212.3347 	EXP 	times_up_txt: autoDraw = False
+212.3347 	EXP 	button_clear: autoDraw = False
+212.3347 	EXP 	clear_txt: autoDraw = False
+212.3347 	EXP 	button_next: autoDraw = False
+212.3347 	EXP 	next_txt: autoDraw = False
+212.3347 	EXP 	button_done: autoDraw = False
+212.3347 	EXP 	done_txt: autoDraw = False
+212.3347 	EXP 	object_txt: autoDraw = False
+212.3347 	EXP 	question_textbox: autoDraw = False
+212.3347 	EXP 	image: image = 'stimuli/glasses_13s_9'
+212.3347 	EXP 	image: autoDraw = True
+212.3347 	EXP 	brush: autoDraw = True
+212.3347 	EXP 	instructions_txt: autoDraw = True
+212.3347 	EXP 	button_clear: autoDraw = True
+212.3347 	EXP 	clear_txt: autoDraw = True
+212.3347 	EXP 	button_done: autoDraw = True
+212.3347 	EXP 	done_txt: autoDraw = True
+212.3405 	DATA 	Mouse:  Left button up, pos=(1620,135)
+213.7279 	DATA 	Mouse: Left button down, pos=(571,618)
+213.7284 	EXP 	Resetting brush parameter: brushPos.
+213.7284 	EXP 	Creating ShapeStim for brush
+223.7941 	DATA 	Mouse:  Left button up, pos=(522,635)
+224.4877 	DATA 	Mouse: Left button down, pos=(1235,871)
+224.4886 	EXP 	Resetting brush parameter: brushPos.
+224.4888 	EXP 	Creating ShapeStim for brush
+224.4958 	EXP 	instructions_txt: autoDraw = False
+224.4958 	EXP 	times_up_txt: autoDraw = True
+224.4958 	EXP 	button_next: autoDraw = True
+224.4958 	EXP 	next_txt: autoDraw = True
+224.4958 	EXP 	button_done: autoDraw = False
+224.4958 	EXP 	done_txt: autoDraw = False
+224.4958 	EXP 	object_txt: autoDraw = True
+224.4958 	EXP 	question_textbox: autoDraw = True
+224.5817 	DATA 	Mouse:  Left button up, pos=(1235,871)
+225.7453 	DATA 	Mouse: Left button down, pos=(1605,120)
+225.7661 	EXP 	Resetting brush
+225.8609 	EXP 	New trial (rep=0, index=12): OrderedDict([('trl', 34), ('stim1', 'stimuli/magnifying_glass_01b_11'), ('stim2', 'stimuli/magnifying_glass_01b_11'), ('stim', 'stimuli/magnifying_glass_01b_11')])
+225.8613 	WARNING 	Requested image 'stimuli/magnifying_glass_01b_11' not found but similar filename 'stimuli/magnifying_glass_01b_11.jpg' exists. This will be used instead but changing the filename is advised.
+225.8625 	EXP 	Resetting brush
+225.8640 	EXP 	Resetting brush parameter: brushPos.
+225.8640 	EXP 	Creating ShapeStim for brush
+225.8694 	EXP 	image: autoDraw = False
+225.8694 	EXP 	brush: autoDraw = False
+225.8694 	EXP 	instructions_txt: autoDraw = False
+225.8694 	EXP 	times_up_txt: autoDraw = False
+225.8694 	EXP 	button_clear: autoDraw = False
+225.8694 	EXP 	clear_txt: autoDraw = False
+225.8694 	EXP 	button_next: autoDraw = False
+225.8694 	EXP 	next_txt: autoDraw = False
+225.8694 	EXP 	button_done: autoDraw = False
+225.8694 	EXP 	done_txt: autoDraw = False
+225.8694 	EXP 	object_txt: autoDraw = False
+225.8694 	EXP 	question_textbox: autoDraw = False
+225.8694 	EXP 	image: image = 'stimuli/magnifying_glass_01b_11'
+225.8694 	EXP 	image: autoDraw = True
+225.8694 	EXP 	brush: autoDraw = True
+225.8694 	EXP 	instructions_txt: autoDraw = True
+225.8694 	EXP 	button_clear: autoDraw = True
+225.8694 	EXP 	clear_txt: autoDraw = True
+225.8694 	EXP 	button_done: autoDraw = True
+225.8694 	EXP 	done_txt: autoDraw = True
+225.8805 	DATA 	Mouse:  Left button up, pos=(1602,122)
+227.3401 	DATA 	Mouse: Left button down, pos=(187,215)
+227.3456 	EXP 	Resetting brush parameter: brushPos.
+227.3457 	EXP 	Creating ShapeStim for brush
+234.0257 	DATA 	Mouse:  Left button up, pos=(353,217)
+235.9563 	DATA 	Mouse: Left button down, pos=(1222,872)
+235.9572 	EXP 	Resetting brush parameter: brushPos.
+235.9573 	EXP 	Creating ShapeStim for brush
+235.9637 	EXP 	instructions_txt: autoDraw = False
+235.9637 	EXP 	times_up_txt: autoDraw = True
+235.9637 	EXP 	button_next: autoDraw = True
+235.9637 	EXP 	next_txt: autoDraw = True
+235.9637 	EXP 	button_done: autoDraw = False
+235.9637 	EXP 	done_txt: autoDraw = False
+235.9637 	EXP 	object_txt: autoDraw = True
+235.9637 	EXP 	question_textbox: autoDraw = True
+236.0479 	DATA 	Mouse:  Left button up, pos=(1222,872)
+237.0545 	DATA 	Mouse: Left button down, pos=(1578,139)
+237.0694 	EXP 	Resetting brush
+237.1656 	EXP 	New trial (rep=0, index=13): OrderedDict([('trl', 15), ('stim1', 'stimuli/selection/hairbrush_07s_17'), ('stim2', 'stimuli/selection/hairbrush_07s_17'), ('stim', 'stimuli/selection/hairbrush_07s_17')])
+237.1659 	WARNING 	Requested image 'stimuli/selection/hairbrush_07s_17' not found but similar filename 'stimuli/selection/hairbrush_07s_17.jpg' exists. This will be used instead but changing the filename is advised.
+237.1672 	EXP 	Resetting brush
+237.1688 	EXP 	Resetting brush parameter: brushPos.
+237.1688 	EXP 	Creating ShapeStim for brush
+237.1743 	EXP 	image: autoDraw = False
+237.1743 	EXP 	brush: autoDraw = False
+237.1743 	EXP 	instructions_txt: autoDraw = False
+237.1743 	EXP 	times_up_txt: autoDraw = False
+237.1743 	EXP 	button_clear: autoDraw = False
+237.1743 	EXP 	clear_txt: autoDraw = False
+237.1743 	EXP 	button_next: autoDraw = False
+237.1743 	EXP 	next_txt: autoDraw = False
+237.1743 	EXP 	button_done: autoDraw = False
+237.1743 	EXP 	done_txt: autoDraw = False
+237.1743 	EXP 	object_txt: autoDraw = False
+237.1743 	EXP 	question_textbox: autoDraw = False
+237.1743 	EXP 	image: image = 'stimuli/selection/hairbrush_07s_17'
+237.1743 	EXP 	image: autoDraw = True
+237.1743 	EXP 	brush: autoDraw = True
+237.1743 	EXP 	instructions_txt: autoDraw = True
+237.1743 	EXP 	button_clear: autoDraw = True
+237.1743 	EXP 	clear_txt: autoDraw = True
+237.1743 	EXP 	button_done: autoDraw = True
+237.1743 	EXP 	done_txt: autoDraw = True
+237.1831 	DATA 	Mouse:  Left button up, pos=(1578,139)
+239.6784 	DATA 	Mouse: Left button down, pos=(234,215)
+239.6820 	EXP 	Resetting brush parameter: brushPos.
+239.6820 	EXP 	Creating ShapeStim for brush
+239.8348 	DATA 	Mouse:  Left button up, pos=(215,262)
+239.9348 	DATA 	Mouse: Left button down, pos=(209,286)
+239.9393 	EXP 	Resetting brush parameter: brushPos.
+239.9393 	EXP 	Creating ShapeStim for brush
+240.0494 	DATA 	Mouse:  Left button up, pos=(211,295)
+240.6953 	DATA 	Mouse: Left button down, pos=(233,207)
+240.6958 	EXP 	Resetting brush parameter: brushPos.
+240.6959 	EXP 	Creating ShapeStim for brush
+248.8549 	DATA 	Mouse:  Left button up, pos=(525,588)
+250.4462 	DATA 	Mouse: Left button down, pos=(1226,868)
+250.4469 	EXP 	Resetting brush parameter: brushPos.
+250.4470 	EXP 	Creating ShapeStim for brush
+250.4540 	EXP 	instructions_txt: autoDraw = False
+250.4540 	EXP 	times_up_txt: autoDraw = True
+250.4540 	EXP 	button_next: autoDraw = True
+250.4540 	EXP 	next_txt: autoDraw = True
+250.4540 	EXP 	button_done: autoDraw = False
+250.4540 	EXP 	done_txt: autoDraw = False
+250.4540 	EXP 	object_txt: autoDraw = True
+250.4540 	EXP 	question_textbox: autoDraw = True
+250.5830 	DATA 	Mouse:  Left button up, pos=(1226,868)
+252.3478 	DATA 	Mouse: Left button down, pos=(1617,132)
+252.3704 	EXP 	Resetting brush
+252.4601 	EXP 	New trial (rep=0, index=14): OrderedDict([('trl', 28), ('stim1', 'stimuli/selection/umbrella_15s_13'), ('stim2', 'stimuli/selection/umbrella_15s_13'), ('stim', 'stimuli/selection/umbrella_15s_13')])
+252.4606 	WARNING 	Requested image 'stimuli/selection/umbrella_15s_13' not found but similar filename 'stimuli/selection/umbrella_15s_13.jpg' exists. This will be used instead but changing the filename is advised.
+252.4619 	EXP 	Resetting brush
+252.4628 	DATA 	Mouse:  Left button up, pos=(1611,135)
+252.4687 	EXP 	image: autoDraw = False
+252.4687 	EXP 	brush: autoDraw = False
+252.4687 	EXP 	instructions_txt: autoDraw = False
+252.4687 	EXP 	times_up_txt: autoDraw = False
+252.4687 	EXP 	button_clear: autoDraw = False
+252.4687 	EXP 	clear_txt: autoDraw = False
+252.4687 	EXP 	button_next: autoDraw = False
+252.4687 	EXP 	next_txt: autoDraw = False
+252.4687 	EXP 	button_done: autoDraw = False
+252.4687 	EXP 	done_txt: autoDraw = False
+252.4687 	EXP 	object_txt: autoDraw = False
+252.4687 	EXP 	question_textbox: autoDraw = False
+252.4687 	EXP 	image: image = 'stimuli/selection/umbrella_15s_13'
+252.4687 	EXP 	image: autoDraw = True
+252.4687 	EXP 	brush: autoDraw = True
+252.4687 	EXP 	instructions_txt: autoDraw = True
+252.4687 	EXP 	button_clear: autoDraw = True
+252.4687 	EXP 	clear_txt: autoDraw = True
+252.4687 	EXP 	button_done: autoDraw = True
+252.4687 	EXP 	done_txt: autoDraw = True
+254.0497 	DATA 	Mouse: Left button down, pos=(271,664)
+254.0504 	EXP 	Resetting brush parameter: brushPos.
+254.0504 	EXP 	Creating ShapeStim for brush
+259.3757 	DATA 	Mouse:  Left button up, pos=(378,796)
+259.6884 	DATA 	Mouse: Left button down, pos=(377,758)
+259.6889 	EXP 	Resetting brush parameter: brushPos.
+259.6890 	EXP 	Creating ShapeStim for brush
+268.7574 	DATA 	Mouse:  Left button up, pos=(698,801)
+270.0581 	DATA 	Mouse: Left button down, pos=(522,529)
+270.0632 	EXP 	Resetting brush parameter: brushPos.
+270.0633 	EXP 	Creating ShapeStim for brush
+270.8686 	DATA 	Mouse:  Left button up, pos=(546,244)
+271.5521 	DATA 	Mouse: Left button down, pos=(1253,870)
+271.5559 	EXP 	Resetting brush parameter: brushPos.
+271.5559 	EXP 	Creating ShapeStim for brush
+271.5637 	EXP 	instructions_txt: autoDraw = False
+271.5637 	EXP 	times_up_txt: autoDraw = True
+271.5637 	EXP 	button_next: autoDraw = True
+271.5637 	EXP 	next_txt: autoDraw = True
+271.5637 	EXP 	button_done: autoDraw = False
+271.5637 	EXP 	done_txt: autoDraw = False
+271.5637 	EXP 	object_txt: autoDraw = True
+271.5637 	EXP 	question_textbox: autoDraw = True
+271.6462 	DATA 	Mouse:  Left button up, pos=(1253,870)
+272.5410 	DATA 	Mouse: Left button down, pos=(1609,140)
+272.5670 	EXP 	Resetting brush
+272.6582 	EXP 	New trial (rep=0, index=15): OrderedDict([('trl', 11), ('stim1', 'stimuli/selection/dolphin_14s_11'), ('stim2', 'stimuli/selection/dolphin_14s_11'), ('stim', 'stimuli/selection/dolphin_14s_11')])
+272.6587 	WARNING 	Requested image 'stimuli/selection/dolphin_14s_11' not found but similar filename 'stimuli/selection/dolphin_14s_11.jpg' exists. This will be used instead but changing the filename is advised.
+272.6602 	EXP 	Resetting brush
+272.6611 	DATA 	Mouse:  Left button up, pos=(1609,140)
+272.6668 	EXP 	image: autoDraw = False
+272.6668 	EXP 	brush: autoDraw = False
+272.6668 	EXP 	instructions_txt: autoDraw = False
+272.6668 	EXP 	times_up_txt: autoDraw = False
+272.6668 	EXP 	button_clear: autoDraw = False
+272.6668 	EXP 	clear_txt: autoDraw = False
+272.6668 	EXP 	button_next: autoDraw = False
+272.6668 	EXP 	next_txt: autoDraw = False
+272.6668 	EXP 	button_done: autoDraw = False
+272.6668 	EXP 	done_txt: autoDraw = False
+272.6668 	EXP 	object_txt: autoDraw = False
+272.6668 	EXP 	question_textbox: autoDraw = False
+272.6668 	EXP 	image: image = 'stimuli/selection/dolphin_14s_11'
+272.6668 	EXP 	image: autoDraw = True
+272.6668 	EXP 	brush: autoDraw = True
+272.6668 	EXP 	instructions_txt: autoDraw = True
+272.6668 	EXP 	button_clear: autoDraw = True
+272.6668 	EXP 	clear_txt: autoDraw = True
+272.6668 	EXP 	button_done: autoDraw = True
+272.6668 	EXP 	done_txt: autoDraw = True
+274.3277 	DATA 	Mouse: Left button down, pos=(243,888)
+274.3333 	EXP 	Resetting brush parameter: brushPos.
+274.3333 	EXP 	Creating ShapeStim for brush
+281.8953 	DATA 	Mouse:  Left button up, pos=(561,252)
+282.6800 	DATA 	Mouse: Left button down, pos=(1265,864)
+282.6807 	EXP 	Resetting brush parameter: brushPos.
+282.6808 	EXP 	Creating ShapeStim for brush
+282.6872 	EXP 	instructions_txt: autoDraw = False
+282.6872 	EXP 	times_up_txt: autoDraw = True
+282.6872 	EXP 	button_next: autoDraw = True
+282.6872 	EXP 	next_txt: autoDraw = True
+282.6872 	EXP 	button_done: autoDraw = False
+282.6872 	EXP 	done_txt: autoDraw = False
+282.6872 	EXP 	object_txt: autoDraw = True
+282.6872 	EXP 	question_textbox: autoDraw = True
+282.7624 	DATA 	Mouse:  Left button up, pos=(1265,864)
+283.6100 	DATA 	Mouse: Left button down, pos=(1598,131)
+283.6249 	EXP 	Resetting brush
+283.7202 	EXP 	New trial (rep=0, index=16): OrderedDict([('trl', 25), ('stim1', 'stimuli/selection/saxophone_12s_13'), ('stim2', 'stimuli/selection/saxophone_12s_13'), ('stim', 'stimuli/selection/saxophone_12s_13')])
+283.7205 	WARNING 	Requested image 'stimuli/selection/saxophone_12s_13' not found but similar filename 'stimuli/selection/saxophone_12s_13.jpg' exists. This will be used instead but changing the filename is advised.
+283.7218 	EXP 	Resetting brush
+283.7227 	DATA 	Mouse:  Left button up, pos=(1598,132)
+283.7288 	EXP 	image: autoDraw = False
+283.7288 	EXP 	brush: autoDraw = False
+283.7288 	EXP 	instructions_txt: autoDraw = False
+283.7288 	EXP 	times_up_txt: autoDraw = False
+283.7288 	EXP 	button_clear: autoDraw = False
+283.7288 	EXP 	clear_txt: autoDraw = False
+283.7288 	EXP 	button_next: autoDraw = False
+283.7288 	EXP 	next_txt: autoDraw = False
+283.7288 	EXP 	button_done: autoDraw = False
+283.7288 	EXP 	done_txt: autoDraw = False
+283.7288 	EXP 	object_txt: autoDraw = False
+283.7288 	EXP 	question_textbox: autoDraw = False
+283.7288 	EXP 	image: image = 'stimuli/selection/saxophone_12s_13'
+283.7288 	EXP 	image: autoDraw = True
+283.7288 	EXP 	brush: autoDraw = True
+283.7288 	EXP 	instructions_txt: autoDraw = True
+283.7288 	EXP 	button_clear: autoDraw = True
+283.7288 	EXP 	clear_txt: autoDraw = True
+283.7288 	EXP 	button_done: autoDraw = True
+283.7288 	EXP 	done_txt: autoDraw = True
+285.0009 	DATA 	Mouse: Left button down, pos=(673,711)
+285.0017 	EXP 	Resetting brush parameter: brushPos.
+285.0017 	EXP 	Creating ShapeStim for brush
+291.8622 	DATA 	Mouse:  Left button up, pos=(670,699)
+292.5920 	DATA 	Mouse: Left button down, pos=(1237,864)
+292.5925 	EXP 	Resetting brush parameter: brushPos.
+292.5926 	EXP 	Creating ShapeStim for brush
+292.5995 	EXP 	instructions_txt: autoDraw = False
+292.5995 	EXP 	times_up_txt: autoDraw = True
+292.5995 	EXP 	button_next: autoDraw = True
+292.5995 	EXP 	next_txt: autoDraw = True
+292.5995 	EXP 	button_done: autoDraw = False
+292.5995 	EXP 	done_txt: autoDraw = False
+292.5995 	EXP 	object_txt: autoDraw = True
+292.5995 	EXP 	question_textbox: autoDraw = True
+292.7232 	DATA 	Mouse:  Left button up, pos=(1237,864)
+293.4218 	DATA 	Mouse: Left button down, pos=(1563,151)
+293.4356 	EXP 	Resetting brush
+293.5233 	EXP 	New trial (rep=0, index=17): OrderedDict([('trl', 1), ('stim1', 'stimuli/selection/aardvark_01b_13'), ('stim2', 'stimuli/selection/aardvark_01b_13'), ('stim', 'stimuli/selection/aardvark_01b_13')])
+293.5236 	WARNING 	Requested image 'stimuli/selection/aardvark_01b_13' not found but similar filename 'stimuli/selection/aardvark_01b_13.jpg' exists. This will be used instead but changing the filename is advised.
+293.5251 	EXP 	Resetting brush
+293.5267 	EXP 	Resetting brush parameter: brushPos.
+293.5267 	EXP 	Creating ShapeStim for brush
+293.5319 	EXP 	image: autoDraw = False
+293.5319 	EXP 	brush: autoDraw = False
+293.5319 	EXP 	instructions_txt: autoDraw = False
+293.5319 	EXP 	times_up_txt: autoDraw = False
+293.5319 	EXP 	button_clear: autoDraw = False
+293.5319 	EXP 	clear_txt: autoDraw = False
+293.5319 	EXP 	button_next: autoDraw = False
+293.5319 	EXP 	next_txt: autoDraw = False
+293.5319 	EXP 	button_done: autoDraw = False
+293.5319 	EXP 	done_txt: autoDraw = False
+293.5319 	EXP 	object_txt: autoDraw = False
+293.5319 	EXP 	question_textbox: autoDraw = False
+293.5319 	EXP 	image: image = 'stimuli/selection/aardvark_01b_13'
+293.5319 	EXP 	image: autoDraw = True
+293.5319 	EXP 	brush: autoDraw = True
+293.5319 	EXP 	instructions_txt: autoDraw = True
+293.5319 	EXP 	button_clear: autoDraw = True
+293.5319 	EXP 	clear_txt: autoDraw = True
+293.5319 	EXP 	button_done: autoDraw = True
+293.5319 	EXP 	done_txt: autoDraw = True
+293.5533 	DATA 	Mouse:  Left button up, pos=(1563,151)
+295.0507 	DATA 	Mouse: Left button down, pos=(217,706)
+295.0513 	EXP 	Resetting brush parameter: brushPos.
+295.0513 	EXP 	Creating ShapeStim for brush
+300.9670 	DATA 	Mouse:  Left button up, pos=(692,337)
+301.7235 	DATA 	Mouse: Left button down, pos=(1217,901)
+301.7241 	EXP 	Resetting brush parameter: brushPos.
+301.7243 	EXP 	Creating ShapeStim for brush
+301.8074 	DATA 	Mouse:  Left button up, pos=(1216,896)
+302.1199 	DATA 	Mouse: Left button down, pos=(1214,855)
+302.1205 	EXP 	Resetting brush parameter: brushPos.
+302.1205 	EXP 	Creating ShapeStim for brush
+302.1277 	EXP 	instructions_txt: autoDraw = False
+302.1277 	EXP 	times_up_txt: autoDraw = True
+302.1277 	EXP 	button_next: autoDraw = True
+302.1277 	EXP 	next_txt: autoDraw = True
+302.1277 	EXP 	button_done: autoDraw = False
+302.1277 	EXP 	done_txt: autoDraw = False
+302.1277 	EXP 	object_txt: autoDraw = True
+302.1277 	EXP 	question_textbox: autoDraw = True
+302.2269 	DATA 	Mouse:  Left button up, pos=(1214,855)
+303.6832 	DATA 	Mouse: Left button down, pos=(1658,125)
+303.6994 	EXP 	Resetting brush
+303.7892 	EXP 	New trial (rep=0, index=18): OrderedDict([('trl', 20), ('stim1', 'stimuli/selection/lamp_08s_13'), ('stim2', 'stimuli/selection/lamp_08s_13'), ('stim', 'stimuli/selection/lamp_08s_13')])
+303.7896 	WARNING 	Requested image 'stimuli/selection/lamp_08s_13' not found but similar filename 'stimuli/selection/lamp_08s_13.jpg' exists. This will be used instead but changing the filename is advised.
+303.7911 	EXP 	Resetting brush
+303.7926 	EXP 	Resetting brush parameter: brushPos.
+303.7926 	EXP 	Creating ShapeStim for brush
+303.7981 	EXP 	image: autoDraw = False
+303.7981 	EXP 	brush: autoDraw = False
+303.7981 	EXP 	instructions_txt: autoDraw = False
+303.7981 	EXP 	times_up_txt: autoDraw = False
+303.7981 	EXP 	button_clear: autoDraw = False
+303.7981 	EXP 	clear_txt: autoDraw = False
+303.7981 	EXP 	button_next: autoDraw = False
+303.7981 	EXP 	next_txt: autoDraw = False
+303.7981 	EXP 	button_done: autoDraw = False
+303.7981 	EXP 	done_txt: autoDraw = False
+303.7981 	EXP 	object_txt: autoDraw = False
+303.7981 	EXP 	question_textbox: autoDraw = False
+303.7981 	EXP 	image: image = 'stimuli/selection/lamp_08s_13'
+303.7981 	EXP 	image: autoDraw = True
+303.7981 	EXP 	brush: autoDraw = True
+303.7981 	EXP 	instructions_txt: autoDraw = True
+303.7981 	EXP 	button_clear: autoDraw = True
+303.7981 	EXP 	clear_txt: autoDraw = True
+303.7981 	EXP 	button_done: autoDraw = True
+303.7981 	EXP 	done_txt: autoDraw = True
+303.8422 	DATA 	Mouse:  Left button up, pos=(1658,122)
+305.1337 	DATA 	Mouse: Left button down, pos=(362,341)
+305.1344 	EXP 	Resetting brush parameter: brushPos.
+305.1344 	EXP 	Creating ShapeStim for brush
+312.3419 	DATA 	Mouse:  Left button up, pos=(735,295)
+313.0313 	DATA 	Mouse: Left button down, pos=(1250,848)
+313.0370 	EXP 	Resetting brush parameter: brushPos.
+313.0372 	EXP 	Creating ShapeStim for brush
+313.0446 	EXP 	instructions_txt: autoDraw = False
+313.0446 	EXP 	times_up_txt: autoDraw = True
+313.0446 	EXP 	button_next: autoDraw = True
+313.0446 	EXP 	next_txt: autoDraw = True
+313.0446 	EXP 	button_done: autoDraw = False
+313.0446 	EXP 	done_txt: autoDraw = False
+313.0446 	EXP 	object_txt: autoDraw = True
+313.0446 	EXP 	question_textbox: autoDraw = True
+313.1396 	DATA 	Mouse:  Left button up, pos=(1250,848)
+313.8071 	DATA 	Mouse: Left button down, pos=(1611,150)
+313.8238 	EXP 	Resetting brush
+313.9121 	EXP 	New trial (rep=0, index=19): OrderedDict([('trl', 22), ('stim1', 'stimuli/selection/padlock_06s_15'), ('stim2', 'stimuli/selection/padlock_06s_15'), ('stim', 'stimuli/selection/padlock_06s_15')])
+313.9126 	WARNING 	Requested image 'stimuli/selection/padlock_06s_15' not found but similar filename 'stimuli/selection/padlock_06s_15.jpg' exists. This will be used instead but changing the filename is advised.
+313.9140 	EXP 	Resetting brush
+313.9156 	EXP 	Resetting brush parameter: brushPos.
+313.9156 	EXP 	Creating ShapeStim for brush
+313.9214 	EXP 	image: autoDraw = False
+313.9214 	EXP 	brush: autoDraw = False
+313.9214 	EXP 	instructions_txt: autoDraw = False
+313.9214 	EXP 	times_up_txt: autoDraw = False
+313.9214 	EXP 	button_clear: autoDraw = False
+313.9214 	EXP 	clear_txt: autoDraw = False
+313.9214 	EXP 	button_next: autoDraw = False
+313.9214 	EXP 	next_txt: autoDraw = False
+313.9214 	EXP 	button_done: autoDraw = False
+313.9214 	EXP 	done_txt: autoDraw = False
+313.9214 	EXP 	object_txt: autoDraw = False
+313.9214 	EXP 	question_textbox: autoDraw = False
+313.9214 	EXP 	image: image = 'stimuli/selection/padlock_06s_15'
+313.9214 	EXP 	image: autoDraw = True
+313.9214 	EXP 	brush: autoDraw = True
+313.9214 	EXP 	instructions_txt: autoDraw = True
+313.9214 	EXP 	button_clear: autoDraw = True
+313.9214 	EXP 	clear_txt: autoDraw = True
+313.9214 	EXP 	button_done: autoDraw = True
+313.9214 	EXP 	done_txt: autoDraw = True
+313.9542 	DATA 	Mouse:  Left button up, pos=(1611,150)
+316.0160 	DATA 	Mouse: Left button down, pos=(624,299)
+316.0167 	EXP 	Resetting brush parameter: brushPos.
+316.0167 	EXP 	Creating ShapeStim for brush
+321.7943 	DATA 	Mouse:  Left button up, pos=(643,301)
+322.8291 	DATA 	Mouse: Left button down, pos=(421,596)
+322.8296 	EXP 	Resetting brush parameter: brushPos.
+322.8297 	EXP 	Creating ShapeStim for brush
+325.9950 	DATA 	Mouse:  Left button up, pos=(424,592)
+327.1902 	DATA 	Mouse: Left button down, pos=(1200,879)
+327.1910 	EXP 	Resetting brush parameter: brushPos.
+327.1910 	EXP 	Creating ShapeStim for brush
+327.1979 	EXP 	instructions_txt: autoDraw = False
+327.1979 	EXP 	times_up_txt: autoDraw = True
+327.1979 	EXP 	button_next: autoDraw = True
+327.1979 	EXP 	next_txt: autoDraw = True
+327.1979 	EXP 	button_done: autoDraw = False
+327.1979 	EXP 	done_txt: autoDraw = False
+327.1979 	EXP 	object_txt: autoDraw = True
+327.1979 	EXP 	question_textbox: autoDraw = True
+327.3186 	DATA 	Mouse:  Left button up, pos=(1200,879)
+328.3553 	DATA 	Mouse: Left button down, pos=(1664,140)
+328.3772 	EXP 	Resetting brush
+328.4647 	EXP 	New trial (rep=0, index=20): OrderedDict([('trl', 29), ('stim1', 'stimuli/selection/van_14s_13'), ('stim2', 'stimuli/selection/van_14s_13'), ('stim', 'stimuli/selection/van_14s_13')])
+328.4650 	WARNING 	Requested image 'stimuli/selection/van_14s_13' not found but similar filename 'stimuli/selection/van_14s_13.jpg' exists. This will be used instead but changing the filename is advised.
+328.4664 	EXP 	Resetting brush
+328.4679 	EXP 	Resetting brush parameter: brushPos.
+328.4679 	EXP 	Creating ShapeStim for brush
+328.4740 	EXP 	image: autoDraw = False
+328.4740 	EXP 	brush: autoDraw = False
+328.4740 	EXP 	instructions_txt: autoDraw = False
+328.4740 	EXP 	times_up_txt: autoDraw = False
+328.4740 	EXP 	button_clear: autoDraw = False
+328.4740 	EXP 	clear_txt: autoDraw = False
+328.4740 	EXP 	button_next: autoDraw = False
+328.4740 	EXP 	next_txt: autoDraw = False
+328.4740 	EXP 	button_done: autoDraw = False
+328.4740 	EXP 	done_txt: autoDraw = False
+328.4740 	EXP 	object_txt: autoDraw = False
+328.4740 	EXP 	question_textbox: autoDraw = False
+328.4740 	EXP 	image: image = 'stimuli/selection/van_14s_13'
+328.4740 	EXP 	image: autoDraw = True
+328.4740 	EXP 	brush: autoDraw = True
+328.4740 	EXP 	instructions_txt: autoDraw = True
+328.4740 	EXP 	button_clear: autoDraw = True
+328.4740 	EXP 	clear_txt: autoDraw = True
+328.4740 	EXP 	button_done: autoDraw = True
+328.4740 	EXP 	done_txt: autoDraw = True
+328.5021 	DATA 	Mouse:  Left button up, pos=(1664,140)
+329.8496 	DATA 	Mouse: Left button down, pos=(185,396)
+329.8503 	EXP 	Resetting brush parameter: brushPos.
+329.8503 	EXP 	Creating ShapeStim for brush
+339.4456 	DATA 	Mouse:  Left button up, pos=(190,411)
+340.6685 	DATA 	Mouse: Left button down, pos=(1195,879)
+340.6692 	EXP 	Resetting brush parameter: brushPos.
+340.6694 	EXP 	Creating ShapeStim for brush
+340.6757 	EXP 	instructions_txt: autoDraw = False
+340.6757 	EXP 	times_up_txt: autoDraw = True
+340.6757 	EXP 	button_next: autoDraw = True
+340.6757 	EXP 	next_txt: autoDraw = True
+340.6757 	EXP 	button_done: autoDraw = False
+340.6757 	EXP 	done_txt: autoDraw = False
+340.6757 	EXP 	object_txt: autoDraw = True
+340.6757 	EXP 	question_textbox: autoDraw = True
+340.7730 	DATA 	Mouse:  Left button up, pos=(1195,879)
+342.1013 	DATA 	Mouse: Left button down, pos=(1657,111)
+342.1197 	EXP 	Resetting brush
+342.2130 	EXP 	New trial (rep=0, index=21): OrderedDict([('trl', 19), ('stim1', 'stimuli/selection/horse_08s_11'), ('stim2', 'stimuli/selection/horse_08s_11'), ('stim', 'stimuli/selection/horse_08s_11')])
+342.2135 	WARNING 	Requested image 'stimuli/selection/horse_08s_11' not found but similar filename 'stimuli/selection/horse_08s_11.jpg' exists. This will be used instead but changing the filename is advised.
+342.2151 	EXP 	Resetting brush
+342.2169 	EXP 	Resetting brush parameter: brushPos.
+342.2169 	EXP 	Creating ShapeStim for brush
+342.2224 	EXP 	image: autoDraw = False
+342.2224 	EXP 	brush: autoDraw = False
+342.2224 	EXP 	instructions_txt: autoDraw = False
+342.2224 	EXP 	times_up_txt: autoDraw = False
+342.2224 	EXP 	button_clear: autoDraw = False
+342.2224 	EXP 	clear_txt: autoDraw = False
+342.2224 	EXP 	button_next: autoDraw = False
+342.2224 	EXP 	next_txt: autoDraw = False
+342.2224 	EXP 	button_done: autoDraw = False
+342.2224 	EXP 	done_txt: autoDraw = False
+342.2224 	EXP 	object_txt: autoDraw = False
+342.2224 	EXP 	question_textbox: autoDraw = False
+342.2224 	EXP 	image: image = 'stimuli/selection/horse_08s_11'
+342.2224 	EXP 	image: autoDraw = True
+342.2224 	EXP 	brush: autoDraw = True
+342.2224 	EXP 	instructions_txt: autoDraw = True
+342.2224 	EXP 	button_clear: autoDraw = True
+342.2224 	EXP 	clear_txt: autoDraw = True
+342.2224 	EXP 	button_done: autoDraw = True
+342.2224 	EXP 	done_txt: autoDraw = True
+342.2259 	DATA 	Mouse:  Left button up, pos=(1655,110)
+344.5529 	DATA 	Mouse: Left button down, pos=(332,222)
+344.5536 	EXP 	Resetting brush parameter: brushPos.
+344.5536 	EXP 	Creating ShapeStim for brush
+350.7162 	DATA 	Mouse:  Left button up, pos=(607,503)
+351.3056 	DATA 	Mouse: Left button down, pos=(575,548)
+351.3108 	EXP 	Resetting brush parameter: brushPos.
+351.3109 	EXP 	Creating ShapeStim for brush
+351.4235 	DATA 	Mouse:  Left button up, pos=(575,535)
+351.5256 	DATA 	Mouse: Left button down, pos=(575,535)
+351.5260 	EXP 	Resetting brush parameter: brushPos.
+351.5260 	EXP 	Creating ShapeStim for brush
+351.5774 	DATA 	Mouse:  Left button up, pos=(575,535)
+351.7201 	DATA 	Mouse: Left button down, pos=(575,535)
+351.7207 	EXP 	Resetting brush parameter: brushPos.
+351.7208 	EXP 	Creating ShapeStim for brush
+354.6498 	DATA 	Mouse:  Left button up, pos=(599,205)
+355.8443 	DATA 	Mouse: Left button down, pos=(1209,870)
+355.8452 	EXP 	Resetting brush parameter: brushPos.
+355.8452 	EXP 	Creating ShapeStim for brush
+355.8524 	EXP 	instructions_txt: autoDraw = False
+355.8524 	EXP 	times_up_txt: autoDraw = True
+355.8524 	EXP 	button_next: autoDraw = True
+355.8524 	EXP 	next_txt: autoDraw = True
+355.8524 	EXP 	button_done: autoDraw = False
+355.8524 	EXP 	done_txt: autoDraw = False
+355.8524 	EXP 	object_txt: autoDraw = True
+355.8524 	EXP 	question_textbox: autoDraw = True
+355.9308 	DATA 	Mouse:  Left button up, pos=(1209,870)
+356.6704 	DATA 	Mouse: Left button down, pos=(1595,123)
+356.6922 	EXP 	Resetting brush
+356.7855 	EXP 	New trial (rep=0, index=22): OrderedDict([('trl', 32), ('stim1', 'stimuli/coffee_04s_11'), ('stim2', 'stimuli/coffee_04s_11'), ('stim', 'stimuli/coffee_04s_11')])
+356.7859 	WARNING 	Requested image 'stimuli/coffee_04s_11' not found but similar filename 'stimuli/coffee_04s_11.jpg' exists. This will be used instead but changing the filename is advised.
+356.7870 	EXP 	Resetting brush
+356.7878 	DATA 	Mouse:  Left button up, pos=(1595,123)
+356.7934 	EXP 	image: autoDraw = False
+356.7934 	EXP 	brush: autoDraw = False
+356.7934 	EXP 	instructions_txt: autoDraw = False
+356.7934 	EXP 	times_up_txt: autoDraw = False
+356.7934 	EXP 	button_clear: autoDraw = False
+356.7934 	EXP 	clear_txt: autoDraw = False
+356.7934 	EXP 	button_next: autoDraw = False
+356.7934 	EXP 	next_txt: autoDraw = False
+356.7934 	EXP 	button_done: autoDraw = False
+356.7934 	EXP 	done_txt: autoDraw = False
+356.7934 	EXP 	object_txt: autoDraw = False
+356.7934 	EXP 	question_textbox: autoDraw = False
+356.7934 	EXP 	image: image = 'stimuli/coffee_04s_11'
+356.7934 	EXP 	image: autoDraw = True
+356.7934 	EXP 	brush: autoDraw = True
+356.7934 	EXP 	instructions_txt: autoDraw = True
+356.7934 	EXP 	button_clear: autoDraw = True
+356.7934 	EXP 	clear_txt: autoDraw = True
+356.7934 	EXP 	button_done: autoDraw = True
+356.7934 	EXP 	done_txt: autoDraw = True
+358.4302 	DATA 	Mouse: Left button down, pos=(457,342)
+358.4309 	EXP 	Resetting brush parameter: brushPos.
+358.4309 	EXP 	Creating ShapeStim for brush
+366.3638 	DATA 	Mouse:  Left button up, pos=(454,343)
+367.4051 	DATA 	Mouse: Left button down, pos=(389,656)
+367.4088 	EXP 	Resetting brush parameter: brushPos.
+367.4090 	EXP 	Creating ShapeStim for brush
+369.6799 	DATA 	Mouse:  Left button up, pos=(422,649)
+370.5681 	DATA 	Mouse: Left button down, pos=(1242,850)
+370.5687 	EXP 	Resetting brush parameter: brushPos.
+370.5687 	EXP 	Creating ShapeStim for brush
+370.5757 	EXP 	instructions_txt: autoDraw = False
+370.5757 	EXP 	times_up_txt: autoDraw = True
+370.5757 	EXP 	button_next: autoDraw = True
+370.5757 	EXP 	next_txt: autoDraw = True
+370.5757 	EXP 	button_done: autoDraw = False
+370.5757 	EXP 	done_txt: autoDraw = False
+370.5757 	EXP 	object_txt: autoDraw = True
+370.5757 	EXP 	question_textbox: autoDraw = True
+370.6723 	DATA 	Mouse:  Left button up, pos=(1242,850)
+371.5743 	DATA 	Mouse: Left button down, pos=(1605,116)
+371.5964 	EXP 	Resetting brush
+371.6918 	EXP 	New trial (rep=0, index=23): OrderedDict([('trl', 17), ('stim1', 'stimuli/selection/hammer_07s_15'), ('stim2', 'stimuli/selection/hammer_07s_15'), ('stim', 'stimuli/selection/hammer_07s_15')])
+371.6921 	WARNING 	Requested image 'stimuli/selection/hammer_07s_15' not found but similar filename 'stimuli/selection/hammer_07s_15.jpg' exists. This will be used instead but changing the filename is advised.
+371.6933 	EXP 	Resetting brush
+371.6949 	DATA 	Mouse:  Left button up, pos=(1604,115)
+371.6998 	EXP 	image: autoDraw = False
+371.6998 	EXP 	brush: autoDraw = False
+371.6998 	EXP 	instructions_txt: autoDraw = False
+371.6998 	EXP 	times_up_txt: autoDraw = False
+371.6998 	EXP 	button_clear: autoDraw = False
+371.6998 	EXP 	clear_txt: autoDraw = False
+371.6998 	EXP 	button_next: autoDraw = False
+371.6998 	EXP 	next_txt: autoDraw = False
+371.6998 	EXP 	button_done: autoDraw = False
+371.6998 	EXP 	done_txt: autoDraw = False
+371.6998 	EXP 	object_txt: autoDraw = False
+371.6998 	EXP 	question_textbox: autoDraw = False
+371.6998 	EXP 	image: image = 'stimuli/selection/hammer_07s_15'
+371.6998 	EXP 	image: autoDraw = True
+371.6998 	EXP 	brush: autoDraw = True
+371.6998 	EXP 	instructions_txt: autoDraw = True
+371.6998 	EXP 	button_clear: autoDraw = True
+371.6998 	EXP 	clear_txt: autoDraw = True
+371.6998 	EXP 	button_done: autoDraw = True
+371.6998 	EXP 	done_txt: autoDraw = True
+373.3658 	DATA 	Mouse: Left button down, pos=(187,345)
+373.3695 	EXP 	Resetting brush parameter: brushPos.
+373.3695 	EXP 	Creating ShapeStim for brush
+380.3981 	DATA 	Mouse:  Left button up, pos=(208,217)
+381.3153 	DATA 	Mouse: Left button down, pos=(1226,878)
+381.3154 	EXP 	Resetting brush parameter: brushPos.
+381.3155 	EXP 	Creating ShapeStim for brush
+381.3282 	EXP 	instructions_txt: autoDraw = False
+381.3282 	EXP 	times_up_txt: autoDraw = True
+381.3282 	EXP 	button_next: autoDraw = True
+381.3282 	EXP 	next_txt: autoDraw = True
+381.3282 	EXP 	button_done: autoDraw = False
+381.3282 	EXP 	done_txt: autoDraw = False
+381.3282 	EXP 	object_txt: autoDraw = True
+381.3282 	EXP 	question_textbox: autoDraw = True
+381.4185 	DATA 	Mouse:  Left button up, pos=(1226,878)
+382.1169 	DATA 	Mouse: Left button down, pos=(1635,137)
+382.1339 	EXP 	Resetting brush
+382.2206 	EXP 	New trial (rep=0, index=24): OrderedDict([('trl', 5), ('stim1', 'stimuli/selection/bikini_02s_13'), ('stim2', 'stimuli/selection/bikini_02s_13'), ('stim', 'stimuli/selection/bikini_02s_13')])
+382.2209 	WARNING 	Requested image 'stimuli/selection/bikini_02s_13' not found but similar filename 'stimuli/selection/bikini_02s_13.jpg' exists. This will be used instead but changing the filename is advised.
+382.2223 	EXP 	Resetting brush
+382.2237 	EXP 	Resetting brush parameter: brushPos.
+382.2237 	EXP 	Creating ShapeStim for brush
+382.2293 	EXP 	image: autoDraw = False
+382.2293 	EXP 	brush: autoDraw = False
+382.2293 	EXP 	instructions_txt: autoDraw = False
+382.2293 	EXP 	times_up_txt: autoDraw = False
+382.2293 	EXP 	button_clear: autoDraw = False
+382.2293 	EXP 	clear_txt: autoDraw = False
+382.2293 	EXP 	button_next: autoDraw = False
+382.2293 	EXP 	next_txt: autoDraw = False
+382.2293 	EXP 	button_done: autoDraw = False
+382.2293 	EXP 	done_txt: autoDraw = False
+382.2293 	EXP 	object_txt: autoDraw = False
+382.2293 	EXP 	question_textbox: autoDraw = False
+382.2293 	EXP 	image: image = 'stimuli/selection/bikini_02s_13'
+382.2293 	EXP 	image: autoDraw = True
+382.2293 	EXP 	brush: autoDraw = True
+382.2293 	EXP 	instructions_txt: autoDraw = True
+382.2293 	EXP 	button_clear: autoDraw = True
+382.2293 	EXP 	clear_txt: autoDraw = True
+382.2293 	EXP 	button_done: autoDraw = True
+382.2293 	EXP 	done_txt: autoDraw = True
+382.2526 	DATA 	Mouse:  Left button up, pos=(1634,137)
+383.3642 	DATA 	Mouse: Left button down, pos=(524,230)
+383.3682 	EXP 	Resetting brush parameter: brushPos.
+383.3683 	EXP 	Creating ShapeStim for brush
+389.5136 	DATA 	Mouse:  Left button up, pos=(524,228)
+390.2018 	DATA 	Mouse: Left button down, pos=(1245,862)
+390.2025 	EXP 	Resetting brush parameter: brushPos.
+390.2026 	EXP 	Creating ShapeStim for brush
+390.2098 	EXP 	instructions_txt: autoDraw = False
+390.2098 	EXP 	times_up_txt: autoDraw = True
+390.2098 	EXP 	button_next: autoDraw = True
+390.2098 	EXP 	next_txt: autoDraw = True
+390.2098 	EXP 	button_done: autoDraw = False
+390.2098 	EXP 	done_txt: autoDraw = False
+390.2098 	EXP 	object_txt: autoDraw = True
+390.2098 	EXP 	question_textbox: autoDraw = True
+390.2755 	DATA 	Mouse:  Left button up, pos=(1245,862)
+391.0622 	DATA 	Mouse: Left button down, pos=(1582,140)
+391.0777 	EXP 	Resetting brush
+391.1681 	EXP 	New trial (rep=0, index=25): OrderedDict([('trl', 21), ('stim1', 'stimuli/selection/lightbulb_01b_17'), ('stim2', 'stimuli/selection/lightbulb_01b_17'), ('stim', 'stimuli/selection/lightbulb_01b_17')])
+391.1683 	WARNING 	Requested image 'stimuli/selection/lightbulb_01b_17' not found but similar filename 'stimuli/selection/lightbulb_01b_17.jpg' exists. This will be used instead but changing the filename is advised.
+391.1698 	EXP 	Resetting brush
+391.1714 	EXP 	Resetting brush parameter: brushPos.
+391.1714 	EXP 	Creating ShapeStim for brush
+391.1768 	EXP 	image: autoDraw = False
+391.1768 	EXP 	brush: autoDraw = False
+391.1768 	EXP 	instructions_txt: autoDraw = False
+391.1768 	EXP 	times_up_txt: autoDraw = False
+391.1768 	EXP 	button_clear: autoDraw = False
+391.1768 	EXP 	clear_txt: autoDraw = False
+391.1768 	EXP 	button_next: autoDraw = False
+391.1768 	EXP 	next_txt: autoDraw = False
+391.1768 	EXP 	button_done: autoDraw = False
+391.1768 	EXP 	done_txt: autoDraw = False
+391.1768 	EXP 	object_txt: autoDraw = False
+391.1768 	EXP 	question_textbox: autoDraw = False
+391.1768 	EXP 	image: image = 'stimuli/selection/lightbulb_01b_17'
+391.1768 	EXP 	image: autoDraw = True
+391.1768 	EXP 	brush: autoDraw = True
+391.1768 	EXP 	instructions_txt: autoDraw = True
+391.1768 	EXP 	button_clear: autoDraw = True
+391.1768 	EXP 	clear_txt: autoDraw = True
+391.1768 	EXP 	button_done: autoDraw = True
+391.1768 	EXP 	done_txt: autoDraw = True
+391.2232 	DATA 	Mouse:  Left button up, pos=(1582,140)
+393.0148 	DATA 	Mouse: Left button down, pos=(297,277)
+393.0153 	EXP 	Resetting brush parameter: brushPos.
+393.0154 	EXP 	Creating ShapeStim for brush
+399.5374 	DATA 	Mouse:  Left button up, pos=(546,217)
+400.7084 	DATA 	Mouse: Left button down, pos=(1172,864)
+400.7090 	EXP 	Resetting brush parameter: brushPos.
+400.7091 	EXP 	Creating ShapeStim for brush
+400.7160 	EXP 	instructions_txt: autoDraw = False
+400.7160 	EXP 	times_up_txt: autoDraw = True
+400.7160 	EXP 	button_next: autoDraw = True
+400.7160 	EXP 	next_txt: autoDraw = True
+400.7160 	EXP 	button_done: autoDraw = False
+400.7160 	EXP 	done_txt: autoDraw = False
+400.7160 	EXP 	object_txt: autoDraw = True
+400.7160 	EXP 	question_textbox: autoDraw = True
+400.8041 	DATA 	Mouse:  Left button up, pos=(1172,864)
+401.6246 	DATA 	Mouse: Left button down, pos=(1640,138)
+401.6407 	EXP 	Resetting brush
+401.7274 	EXP 	New trial (rep=0, index=26): OrderedDict([('trl', 18), ('stim1', 'stimuli/selection/hanger_03s_13'), ('stim2', 'stimuli/selection/hanger_03s_13'), ('stim', 'stimuli/selection/hanger_03s_13')])
+401.7277 	WARNING 	Requested image 'stimuli/selection/hanger_03s_13' not found but similar filename 'stimuli/selection/hanger_03s_13.jpg' exists. This will be used instead but changing the filename is advised.
+401.7289 	EXP 	Resetting brush
+401.7299 	DATA 	Mouse:  Left button up, pos=(1632,136)
+401.7356 	EXP 	image: autoDraw = False
+401.7356 	EXP 	brush: autoDraw = False
+401.7356 	EXP 	instructions_txt: autoDraw = False
+401.7356 	EXP 	times_up_txt: autoDraw = False
+401.7356 	EXP 	button_clear: autoDraw = False
+401.7356 	EXP 	clear_txt: autoDraw = False
+401.7356 	EXP 	button_next: autoDraw = False
+401.7356 	EXP 	next_txt: autoDraw = False
+401.7356 	EXP 	button_done: autoDraw = False
+401.7356 	EXP 	done_txt: autoDraw = False
+401.7356 	EXP 	object_txt: autoDraw = False
+401.7356 	EXP 	question_textbox: autoDraw = False
+401.7356 	EXP 	image: image = 'stimuli/selection/hanger_03s_13'
+401.7356 	EXP 	image: autoDraw = True
+401.7356 	EXP 	brush: autoDraw = True
+401.7356 	EXP 	instructions_txt: autoDraw = True
+401.7356 	EXP 	button_clear: autoDraw = True
+401.7356 	EXP 	clear_txt: autoDraw = True
+401.7356 	EXP 	button_done: autoDraw = True
+401.7356 	EXP 	done_txt: autoDraw = True
+404.9990 	DATA 	Mouse: Left button down, pos=(844,407)
+404.9995 	EXP 	Resetting brush parameter: brushPos.
+404.9995 	EXP 	Creating ShapeStim for brush
+408.5920 	DATA 	Mouse:  Left button up, pos=(868,447)
+410.3600 	DATA 	Mouse: Left button down, pos=(560,833)
+410.3607 	EXP 	Resetting brush parameter: brushPos.
+410.3608 	EXP 	Creating ShapeStim for brush
+412.0264 	DATA 	Mouse:  Left button up, pos=(550,613)
+412.9926 	DATA 	Mouse: Left button down, pos=(1221,876)
+412.9926 	EXP 	Resetting brush parameter: brushPos.
+412.9927 	EXP 	Creating ShapeStim for brush
+413.0047 	EXP 	instructions_txt: autoDraw = False
+413.0047 	EXP 	times_up_txt: autoDraw = True
+413.0047 	EXP 	button_next: autoDraw = True
+413.0047 	EXP 	next_txt: autoDraw = True
+413.0047 	EXP 	button_done: autoDraw = False
+413.0047 	EXP 	done_txt: autoDraw = False
+413.0047 	EXP 	object_txt: autoDraw = True
+413.0047 	EXP 	question_textbox: autoDraw = True
+413.0479 	DATA 	Mouse:  Left button up, pos=(1221,876)
+413.8522 	DATA 	Mouse: Left button down, pos=(1585,159)
+413.8681 	EXP 	Resetting brush
+413.9566 	EXP 	New trial (rep=0, index=27): OrderedDict([('trl', 37), ('stim1', 'stimuli/anchor_02s_11'), ('stim2', 'stimuli/anchor_02s_11'), ('stim', 'stimuli/anchor_02s_11')])
+413.9572 	WARNING 	Requested image 'stimuli/anchor_02s_11' not found but similar filename 'stimuli/anchor_02s_11.jpg' exists. This will be used instead but changing the filename is advised.
+413.9587 	EXP 	Resetting brush
+413.9601 	EXP 	Resetting brush parameter: brushPos.
+413.9601 	EXP 	Creating ShapeStim for brush
+413.9656 	EXP 	image: autoDraw = False
+413.9656 	EXP 	brush: autoDraw = False
+413.9656 	EXP 	instructions_txt: autoDraw = False
+413.9656 	EXP 	times_up_txt: autoDraw = False
+413.9656 	EXP 	button_clear: autoDraw = False
+413.9656 	EXP 	clear_txt: autoDraw = False
+413.9656 	EXP 	button_next: autoDraw = False
+413.9656 	EXP 	next_txt: autoDraw = False
+413.9656 	EXP 	button_done: autoDraw = False
+413.9656 	EXP 	done_txt: autoDraw = False
+413.9656 	EXP 	object_txt: autoDraw = False
+413.9656 	EXP 	question_textbox: autoDraw = False
+413.9656 	EXP 	image: image = 'stimuli/anchor_02s_11'
+413.9656 	EXP 	image: autoDraw = True
+413.9656 	EXP 	brush: autoDraw = True
+413.9656 	EXP 	instructions_txt: autoDraw = True
+413.9656 	EXP 	button_clear: autoDraw = True
+413.9656 	EXP 	clear_txt: autoDraw = True
+413.9656 	EXP 	button_done: autoDraw = True
+413.9656 	EXP 	done_txt: autoDraw = True
+413.9659 	DATA 	Mouse:  Left button up, pos=(1585,159)
+415.3237 	DATA 	Mouse: Left button down, pos=(554,331)
+415.3237 	EXP 	Resetting brush parameter: brushPos.
+415.3237 	EXP 	Creating ShapeStim for brush
+421.5547 	DATA 	Mouse:  Left button up, pos=(338,359)
+422.2549 	DATA 	Mouse: Left button down, pos=(562,318)
+422.2549 	EXP 	Resetting brush parameter: brushPos.
+422.2551 	EXP 	Creating ShapeStim for brush
+423.7843 	DATA 	Mouse:  Left button up, pos=(588,247)
+425.4755 	DATA 	Mouse: Left button down, pos=(334,355)
+425.4762 	EXP 	Resetting brush parameter: brushPos.
+425.4762 	EXP 	Creating ShapeStim for brush
+427.6005 	DATA 	Mouse:  Left button up, pos=(589,257)
+428.4059 	DATA 	Mouse: Left button down, pos=(1207,864)
+428.4068 	EXP 	Resetting brush parameter: brushPos.
+428.4069 	EXP 	Creating ShapeStim for brush
+428.4142 	EXP 	instructions_txt: autoDraw = False
+428.4142 	EXP 	times_up_txt: autoDraw = True
+428.4142 	EXP 	button_next: autoDraw = True
+428.4142 	EXP 	next_txt: autoDraw = True
+428.4142 	EXP 	button_done: autoDraw = False
+428.4142 	EXP 	done_txt: autoDraw = False
+428.4142 	EXP 	object_txt: autoDraw = True
+428.4142 	EXP 	question_textbox: autoDraw = True
+428.4818 	DATA 	Mouse:  Left button up, pos=(1207,864)
+429.3230 	DATA 	Mouse: Left button down, pos=(1617,139)
+429.3460 	EXP 	Resetting brush
+429.4399 	EXP 	New trial (rep=0, index=28): OrderedDict([('trl', 14), ('stim1', 'stimuli/selection/goldfish_08s_13'), ('stim2', 'stimuli/selection/goldfish_08s_13'), ('stim', 'stimuli/selection/goldfish_08s_13')])
+429.4402 	WARNING 	Requested image 'stimuli/selection/goldfish_08s_13' not found but similar filename 'stimuli/selection/goldfish_08s_13.jpg' exists. This will be used instead but changing the filename is advised.
+429.4414 	EXP 	Resetting brush
+429.4422 	DATA 	Mouse:  Left button up, pos=(1617,139)
+429.4476 	EXP 	image: autoDraw = False
+429.4476 	EXP 	brush: autoDraw = False
+429.4476 	EXP 	instructions_txt: autoDraw = False
+429.4476 	EXP 	times_up_txt: autoDraw = False
+429.4476 	EXP 	button_clear: autoDraw = False
+429.4476 	EXP 	clear_txt: autoDraw = False
+429.4476 	EXP 	button_next: autoDraw = False
+429.4476 	EXP 	next_txt: autoDraw = False
+429.4476 	EXP 	button_done: autoDraw = False
+429.4476 	EXP 	done_txt: autoDraw = False
+429.4476 	EXP 	object_txt: autoDraw = False
+429.4476 	EXP 	question_textbox: autoDraw = False
+429.4476 	EXP 	image: image = 'stimuli/selection/goldfish_08s_13'
+429.4476 	EXP 	image: autoDraw = True
+429.4476 	EXP 	brush: autoDraw = True
+429.4476 	EXP 	instructions_txt: autoDraw = True
+429.4476 	EXP 	button_clear: autoDraw = True
+429.4476 	EXP 	clear_txt: autoDraw = True
+429.4476 	EXP 	button_done: autoDraw = True
+429.4476 	EXP 	done_txt: autoDraw = True
+431.2764 	DATA 	Mouse: Left button down, pos=(870,332)
+431.2771 	EXP 	Resetting brush parameter: brushPos.
+431.2771 	EXP 	Creating ShapeStim for brush
+438.5912 	DATA 	Mouse:  Left button up, pos=(667,220)
+439.4991 	DATA 	Mouse: Left button down, pos=(1162,862)
+439.4998 	EXP 	Resetting brush parameter: brushPos.
+439.4999 	EXP 	Creating ShapeStim for brush
+439.5064 	EXP 	instructions_txt: autoDraw = False
+439.5064 	EXP 	times_up_txt: autoDraw = True
+439.5064 	EXP 	button_next: autoDraw = True
+439.5064 	EXP 	next_txt: autoDraw = True
+439.5064 	EXP 	button_done: autoDraw = False
+439.5064 	EXP 	done_txt: autoDraw = False
+439.5064 	EXP 	object_txt: autoDraw = True
+439.5064 	EXP 	question_textbox: autoDraw = True
+439.5507 	DATA 	Mouse:  Left button up, pos=(1162,862)
+440.2764 	DATA 	Mouse: Left button down, pos=(1618,115)
+440.2907 	EXP 	Resetting brush
+440.3793 	EXP 	New trial (rep=0, index=29): OrderedDict([('trl', 30), ('stim1', 'stimuli/selection/wine_bottle_08s_17'), ('stim2', 'stimuli/selection/wine_bottle_08s_17'), ('stim', 'stimuli/selection/wine_bottle_08s_17')])
+440.3796 	WARNING 	Requested image 'stimuli/selection/wine_bottle_08s_17' not found but similar filename 'stimuli/selection/wine_bottle_08s_17.jpg' exists. This will be used instead but changing the filename is advised.
+440.3811 	EXP 	Resetting brush
+440.3825 	EXP 	Resetting brush parameter: brushPos.
+440.3825 	EXP 	Creating ShapeStim for brush
+440.3880 	EXP 	image: autoDraw = False
+440.3880 	EXP 	brush: autoDraw = False
+440.3880 	EXP 	instructions_txt: autoDraw = False
+440.3880 	EXP 	times_up_txt: autoDraw = False
+440.3880 	EXP 	button_clear: autoDraw = False
+440.3880 	EXP 	clear_txt: autoDraw = False
+440.3880 	EXP 	button_next: autoDraw = False
+440.3880 	EXP 	next_txt: autoDraw = False
+440.3880 	EXP 	button_done: autoDraw = False
+440.3880 	EXP 	done_txt: autoDraw = False
+440.3880 	EXP 	object_txt: autoDraw = False
+440.3880 	EXP 	question_textbox: autoDraw = False
+440.3880 	EXP 	image: image = 'stimuli/selection/wine_bottle_08s_17'
+440.3880 	EXP 	image: autoDraw = True
+440.3880 	EXP 	brush: autoDraw = True
+440.3880 	EXP 	instructions_txt: autoDraw = True
+440.3880 	EXP 	button_clear: autoDraw = True
+440.3880 	EXP 	clear_txt: autoDraw = True
+440.3880 	EXP 	button_done: autoDraw = True
+440.3880 	EXP 	done_txt: autoDraw = True
+440.4271 	DATA 	Mouse:  Left button up, pos=(1618,115)
+442.2143 	DATA 	Mouse: Left button down, pos=(386,238)
+442.2185 	EXP 	Resetting brush parameter: brushPos.
+442.2185 	EXP 	Creating ShapeStim for brush
+448.0721 	DATA 	Mouse:  Left button up, pos=(590,327)
+449.2323 	DATA 	Mouse: Left button down, pos=(1212,856)
+449.2329 	EXP 	Resetting brush parameter: brushPos.
+449.2331 	EXP 	Creating ShapeStim for brush
+449.2398 	EXP 	instructions_txt: autoDraw = False
+449.2398 	EXP 	times_up_txt: autoDraw = True
+449.2398 	EXP 	button_next: autoDraw = True
+449.2398 	EXP 	next_txt: autoDraw = True
+449.2398 	EXP 	button_done: autoDraw = False
+449.2398 	EXP 	done_txt: autoDraw = False
+449.2398 	EXP 	object_txt: autoDraw = True
+449.2398 	EXP 	question_textbox: autoDraw = True
+449.3158 	DATA 	Mouse:  Left button up, pos=(1212,856)
+450.1428 	DATA 	Mouse: Left button down, pos=(1651,121)
+450.1560 	EXP 	Resetting brush
+450.2435 	EXP 	New trial (rep=0, index=30): OrderedDict([('trl', 9), ('stim1', 'stimuli/selection/chess_piece_03s_11'), ('stim2', 'stimuli/selection/chess_piece_03s_11'), ('stim', 'stimuli/selection/chess_piece_03s_11')])
+450.2438 	WARNING 	Requested image 'stimuli/selection/chess_piece_03s_11' not found but similar filename 'stimuli/selection/chess_piece_03s_11.jpg' exists. This will be used instead but changing the filename is advised.
+450.2449 	EXP 	Resetting brush
+450.2463 	EXP 	Resetting brush parameter: brushPos.
+450.2463 	EXP 	Creating ShapeStim for brush
+450.2523 	EXP 	image: autoDraw = False
+450.2523 	EXP 	brush: autoDraw = False
+450.2523 	EXP 	instructions_txt: autoDraw = False
+450.2523 	EXP 	times_up_txt: autoDraw = False
+450.2523 	EXP 	button_clear: autoDraw = False
+450.2523 	EXP 	clear_txt: autoDraw = False
+450.2523 	EXP 	button_next: autoDraw = False
+450.2523 	EXP 	next_txt: autoDraw = False
+450.2523 	EXP 	button_done: autoDraw = False
+450.2523 	EXP 	done_txt: autoDraw = False
+450.2523 	EXP 	object_txt: autoDraw = False
+450.2523 	EXP 	question_textbox: autoDraw = False
+450.2523 	EXP 	image: image = 'stimuli/selection/chess_piece_03s_11'
+450.2523 	EXP 	image: autoDraw = True
+450.2523 	EXP 	brush: autoDraw = True
+450.2523 	EXP 	instructions_txt: autoDraw = True
+450.2523 	EXP 	button_clear: autoDraw = True
+450.2523 	EXP 	clear_txt: autoDraw = True
+450.2523 	EXP 	button_done: autoDraw = True
+450.2523 	EXP 	done_txt: autoDraw = True
+450.2663 	DATA 	Mouse:  Left button up, pos=(1651,121)
+451.7036 	DATA 	Mouse: Left button down, pos=(514,406)
+451.7040 	EXP 	Resetting brush parameter: brushPos.
+451.7040 	EXP 	Creating ShapeStim for brush
+458.8140 	DATA 	Mouse:  Left button up, pos=(522,403)
+459.8451 	DATA 	Mouse: Left button down, pos=(1235,843)
+459.8494 	EXP 	Resetting brush parameter: brushPos.
+459.8495 	EXP 	Creating ShapeStim for brush
+459.8565 	EXP 	instructions_txt: autoDraw = False
+459.8565 	EXP 	times_up_txt: autoDraw = True
+459.8565 	EXP 	button_next: autoDraw = True
+459.8565 	EXP 	next_txt: autoDraw = True
+459.8565 	EXP 	button_done: autoDraw = False
+459.8565 	EXP 	done_txt: autoDraw = False
+459.8565 	EXP 	object_txt: autoDraw = True
+459.8565 	EXP 	question_textbox: autoDraw = True
+459.9507 	DATA 	Mouse:  Left button up, pos=(1235,843)
+460.8195 	DATA 	Mouse: Left button down, pos=(1581,130)
+460.8372 	EXP 	Resetting brush
+460.9287 	EXP 	New trial (rep=0, index=31): OrderedDict([('trl', 38), ('stim1', 'stimuli/hairdryer_10s_11'), ('stim2', 'stimuli/hairdryer_10s_11'), ('stim', 'stimuli/hairdryer_10s_11')])
+460.9291 	WARNING 	Requested image 'stimuli/hairdryer_10s_11' not found but similar filename 'stimuli/hairdryer_10s_11.jpg' exists. This will be used instead but changing the filename is advised.
+460.9302 	EXP 	Resetting brush
+460.9316 	EXP 	Resetting brush parameter: brushPos.
+460.9316 	EXP 	Creating ShapeStim for brush
+460.9368 	EXP 	image: autoDraw = False
+460.9368 	EXP 	brush: autoDraw = False
+460.9368 	EXP 	instructions_txt: autoDraw = False
+460.9368 	EXP 	times_up_txt: autoDraw = False
+460.9368 	EXP 	button_clear: autoDraw = False
+460.9368 	EXP 	clear_txt: autoDraw = False
+460.9368 	EXP 	button_next: autoDraw = False
+460.9368 	EXP 	next_txt: autoDraw = False
+460.9368 	EXP 	button_done: autoDraw = False
+460.9368 	EXP 	done_txt: autoDraw = False
+460.9368 	EXP 	object_txt: autoDraw = False
+460.9368 	EXP 	question_textbox: autoDraw = False
+460.9368 	EXP 	image: image = 'stimuli/hairdryer_10s_11'
+460.9368 	EXP 	image: autoDraw = True
+460.9368 	EXP 	brush: autoDraw = True
+460.9368 	EXP 	instructions_txt: autoDraw = True
+460.9368 	EXP 	button_clear: autoDraw = True
+460.9368 	EXP 	clear_txt: autoDraw = True
+460.9368 	EXP 	button_done: autoDraw = True
+460.9368 	EXP 	done_txt: autoDraw = True
+460.9572 	DATA 	Mouse:  Left button up, pos=(1581,130)
+463.9272 	DATA 	Mouse: Left button down, pos=(658,328)
+463.9277 	EXP 	Resetting brush parameter: brushPos.
+463.9277 	EXP 	Creating ShapeStim for brush
+472.2199 	DATA 	Mouse:  Left button up, pos=(651,327)
+473.2655 	DATA 	Mouse: Left button down, pos=(1297,852)
+473.2661 	EXP 	Resetting brush parameter: brushPos.
+473.2662 	EXP 	Creating ShapeStim for brush
+473.2730 	EXP 	instructions_txt: autoDraw = False
+473.2730 	EXP 	times_up_txt: autoDraw = True
+473.2730 	EXP 	button_next: autoDraw = True
+473.2730 	EXP 	next_txt: autoDraw = True
+473.2730 	EXP 	button_done: autoDraw = False
+473.2730 	EXP 	done_txt: autoDraw = False
+473.2730 	EXP 	object_txt: autoDraw = True
+473.2730 	EXP 	question_textbox: autoDraw = True
+473.3680 	DATA 	Mouse:  Left button up, pos=(1297,852)
+474.1725 	DATA 	Mouse: Left button down, pos=(1563,119)
+474.1931 	EXP 	Resetting brush
+474.2871 	EXP 	New trial (rep=0, index=32): OrderedDict([('trl', 36), ('stim1', 'stimuli/penguin_12s_11'), ('stim2', 'stimuli/penguin_12s_11'), ('stim', 'stimuli/penguin_12s_11')])
+474.2874 	WARNING 	Requested image 'stimuli/penguin_12s_11' not found but similar filename 'stimuli/penguin_12s_11.jpg' exists. This will be used instead but changing the filename is advised.
+474.2887 	EXP 	Resetting brush
+474.2903 	EXP 	Resetting brush parameter: brushPos.
+474.2903 	EXP 	Creating ShapeStim for brush
+474.2928 	DATA 	Mouse:  Left button up, pos=(1563,119)
+474.2955 	EXP 	image: autoDraw = False
+474.2955 	EXP 	brush: autoDraw = False
+474.2955 	EXP 	instructions_txt: autoDraw = False
+474.2955 	EXP 	times_up_txt: autoDraw = False
+474.2955 	EXP 	button_clear: autoDraw = False
+474.2955 	EXP 	clear_txt: autoDraw = False
+474.2955 	EXP 	button_next: autoDraw = False
+474.2955 	EXP 	next_txt: autoDraw = False
+474.2955 	EXP 	button_done: autoDraw = False
+474.2955 	EXP 	done_txt: autoDraw = False
+474.2955 	EXP 	object_txt: autoDraw = False
+474.2955 	EXP 	question_textbox: autoDraw = False
+474.2955 	EXP 	image: image = 'stimuli/penguin_12s_11'
+474.2955 	EXP 	image: autoDraw = True
+474.2955 	EXP 	brush: autoDraw = True
+474.2955 	EXP 	instructions_txt: autoDraw = True
+474.2955 	EXP 	button_clear: autoDraw = True
+474.2955 	EXP 	clear_txt: autoDraw = True
+474.2955 	EXP 	button_done: autoDraw = True
+474.2955 	EXP 	done_txt: autoDraw = True
+476.3144 	DATA 	Mouse: Left button down, pos=(448,227)
+476.3148 	EXP 	Resetting brush parameter: brushPos.
+476.3149 	EXP 	Creating ShapeStim for brush
+483.3002 	DATA 	Mouse:  Left button up, pos=(451,217)
+484.5866 	DATA 	Mouse: Left button down, pos=(561,779)
+484.5925 	EXP 	Resetting brush parameter: brushPos.
+484.5927 	EXP 	Creating ShapeStim for brush
+487.0526 	DATA 	Mouse:  Left button up, pos=(679,626)
+487.7521 	DATA 	Mouse: Left button down, pos=(1261,843)
+487.7522 	EXP 	Resetting brush parameter: brushPos.
+487.7522 	EXP 	Creating ShapeStim for brush
+487.7648 	EXP 	instructions_txt: autoDraw = False
+487.7648 	EXP 	times_up_txt: autoDraw = True
+487.7648 	EXP 	button_next: autoDraw = True
+487.7648 	EXP 	next_txt: autoDraw = True
+487.7648 	EXP 	button_done: autoDraw = False
+487.7648 	EXP 	done_txt: autoDraw = False
+487.7648 	EXP 	object_txt: autoDraw = True
+487.7648 	EXP 	question_textbox: autoDraw = True
+487.8713 	DATA 	Mouse:  Left button up, pos=(1261,843)
+488.7779 	DATA 	Mouse: Left button down, pos=(1567,150)
+488.7972 	EXP 	Resetting brush
+488.8904 	EXP 	New trial (rep=0, index=33): OrderedDict([('trl', 7), ('stim1', 'stimuli/selection/boxing_gloves_06s_11'), ('stim2', 'stimuli/selection/boxing_gloves_06s_11'), ('stim', 'stimuli/selection/boxing_gloves_06s_11')])
+488.8907 	WARNING 	Requested image 'stimuli/selection/boxing_gloves_06s_11' not found but similar filename 'stimuli/selection/boxing_gloves_06s_11.jpg' exists. This will be used instead but changing the filename is advised.
+488.8923 	EXP 	Resetting brush
+488.8938 	EXP 	Resetting brush parameter: brushPos.
+488.8938 	EXP 	Creating ShapeStim for brush
+488.8995 	EXP 	image: autoDraw = False
+488.8995 	EXP 	brush: autoDraw = False
+488.8995 	EXP 	instructions_txt: autoDraw = False
+488.8995 	EXP 	times_up_txt: autoDraw = False
+488.8995 	EXP 	button_clear: autoDraw = False
+488.8995 	EXP 	clear_txt: autoDraw = False
+488.8995 	EXP 	button_next: autoDraw = False
+488.8995 	EXP 	next_txt: autoDraw = False
+488.8995 	EXP 	button_done: autoDraw = False
+488.8995 	EXP 	done_txt: autoDraw = False
+488.8995 	EXP 	object_txt: autoDraw = False
+488.8995 	EXP 	question_textbox: autoDraw = False
+488.8995 	EXP 	image: image = 'stimuli/selection/boxing_gloves_06s_11'
+488.8995 	EXP 	image: autoDraw = True
+488.8995 	EXP 	brush: autoDraw = True
+488.8995 	EXP 	instructions_txt: autoDraw = True
+488.8995 	EXP 	button_clear: autoDraw = True
+488.8995 	EXP 	clear_txt: autoDraw = True
+488.8995 	EXP 	button_done: autoDraw = True
+488.8995 	EXP 	done_txt: autoDraw = True
+488.9049 	DATA 	Mouse:  Left button up, pos=(1567,150)
+491.2237 	DATA 	Mouse: Left button down, pos=(540,816)
+491.2237 	EXP 	Resetting brush parameter: brushPos.
+491.2237 	EXP 	Creating ShapeStim for brush
+494.0788 	DATA 	Mouse:  Left button up, pos=(792,408)
+495.0978 	DATA 	Mouse: Left button down, pos=(746,133)
+495.0982 	EXP 	Resetting brush
+495.0988 	EXP 	Resetting brush parameter: brushPos.
+495.0989 	EXP 	Creating ShapeStim for brush
+495.1045 	EXP 	Resetting brush
+495.1049 	EXP 	Resetting brush parameter: brushPos.
+495.1049 	EXP 	Creating ShapeStim for brush
+495.1110 	EXP 	Resetting brush
+495.1113 	EXP 	Resetting brush parameter: brushPos.
+495.1113 	EXP 	Creating ShapeStim for brush
+495.1185 	EXP 	Resetting brush
+495.1190 	EXP 	Resetting brush parameter: brushPos.
+495.1190 	EXP 	Creating ShapeStim for brush
+495.1248 	EXP 	Resetting brush
+495.1251 	EXP 	Resetting brush parameter: brushPos.
+495.1251 	EXP 	Creating ShapeStim for brush
+495.1325 	EXP 	Resetting brush
+495.1330 	EXP 	Resetting brush parameter: brushPos.
+495.1330 	EXP 	Creating ShapeStim for brush
+495.1387 	EXP 	Resetting brush
+495.1390 	EXP 	Resetting brush parameter: brushPos.
+495.1390 	EXP 	Creating ShapeStim for brush
+495.1463 	EXP 	Resetting brush
+495.1466 	EXP 	Resetting brush parameter: brushPos.
+495.1466 	EXP 	Creating ShapeStim for brush
+495.1530 	EXP 	Resetting brush
+495.1534 	EXP 	Resetting brush parameter: brushPos.
+495.1534 	EXP 	Creating ShapeStim for brush
+495.1596 	EXP 	Resetting brush
+495.1599 	EXP 	Resetting brush parameter: brushPos.
+495.1600 	EXP 	Creating ShapeStim for brush
+495.1671 	EXP 	Resetting brush
+495.1673 	EXP 	Resetting brush parameter: brushPos.
+495.1674 	EXP 	Creating ShapeStim for brush
+495.1734 	EXP 	Resetting brush
+495.1738 	EXP 	Resetting brush parameter: brushPos.
+495.1738 	EXP 	Creating ShapeStim for brush
+495.1811 	EXP 	Resetting brush
+495.1815 	EXP 	Resetting brush parameter: brushPos.
+495.1815 	EXP 	Creating ShapeStim for brush
+495.1872 	EXP 	Resetting brush
+495.1875 	EXP 	Resetting brush parameter: brushPos.
+495.1875 	EXP 	Creating ShapeStim for brush
+495.1949 	EXP 	Resetting brush
+495.1953 	EXP 	Resetting brush parameter: brushPos.
+495.1953 	EXP 	Creating ShapeStim for brush
+495.2012 	EXP 	Resetting brush
+495.2014 	EXP 	Resetting brush parameter: brushPos.
+495.2014 	EXP 	Creating ShapeStim for brush
+495.2090 	EXP 	Resetting brush
+495.2097 	EXP 	Resetting brush parameter: brushPos.
+495.2097 	EXP 	Creating ShapeStim for brush
+495.2152 	EXP 	Resetting brush
+495.2156 	EXP 	Resetting brush parameter: brushPos.
+495.2156 	EXP 	Creating ShapeStim for brush
+495.2219 	EXP 	Resetting brush
+495.2223 	EXP 	Resetting brush parameter: brushPos.
+495.2223 	EXP 	Creating ShapeStim for brush
+495.2227 	DATA 	Mouse:  Left button up, pos=(742,134)
+495.7295 	DATA 	Mouse: Left button down, pos=(688,320)
+495.7300 	EXP 	Resetting brush parameter: brushPos.
+495.7300 	EXP 	Creating ShapeStim for brush
+500.5101 	DATA 	Mouse:  Left button up, pos=(684,322)
+501.2642 	DATA 	Mouse: Left button down, pos=(543,727)
+501.2647 	EXP 	Resetting brush parameter: brushPos.
+501.2648 	EXP 	Creating ShapeStim for brush
+505.5094 	DATA 	Mouse:  Left button up, pos=(544,401)
+506.4099 	DATA 	Mouse: Left button down, pos=(1253,868)
+506.4108 	EXP 	Resetting brush parameter: brushPos.
+506.4109 	EXP 	Creating ShapeStim for brush
+506.4181 	EXP 	instructions_txt: autoDraw = False
+506.4181 	EXP 	times_up_txt: autoDraw = True
+506.4181 	EXP 	button_next: autoDraw = True
+506.4181 	EXP 	next_txt: autoDraw = True
+506.4181 	EXP 	button_done: autoDraw = False
+506.4181 	EXP 	done_txt: autoDraw = False
+506.4181 	EXP 	object_txt: autoDraw = True
+506.4181 	EXP 	question_textbox: autoDraw = True
+506.5132 	DATA 	Mouse:  Left button up, pos=(1253,868)
+507.2282 	DATA 	Mouse: Left button down, pos=(1563,125)
+507.2550 	EXP 	Resetting brush
+507.3519 	EXP 	New trial (rep=0, index=34): OrderedDict([('trl', 23), ('stim1', 'stimuli/selection/printer_09s_13'), ('stim2', 'stimuli/selection/printer_09s_13'), ('stim', 'stimuli/selection/printer_09s_13')])
+507.3523 	WARNING 	Requested image 'stimuli/selection/printer_09s_13' not found but similar filename 'stimuli/selection/printer_09s_13.jpg' exists. This will be used instead but changing the filename is advised.
+507.3534 	EXP 	Resetting brush
+507.3544 	DATA 	Mouse:  Left button up, pos=(1563,124)
+507.3601 	EXP 	image: autoDraw = False
+507.3601 	EXP 	brush: autoDraw = False
+507.3601 	EXP 	instructions_txt: autoDraw = False
+507.3601 	EXP 	times_up_txt: autoDraw = False
+507.3601 	EXP 	button_clear: autoDraw = False
+507.3601 	EXP 	clear_txt: autoDraw = False
+507.3601 	EXP 	button_next: autoDraw = False
+507.3601 	EXP 	next_txt: autoDraw = False
+507.3601 	EXP 	button_done: autoDraw = False
+507.3601 	EXP 	done_txt: autoDraw = False
+507.3601 	EXP 	object_txt: autoDraw = False
+507.3601 	EXP 	question_textbox: autoDraw = False
+507.3601 	EXP 	image: image = 'stimuli/selection/printer_09s_13'
+507.3601 	EXP 	image: autoDraw = True
+507.3601 	EXP 	brush: autoDraw = True
+507.3601 	EXP 	instructions_txt: autoDraw = True
+507.3601 	EXP 	button_clear: autoDraw = True
+507.3601 	EXP 	clear_txt: autoDraw = True
+507.3601 	EXP 	button_done: autoDraw = True
+507.3601 	EXP 	done_txt: autoDraw = True
+510.0521 	DATA 	Mouse: Left button down, pos=(251,404)
+510.0528 	EXP 	Resetting brush parameter: brushPos.
+510.0529 	EXP 	Creating ShapeStim for brush
+510.1901 	DATA 	Mouse:  Left button up, pos=(249,434)
+510.3845 	DATA 	Mouse: Left button down, pos=(252,509)
+510.3852 	EXP 	Resetting brush parameter: brushPos.
+510.3852 	EXP 	Creating ShapeStim for brush
+510.4841 	DATA 	Mouse:  Left button up, pos=(252,514)
+511.0110 	DATA 	Mouse: Left button down, pos=(245,399)
+511.0110 	EXP 	Resetting brush parameter: brushPos.
+511.0110 	EXP 	Creating ShapeStim for brush
+517.9191 	DATA 	Mouse:  Left button up, pos=(243,398)
+518.6690 	DATA 	Mouse: Left button down, pos=(1325,859)
+518.6697 	EXP 	Resetting brush parameter: brushPos.
+518.6699 	EXP 	Creating ShapeStim for brush
+518.6767 	EXP 	instructions_txt: autoDraw = False
+518.6767 	EXP 	times_up_txt: autoDraw = True
+518.6767 	EXP 	button_next: autoDraw = True
+518.6767 	EXP 	next_txt: autoDraw = True
+518.6767 	EXP 	button_done: autoDraw = False
+518.6767 	EXP 	done_txt: autoDraw = False
+518.6767 	EXP 	object_txt: autoDraw = True
+518.6767 	EXP 	question_textbox: autoDraw = True
+518.7556 	DATA 	Mouse:  Left button up, pos=(1325,859)
+519.8685 	DATA 	Mouse: Left button down, pos=(1598,134)
+519.8853 	EXP 	Resetting brush
+519.9741 	EXP 	New trial (rep=0, index=35): OrderedDict([('trl', 12), ('stim1', 'stimuli/selection/dragonfly_07s_11'), ('stim2', 'stimuli/selection/dragonfly_07s_11'), ('stim', 'stimuli/selection/dragonfly_07s_11')])
+519.9744 	WARNING 	Requested image 'stimuli/selection/dragonfly_07s_11' not found but similar filename 'stimuli/selection/dragonfly_07s_11.jpg' exists. This will be used instead but changing the filename is advised.
+519.9760 	EXP 	Resetting brush
+519.9775 	EXP 	Resetting brush parameter: brushPos.
+519.9775 	EXP 	Creating ShapeStim for brush
+519.9829 	EXP 	image: autoDraw = False
+519.9829 	EXP 	brush: autoDraw = False
+519.9829 	EXP 	instructions_txt: autoDraw = False
+519.9829 	EXP 	times_up_txt: autoDraw = False
+519.9829 	EXP 	button_clear: autoDraw = False
+519.9829 	EXP 	clear_txt: autoDraw = False
+519.9829 	EXP 	button_next: autoDraw = False
+519.9829 	EXP 	next_txt: autoDraw = False
+519.9829 	EXP 	button_done: autoDraw = False
+519.9829 	EXP 	done_txt: autoDraw = False
+519.9829 	EXP 	object_txt: autoDraw = False
+519.9829 	EXP 	question_textbox: autoDraw = False
+519.9829 	EXP 	image: image = 'stimuli/selection/dragonfly_07s_11'
+519.9829 	EXP 	image: autoDraw = True
+519.9829 	EXP 	brush: autoDraw = True
+519.9829 	EXP 	instructions_txt: autoDraw = True
+519.9829 	EXP 	button_clear: autoDraw = True
+519.9829 	EXP 	clear_txt: autoDraw = True
+519.9829 	EXP 	button_done: autoDraw = True
+519.9829 	EXP 	done_txt: autoDraw = True
+519.9933 	DATA 	Mouse:  Left button up, pos=(1598,134)
+521.9238 	DATA 	Mouse: Left button down, pos=(218,273)
+521.9243 	EXP 	Resetting brush parameter: brushPos.
+521.9244 	EXP 	Creating ShapeStim for brush
+531.9311 	DATA 	Mouse:  Left button up, pos=(204,287)
+532.9616 	DATA 	Mouse: Left button down, pos=(1205,866)
+532.9657 	EXP 	Resetting brush parameter: brushPos.
+532.9659 	EXP 	Creating ShapeStim for brush
+532.9727 	EXP 	instructions_txt: autoDraw = False
+532.9727 	EXP 	times_up_txt: autoDraw = True
+532.9727 	EXP 	button_next: autoDraw = True
+532.9727 	EXP 	next_txt: autoDraw = True
+532.9727 	EXP 	button_done: autoDraw = False
+532.9727 	EXP 	done_txt: autoDraw = False
+532.9727 	EXP 	object_txt: autoDraw = True
+532.9727 	EXP 	question_textbox: autoDraw = True
+533.0733 	DATA 	Mouse:  Left button up, pos=(1205,866)
+533.7975 	DATA 	Mouse: Left button down, pos=(1650,117)
+533.8162 	EXP 	Resetting brush
+533.9147 	EXP 	New trial (rep=0, index=36): OrderedDict([('trl', 4), ('stim1', 'stimuli/selection/beer_05s_11'), ('stim2', 'stimuli/selection/beer_05s_11'), ('stim', 'stimuli/selection/beer_05s_11')])
+533.9149 	WARNING 	Requested image 'stimuli/selection/beer_05s_11' not found but similar filename 'stimuli/selection/beer_05s_11.jpg' exists. This will be used instead but changing the filename is advised.
+533.9162 	EXP 	Resetting brush
+533.9178 	EXP 	Resetting brush parameter: brushPos.
+533.9178 	EXP 	Creating ShapeStim for brush
+533.9239 	EXP 	image: autoDraw = False
+533.9239 	EXP 	brush: autoDraw = False
+533.9239 	EXP 	instructions_txt: autoDraw = False
+533.9239 	EXP 	times_up_txt: autoDraw = False
+533.9239 	EXP 	button_clear: autoDraw = False
+533.9239 	EXP 	clear_txt: autoDraw = False
+533.9239 	EXP 	button_next: autoDraw = False
+533.9239 	EXP 	next_txt: autoDraw = False
+533.9239 	EXP 	button_done: autoDraw = False
+533.9239 	EXP 	done_txt: autoDraw = False
+533.9239 	EXP 	object_txt: autoDraw = False
+533.9239 	EXP 	question_textbox: autoDraw = False
+533.9239 	EXP 	image: image = 'stimuli/selection/beer_05s_11'
+533.9239 	EXP 	image: autoDraw = True
+533.9239 	EXP 	brush: autoDraw = True
+533.9239 	EXP 	instructions_txt: autoDraw = True
+533.9239 	EXP 	button_clear: autoDraw = True
+533.9239 	EXP 	clear_txt: autoDraw = True
+533.9239 	EXP 	button_done: autoDraw = True
+533.9239 	EXP 	done_txt: autoDraw = True
+533.9611 	DATA 	Mouse:  Left button up, pos=(1636,115)
+535.1776 	DATA 	Mouse: Left button down, pos=(387,829)
+535.1831 	EXP 	Resetting brush parameter: brushPos.
+535.1831 	EXP 	Creating ShapeStim for brush
+539.8837 	DATA 	Mouse:  Left button up, pos=(383,821)
+540.3699 	DATA 	Mouse: Left button down, pos=(386,708)
+540.3704 	EXP 	Resetting brush parameter: brushPos.
+540.3705 	EXP 	Creating ShapeStim for brush
+540.4740 	DATA 	Mouse:  Left button up, pos=(386,708)
+541.2441 	DATA 	Mouse: Left button down, pos=(1251,856)
+541.2447 	EXP 	Resetting brush parameter: brushPos.
+541.2447 	EXP 	Creating ShapeStim for brush
+541.2518 	EXP 	instructions_txt: autoDraw = False
+541.2518 	EXP 	times_up_txt: autoDraw = True
+541.2518 	EXP 	button_next: autoDraw = True
+541.2518 	EXP 	next_txt: autoDraw = True
+541.2518 	EXP 	button_done: autoDraw = False
+541.2518 	EXP 	done_txt: autoDraw = False
+541.2518 	EXP 	object_txt: autoDraw = True
+541.2518 	EXP 	question_textbox: autoDraw = True
+541.3339 	DATA 	Mouse:  Left button up, pos=(1251,856)
+542.1569 	DATA 	Mouse: Left button down, pos=(1596,136)
+542.1690 	EXP 	Resetting brush
+542.2651 	EXP 	New trial (rep=0, index=37): OrderedDict([('trl', 2), ('stim1', 'stimuli/selection/bag_04s_11'), ('stim2', 'stimuli/selection/bag_04s_11'), ('stim', 'stimuli/selection/bag_04s_11')])
+542.2654 	WARNING 	Requested image 'stimuli/selection/bag_04s_11' not found but similar filename 'stimuli/selection/bag_04s_11.jpg' exists. This will be used instead but changing the filename is advised.
+542.2666 	EXP 	Resetting brush
+542.2683 	EXP 	Resetting brush parameter: brushPos.
+542.2683 	EXP 	Creating ShapeStim for brush
+542.2738 	EXP 	image: autoDraw = False
+542.2738 	EXP 	brush: autoDraw = False
+542.2738 	EXP 	instructions_txt: autoDraw = False
+542.2738 	EXP 	times_up_txt: autoDraw = False
+542.2738 	EXP 	button_clear: autoDraw = False
+542.2738 	EXP 	clear_txt: autoDraw = False
+542.2738 	EXP 	button_next: autoDraw = False
+542.2738 	EXP 	next_txt: autoDraw = False
+542.2738 	EXP 	button_done: autoDraw = False
+542.2738 	EXP 	done_txt: autoDraw = False
+542.2738 	EXP 	object_txt: autoDraw = False
+542.2738 	EXP 	question_textbox: autoDraw = False
+542.2738 	EXP 	image: image = 'stimuli/selection/bag_04s_11'
+542.2738 	EXP 	image: autoDraw = True
+542.2738 	EXP 	brush: autoDraw = True
+542.2738 	EXP 	instructions_txt: autoDraw = True
+542.2738 	EXP 	button_clear: autoDraw = True
+542.2738 	EXP 	clear_txt: autoDraw = True
+542.2738 	EXP 	button_done: autoDraw = True
+542.2738 	EXP 	done_txt: autoDraw = True
+542.2852 	DATA 	Mouse:  Left button up, pos=(1596,133)
+544.5178 	DATA 	Mouse: Left button down, pos=(301,619)
+544.5217 	EXP 	Resetting brush parameter: brushPos.
+544.5217 	EXP 	Creating ShapeStim for brush
+551.3650 	DATA 	Mouse:  Left button up, pos=(304,607)
+552.1883 	DATA 	Mouse: Left button down, pos=(1247,850)
+552.1890 	EXP 	Resetting brush parameter: brushPos.
+552.1891 	EXP 	Creating ShapeStim for brush
+552.1963 	EXP 	instructions_txt: autoDraw = False
+552.1963 	EXP 	times_up_txt: autoDraw = True
+552.1963 	EXP 	button_next: autoDraw = True
+552.1963 	EXP 	next_txt: autoDraw = True
+552.1963 	EXP 	button_done: autoDraw = False
+552.1963 	EXP 	done_txt: autoDraw = False
+552.1963 	EXP 	object_txt: autoDraw = True
+552.1963 	EXP 	question_textbox: autoDraw = True
+552.3261 	DATA 	Mouse:  Left button up, pos=(1247,850)
+552.6106 	DATA 	Mouse: Left button down, pos=(1485,423)
+552.6113 	EXP 	Resetting brush parameter: brushPos.
+552.6114 	EXP 	Creating ShapeStim for brush
+552.7378 	DATA 	Mouse:  Left button up, pos=(1512,289)
+553.5398 	DATA 	Mouse: Left button down, pos=(1569,149)
+553.5577 	EXP 	Resetting brush
+553.6535 	EXP 	Resetting brush
+553.6573 	EXP 	image: autoDraw = False
+553.6573 	EXP 	brush: autoDraw = False
+553.6573 	EXP 	instructions_txt: autoDraw = False
+553.6573 	EXP 	times_up_txt: autoDraw = False
+553.6573 	EXP 	button_clear: autoDraw = False
+553.6573 	EXP 	clear_txt: autoDraw = False
+553.6573 	EXP 	button_next: autoDraw = False
+553.6573 	EXP 	next_txt: autoDraw = False
+553.6573 	EXP 	button_done: autoDraw = False
+553.6573 	EXP 	done_txt: autoDraw = False
+553.6573 	EXP 	object_txt: autoDraw = False
+553.6573 	EXP 	question_textbox: autoDraw = False
+553.6573 	EXP 	text: autoDraw = True
+553.6860 	DATA 	Mouse:  Left button up, pos=(1569,149)
+553.9557 	EXP 	text: autoDraw = False
+553.9557 	EXP 	text: autoDraw = False
+553.9557 	EXP 	end_txt: autoDraw = True
+554.9561 	EXP 	end_txt: autoDraw = False
+554.9561 	EXP 	end_txt: autoDraw = False
+555.9596 	EXP 	window1: mouseVisible = True
