@@ -1,0 +1,72 @@
+{
+  "cow_08s_13.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "aardvark_01b_13.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "giraffe_20s_15.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "beaker_01b_13.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "bag_04s_11.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "dolphin_14s_11.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "dragonfly_07s_11.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  }
+}
