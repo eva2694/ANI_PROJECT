@@ -146,7 +146,7 @@ class BottomUp:
     self.x = points['x'].to_numpy()
     self.y = points['y'].to_numpy()
 
-  def find_sequence(self, image, conf):
+  def find_sequence_denoise(self, image, conf):
     ''' Function expected to be called, give it an image and expect in return sequence of co-ordinates of dots connected by bottom-up bias curves'''
     self.dots = stimuli_dots(image)
     xs, ys = find_dot_centres(self.dots)
@@ -161,3 +161,20 @@ class BottomUp:
     final_seqs = self.clean_same_sequences(connections)
     final_coord_seqs = self.index_to_seqs(final_seqs)
     return final_coord_seqs, self.x, self.y
+
+
+  def find_sequence(self, image, conf):
+    ''' Function expected to be called, give it an image and expect in return sequence of co-ordinates of dots connected by bottom-up bias curves'''
+    self.dots = stimuli_dots(image)
+    xs, ys = find_dot_centres(self.dots)
+    self.x, self.y = xs.copy(), ys.copy()
+
+    self.no_dots = len(self.x)
+
+    dists, angles = self.get_distance_angle()
+    angles = self.threshold_angle_on_distance(angles, dists, threshold=conf['distance'])
+    conn = self.get_connection_table_angle_thresholded(angles, a_tolerance=conf['angle'])
+    connections = self.filter_long_lines(conn, sequence_threshold=5)
+    final_seqs = self.clean_same_sequences(connections)
+    final_coord_seqs = self.index_to_seqs(final_seqs)
+    return final_coord_seqs

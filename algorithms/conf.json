@@ -1,13 +1,13 @@
 {
   "cow_08s_13.jpg": {
-    "distance": 40,
-    "angle": 25,
+    "distance": 30,
+    "angle": 30,
     "graph_k": 3,
     "graph_max_iter": 1,
     "graph_percent_to_keep": 0.8,
-    "radius": 18,
+    "radius": 15,
     "radius_min_connections": 3,
-    "radius_max_iter": 5
+    "radius_max_iter": 4
   },
   "aardvark_01b_13.jpg": {
     "distance": 40,
@@ -20,8 +20,8 @@
     "radius_max_iter": 5
   },
   "giraffe_20s_15.jpg": {
-    "distance": 40,
-    "angle": 25,
+    "distance": 30,
+    "angle": 30,
     "graph_k": 3,
     "graph_max_iter": 1,
     "graph_percent_to_keep": 0.8,
@@ -34,14 +34,14 @@
     "angle": 25,
     "graph_k": 3,
     "graph_max_iter": 1,
-    "graph_percent_to_keep": 0.8,
+    "graph_percent_to_keep": 0.95,
     "radius": 18,
     "radius_min_connections": 3,
     "radius_max_iter": 5
   },
   "bag_04s_11.jpg": {
-    "distance": 40,
-    "angle": 25,
+    "distance": 20,
+    "angle": 20,
     "graph_k": 3,
     "graph_max_iter": 1,
     "graph_percent_to_keep": 0.8,
@@ -50,7 +50,7 @@
     "radius_max_iter": 5
   },
   "dolphin_14s_11.jpg": {
-    "distance": 40,
+    "distance": 20,
     "angle": 25,
     "graph_k": 3,
     "graph_max_iter": 1,
@@ -60,6 +60,236 @@
     "radius_max_iter": 5
   },
   "dragonfly_07s_11.jpg": {
+    "distance": 20,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "umbrella_15s_13.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "beer_05s_11.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "butterfly_02s_15.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "hamburger_05s_11.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "padlock_06s_15.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "bikini_02s_13.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "horse_08s_11.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "hairbrush_07s_17.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "lightbulb_01b_17.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "puppy_12s_11.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "hammer_07s_15.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "van_14s_13.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "teddy_bear_06s_11.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "chess_piece_03s_11.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "wine_bottle_08s_17.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "hanger_03s_13.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "boxing_gloves_06s_11.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "goldfish_08s_13.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "swan_11s_17.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "printer_09s_13.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "bowtie_02s_13.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "saxophone_12s_13.jpg": {
+    "distance": 40,
+    "angle": 25,
+    "graph_k": 3,
+    "graph_max_iter": 1,
+    "graph_percent_to_keep": 0.8,
+    "radius": 18,
+    "radius_min_connections": 3,
+    "radius_max_iter": 5
+  },
+  "lamp_08s_13.jpg": {
     "distance": 40,
     "angle": 25,
     "graph_k": 3,
